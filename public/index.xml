@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Z Web Courses</title>
+    <link>https://zwebcourses.com/</link>
+    <description>Recent content on Z Web Courses</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebcourses.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HTML CSS And Javascript - 2023</title>
+      <link>https://zwebcourses.com/blog/html-css-javascript-2023/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebcourses.com/blog/html-css-javascript-2023/</guid>
+      <description>Introduction # The Web hypertext: a form of text in which documents can refer (Link) To Other Documents And Resources
+Which of these descriptions most accurately describes the Web? HTML Documents and other resources that refer to each other with links.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://zwebcourses.com/blog/html-css-javascript-2023/featured.png" />
+    </item>
+    
+    <item>
+      <title>How To Install Vue 3 In Laravel 10 With Vite</title>
+      <link>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</guid>
+      <description>Preview # Laravel 10 Vue 3 What is Laravel # Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

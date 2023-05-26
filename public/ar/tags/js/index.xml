@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on كورسات الويب</title>
+    <link>https://zwebcourses.com/ar/tags/js/</link>
+    <description>Recent content in js on كورسات الويب</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar</language>
+    <lastBuildDate>Mon, 15 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebcourses.com/ar/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Javascript Basics In Arabic - 2023</title>
+      <link>https://zwebcourses.com/ar/blog/javascript-basics-in-arabic-2023/</link>
+      <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zwebcourses.com/ar/blog/javascript-basics-in-arabic-2023/</guid>
+      <description>ما هى لغة الجافاسكريبت? # JavaScript هي لغة برمجة مفسرة عالية المستوى تضيف التفاعل إلى صفحات الويب. إنها إحدى التقنيات الأساسية الثلاثة لشبكة الويب العالمية ، إلى جانب HTML و CSS.</description>
+    </item>
+    
+  </channel>
+</rss>
