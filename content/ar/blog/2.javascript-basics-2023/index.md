@@ -1,7 +1,7 @@
 ---
 title: "Javascript Basics In Arabic - 2023"
 date: 2023-05-15
-draft: false
+draft: true
 slug: "javascript-basics-in-arabic-2023"
 cascade:
   showReadingTime: true
