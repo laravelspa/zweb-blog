@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 contentDir = "content/en"
 
-title = "Z Web Courses"
+title = "ZWebCourses"
 #logo = "img/ZWeb_Courses.png"
 # secondaryLogo = "img/secondary-logo.png"
 description = "This blog is interested in providing advanced courses in programming in general and web design in particular in an easy and professional way We will explain the most famous and basic languages Like HTML, CSS, JS We will rely on back-end languages ​​such as PHP and Node JS. We will explain in an advanced way the uses of the frameworks Laravel and Vue JS. We will explain in individual lessons how to use Laravel , Vue JS. We will make a set of advanced applications.Built with the Laravel , Vue JS . frameworkWe will learn how to build Single Page Applications.We will learn about the front-end roadmap as well as the back-end roadmap.Let's start our journey with God's blessing"
@@ -20,7 +20,7 @@ dateFormat = "2 January 2006"
   headline = "Full Stack Developer"
   bio = "Full Stack Developer"
   links = [
-      { email = "mailto:dev.mahmoud.adel@gmail.com" },
+      { email = "mailto:zwebcourses@gmail.com" },
   #   { link = "https://link-to-some-website.com/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
   #   { apple = "https://www.apple.com" },
