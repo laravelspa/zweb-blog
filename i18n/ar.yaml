@@ -1,0 +1,78 @@
+global:
+  language: "اللغة"
+
+article:
+  anchor_label: "رابط"
+  date: "{{ .Date }}"
+  date_updated: "Updated: {{ .Date }}"
+  draft: "مسودة"
+  edit_title: "تعديل المحتوى"
+  reading_time:
+    one: "{{ .Count }} دقيقة"
+    other: "{{ .Count }} دقائق"
+  reading_time_title: "وقت القراءة"
+  table_of_contents: "محتوى المقال"
+  word_count:
+    one: "{{ .Count }} كلمة"
+    other: "{{ .Count }} كلمات"
+  views:
+    one: "{{ .Count }} زيارة"
+    other: "{{ .Count }} زيارات"
+  likes:
+    one: "{{ .Count }} إعجاب"
+    other: "{{ .Count }} إعجابات"
+  part_of_series: "هذه المقالة جزء من سلسلة."
+  part: "جزء"
+  this_article: "هذه المقالة"
+  related_articles: "متعلق ب"
+
+author:
+  byline_title: "الطاتب"
+
+code:
+  copy: "نسخ"
+  copied: "تم النسخ"
+
+error:
+  404_title: "الصفحة غير موجودة :confused:"
+  404_error: "خطأ 404"
+  404_description: "يبدو أن الصفحة التي طلبتها غير موجودة."
+
+footer:
+  dark_appearance: "قم بالتبديل إلى المظهر الداكن"
+  light_appearance: "قم بالتبديل إلى المظهر الفاتح"
+  powered_by: "Powered by {{ .Hugo }} &amp; {{ .Theme }}"
+
+list:
+  externalurl_title: "ارتباط بموقع خارجي"
+  no_articles: "لا توجد مقالات لقائمة هنا حتى الآن."
+
+nav:
+  scroll_to_top_title: "انتقل إلى أعلى"
+  skip_to_main: "تخطي إلى المحتوى الرئيسي"
+
+search:
+  open_button_title: "البحث (/)"
+  close_button_title: "غلق (Esc)"
+  input_placeholder: "إبحث"
+
+sharing:
+  email: "أرسل عبر البريد الإلكتروني"
+  facebook: "أنشرها على الفيسبوك"
+  linkedin: "أنشرها على LinkedIn"
+  pinterest: "تثبيت على Pinterest"
+  reddit: "أرسل إلى Reddit"
+  twitter: "غرد على تويتر"
+
+shortcode:
+  recent_articles: "مؤخرًا"
+
+recent:
+  show_more: "عرض المزيد"
+
+subscribe:
+  message: "شكرا لك على قراءة مدونتي!"
+  signup: "قم بالتسجيل في"
+  newsletter: "نشرتنا عبر البريد الإلكتروني"
+  or_use_this: "أو يمكنك إستخدام"
+  to_get_notified: "لتلقي تنبيهات حول منشورات المدونة الجديدة."

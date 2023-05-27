@@ -136,3 +136,6 @@ mainSections = ["blog"]
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[newsletter]
+  signup = "https://tinyletter.com/ZWebCourses"
