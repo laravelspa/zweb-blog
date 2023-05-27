@@ -1,1 +1,247 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Z Web Courses</title><link>https://zwebcourses.com/</link><description>Recent content on Z Web Courses</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebcourses.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Install Vue 3 In Laravel 10 With Vite</title><link>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</link><pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate><guid>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</guid><description>Preview # Laravel 10 Vue 3 What is Laravel # Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Z Web Courses</title><link>https://zwebcourses.com/</link><description>Recent content on Z Web Courses</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zwebcourses.com/index.xml" rel="self" type="application/rss+xml"/><item><title>How To Install Vue 3 In Laravel 10 With Vite</title><link>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</link><pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate><guid>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</guid><description>Preview # Laravel 10 Vue 3 What is Laravel # Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</description><content>&lt;div id="preview" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Preview
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#preview" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
+src="https://zwebcourses.com/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
+alt="Laravel 10 Vue 3"
+/>
+&lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
+&lt;/figure>
+&lt;div id="what-is-laravelhttpslaravelcomdocs10xmeet-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">&lt;a href="https://laravel.com/docs/10.x#meet-laravel" target="_blank">
+What is Laravel&lt;/a>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-is-laravelhttpslaravelcomdocs10xmeet-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>Laravel is a web application framework with expressive, elegant syntax.&lt;/li>
+&lt;li>A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.&lt;/li>
+&lt;/ul>
+&lt;div id="what-is-vue-jshttpsvuejsorgguideintroductionhtml" class="anchor">&lt;/div>
+&lt;h2 class="relative group">&lt;a href="https://vuejs.org/guide/introduction.html" target="_blank">
+What is Vue js!&lt;/a>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-is-vue-jshttpsvuejsorgguideintroductionhtml" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>Vue is a JavaScript framework for building user interfaces.&lt;/li>
+&lt;li>It builds on top of standard HTML, CSS, and JavaScript.&lt;/li>
+&lt;li>It Helps you efficiently develop user interfaces, be they simple or complex.&lt;/li>
+&lt;/ul>
+&lt;div id="what-is-vite-jshttpsvitejsdevguidewhyhtml" class="anchor">&lt;/div>
+&lt;h2 class="relative group">&lt;a href="https://vitejs.dev/guide/why.html" target="_blank">
+What is Vite js!&lt;/a>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-is-vite-jshttpsvitejsdevguidewhyhtml" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>A dev server that provides rich feature enhancements over native ES modules, for example extremely fast Hot Module Replacement (HMR).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>A build command that bundles your code with Rollup, pre-configured to output highly optimized static assets for production.
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>We conclude from the above that the most important thing that distinguishes vite is the speed at the start of the server, as well as making a bundle of files upon completion of the project.&lt;/span>
+&lt;/div>
+&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;div id="step-1-create-new-laravel-project" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 1: Create New Laravel Project
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-1-create-new-laravel-project" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">composer create-project laravel/laravel laravel10-vue3
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-2-how-to-install-vue-3-on-laravel-10" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 2: How To Install Vue 3 on Laravel 10
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-2-how-to-install-vue-3-on-laravel-10" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">npm install
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install vue@next vue-loader@next
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-3-install-plugin-vue-from-vite" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 3: Install Plugin Vue From Vite
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-3-install-plugin-vue-from-vite" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">npm i @vitejs/plugin-vue
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-4-edit-file-viteconfigjs" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 4: Edit File &lt;em>&lt;strong>&lt;code>vite.config.js&lt;/code>&lt;/strong>&lt;/em>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-4-edit-file-viteconfigjs" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// vite.config.js
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">defineConfig&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;vite&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">laravel&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;laravel-vite-plugin&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">vue&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;@vitejs/plugin-vue&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="nx">defineConfig&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">plugins&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> &lt;span class="nx">vue&lt;/span>&lt;span class="p">(),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">laravel&lt;/span>&lt;span class="p">({&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">input&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;resources/css/app.css&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;resources/js/app.js&amp;#39;&lt;/span>&lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">refresh&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">],&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-5-edit-file-appjs-inside-folder-resourcesjs" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 5: Edit File &lt;em>&lt;strong>&lt;code>app.js&lt;/code>&lt;/strong>&lt;/em> Inside Folder &lt;em>&lt;strong>&lt;code>resources/js&lt;/code>&lt;/strong>&lt;/em>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-5-edit-file-appjs-inside-folder-resourcesjs" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="nx">createApp&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;vue&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">App&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;./App.vue&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">createApp&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">App&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">mount&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;#app&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-6-create-file-appbladephp-inside-folder-resourcesviews" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 6: Create File &lt;em>&lt;strong>&lt;code>app.blade.php&lt;/code>&lt;/strong>&lt;/em> Inside Folder &lt;em>&lt;strong>&lt;code>resources/views&lt;/code>&lt;/strong>&lt;/em>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-6-create-file-appbladephp-inside-folder-resourcesviews" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>Make sure to add the css file and javascript as shown and also the div with id=app&lt;/span>
+&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ str_replace(&amp;#39;_&amp;#39;, &amp;#39;-&amp;#39;, app()-&amp;gt;getLocale()) }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;viewport&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;width=device-width, initial-scale=1&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>ًApplication&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> @vite(&amp;#39;resources/css/app.css&amp;#39;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;app&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> @vite(&amp;#39;resources/js/app.js&amp;#39;)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-7-create-file-appvue-inside-folder-resourcesjs" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 7: Create File &lt;em>&lt;strong>&lt;code>App.vue&lt;/code>&lt;/strong>&lt;/em> Inside Folder &lt;em>&lt;strong>&lt;code>resources/js&lt;/code>&lt;/strong>&lt;/em>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-7-create-file-appvue-inside-folder-resourcesjs" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">template&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> How To Install Vue 3 in Laravel 10 : ZWebCourses :)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">template&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-8-edit-file-webphp-inside-folder-routes" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 8: Edit File &lt;em>&lt;strong>&lt;code>web.php&lt;/code>&lt;/strong>&lt;/em> Inside Folder &lt;em>&lt;strong>&lt;code>routes&lt;/code>&lt;/strong>&lt;/em>
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-8-edit-file-webphp-inside-folder-routes" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Support\Facades\Route&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;app&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">name&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;application&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-9-run-php-local-server" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 9: Run PHP Local Server
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-9-run-php-local-server" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan serve
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="step-10-run-node-local-server" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Step 10: Run Node Local Server
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#step-10-run-node-local-server" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">npm run dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;div
+class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+>
+&lt;span
+class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
+>
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;span
+class="dark:text-neutral-300"
+>Go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/&lt;/code>&lt;/strong>&lt;/em> and you will find the following&lt;/span>
+&lt;/div>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
+/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
+src="https://zwebcourses.com/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
+alt="Laravel 10 Vue 3"
+/>
+&lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
+&lt;/figure>
+&lt;ul>
+&lt;li>You will find the repo for this project on github at this &lt;a href="https://github.com/zwebcourses/laravel10-vue3" target="_blank">
+Link&lt;/a>
+&lt;a href="https://github.com/zwebcourses/laravel10-vue3" target="_blank">
+https://github.com/zwebcourses/laravel10-vue3&lt;/a>&lt;/li>
+&lt;/ul></content><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png"/></item></channel></rss>
