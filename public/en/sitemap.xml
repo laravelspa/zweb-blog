@@ -4,159 +4,64 @@
   
     
       <url>
-            <loc>https://zwebcourses.com/blog/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/blog/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/blog/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/categories/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/categories/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/categories/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/blog/html-css-javascript-2023/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/blog/javascript-basics-in-arabic-2023/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/blog/html-css-javascript-2023/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/categories/javascript/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/categories/javascript/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/categories/javascript/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/tags/js/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/js/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/tags/js/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/tags/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/tags/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/</loc>
-            <lastmod>2023-05-15T00:00:00+00:00</lastmod>
-            <changefreq>daily</changefreq>
-            <priority>0.5</priority>
-            <xhtml:link
-              rel="alternate"
-              hreflang="ar"
-              href="https://zwebcourses.com/ar/"
-              />
-            <xhtml:link
-              rel="alternate"
-              hreflang="en"
-              href="https://zwebcourses.com/"
-              />
-          </url>
-    
-  
-    
-      <url>
-            <loc>https://zwebcourses.com/tags/full-stack/</loc>
+            <loc>https://laravelspa.site/blog/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/full-stack/"
+              href="https://laravelspa.site/ar/blog/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/tags/full-stack/"
+              href="https://laravelspa.site/blog/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/blog/how-to-install-vue3-in-laravel10-with-vite/</loc>
+            <loc>https://laravelspa.site/categories/</loc>
+            <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ar"
+              href="https://laravelspa.site/ar/categories/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://laravelspa.site/categories/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://laravelspa.site/tags/full-stack/</loc>
+            <lastmod>2023-05-01T00:00:00+00:00</lastmod>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ar"
+              href="https://laravelspa.site/ar/tags/full-stack/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://laravelspa.site/tags/full-stack/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://laravelspa.site/blog/how-to-install-vue3-in-laravel10-with-vite/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
@@ -165,131 +70,187 @@
   
     
       <url>
-            <loc>https://zwebcourses.com/categories/laravel/</loc>
+            <loc>https://laravelspa.site/categories/laravel/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/categories/laravel/"
+              href="https://laravelspa.site/ar/categories/laravel/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/categories/laravel/"
+              href="https://laravelspa.site/categories/laravel/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/tags/laravel10/</loc>
+            <loc>https://laravelspa.site/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/laravel10/"
+              href="https://laravelspa.site/ar/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/tags/laravel10/"
+              href="https://laravelspa.site/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/tags/spa/</loc>
+            <loc>https://laravelspa.site/tags/laravel10/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/spa/"
+              href="https://laravelspa.site/ar/tags/laravel10/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/tags/spa/"
+              href="https://laravelspa.site/tags/laravel10/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/tags/vue3/</loc>
+            <loc>https://laravelspa.site/tags/spa/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/tags/vue3/"
+              href="https://laravelspa.site/ar/tags/spa/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/tags/vue3/"
+              href="https://laravelspa.site/tags/spa/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/categories/vuejs/</loc>
+            <loc>https://laravelspa.site/tags/</loc>
             <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/categories/vuejs/"
+              href="https://laravelspa.site/ar/tags/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/categories/vuejs/"
+              href="https://laravelspa.site/tags/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/authors/</loc>
+            <loc>https://laravelspa.site/tags/vue3/</loc>
+            <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/authors/"
+              href="https://laravelspa.site/ar/tags/vue3/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/authors/"
+              href="https://laravelspa.site/tags/vue3/"
               />
           </url>
     
   
     
       <url>
-            <loc>https://zwebcourses.com/series/</loc>
+            <loc>https://laravelspa.site/categories/vuejs/</loc>
+            <lastmod>2023-05-01T00:00:00+00:00</lastmod>
             <changefreq>daily</changefreq>
             <priority>0.5</priority>
             <xhtml:link
               rel="alternate"
               hreflang="ar"
-              href="https://zwebcourses.com/ar/series/"
+              href="https://laravelspa.site/ar/categories/vuejs/"
               />
             <xhtml:link
               rel="alternate"
               hreflang="en"
-              href="https://zwebcourses.com/series/"
+              href="https://laravelspa.site/categories/vuejs/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://laravelspa.site/authors/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ar"
+              href="https://laravelspa.site/ar/authors/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://laravelspa.site/authors/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://laravelspa.site/series/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ar"
+              href="https://laravelspa.site/ar/series/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://laravelspa.site/series/"
+              />
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://laravelspa.site/subscribe/</loc>
+            <changefreq>daily</changefreq>
+            <priority>0.5</priority>
+            <xhtml:link
+              rel="alternate"
+              hreflang="ar"
+              href="https://laravelspa.site/ar/subscribe/"
+              />
+            <xhtml:link
+              rel="alternate"
+              hreflang="en"
+              href="https://laravelspa.site/subscribe/"
               />
           </url>
     

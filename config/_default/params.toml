@@ -138,4 +138,4 @@ mainSections = ["blog"]
   # yandex = ""
 
 [newsletter]
-  signup = "https://tinyletter.com/ZWebCourses"
+  signup = "https://tinyletter.com/LaravelSPA"
