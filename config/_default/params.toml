@@ -35,7 +35,7 @@ mainSections = ["blog"]
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/ZWeb_Courses.png" # used in: hero, and card
+  homepageImage = "img/Laravel_SPA_Logo.png" # used in: hero, and card
   showRecent = true
   showRecentItems = 9
   showMoreLink = true
