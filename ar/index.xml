@@ -1,250 +1,91 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite</title><link>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</guid><description>&lt;div id="عرض-المشروع" class="anchor">&lt;/div>
-&lt;h2 class="relative group">عرض المشروع
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%b9" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
-&lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
-&lt;/figure>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/0iwQSd6aKOY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
-&lt;/div>
-&lt;div id="ما-هو-إطار-عمل-laravelhttpslaravelcomdocs10xmeet-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">&lt;a href="https://laravel.com/docs/10.x#meet-laravel" target="_blank">
-ما هو إطار عمل Laravel&lt;/a>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%88-%d8%a5%d8%b7%d8%a7%d8%b1-%d8%b9%d9%85%d9%84-laravelhttpslaravelcomdocs10xmeet-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;ul>
-&lt;li>Laravel هو إطار عمل لتطبيق ويب ذو بناء مرتب وأنيق.&lt;/li>
-&lt;li>يوفر إطار عمل الويب هيكلًا ونقطة بداية لإنشاء تطبيقك ، مما يسمح لك بالتركيز على إنشاء شيء مذهل بينما تهتم بالتفاصيل.&lt;/li>
-&lt;/ul>
-&lt;div id="ما-هى-vue-jshttpsvuejsorgguideintroductionhtml" class="anchor">&lt;/div>
-&lt;h2 class="relative group">&lt;a href="https://vuejs.org/guide/introduction.html" target="_blank">
-ما هى Vue js!&lt;/a>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%89-vue-jshttpsvuejsorgguideintroductionhtml" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;ul>
-&lt;li>Vue هو إطار عمل JavaScript لبناء واجهات المستخدم.&lt;/li>
-&lt;li>يعتمد على HTML و CSS و JavaScript.&lt;/li>
-&lt;li>يساعدك على تطوير واجهات المستخدم بكفاءة ، سواء كانت بسيطة أو معقدة.&lt;/li>
-&lt;/ul>
-&lt;div id="ما-هى-vite-jshttpsvitejsdevguidewhyhtml" class="anchor">&lt;/div>
-&lt;h2 class="relative group">&lt;a href="https://vitejs.dev/guide/why.html" target="_blank">
-ما هى Vite js!&lt;/a>
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%89-vite-jshttpsvitejsdevguidewhyhtml" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;p>Vite هي أداة بناء تهدف إلى توفير تجربة تطوير أسرع وأكثر رشاقة لمشاريع الويب الحديثة. وهذه المشاريع تتكون من جزئين رئيسيين:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>خادم مطور يوفر تحسينات غنية بالميزات على وحدات ES الأصلية ، على سبيل المثال استبدال الوحدة النمطية السريعة للغاية (HMR).&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>أمر بناء يجمع التعليمات البرمجية الخاصة بك مع Rollup ، مهيأ مسبقًا لإنتاج أصول ثابتة محسّنة للغاية للإنتاج.&lt;/p>
-&lt;/li>
-&lt;/ul>
-&lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description>&lt;p>شكرا لك على قراءة مدونتي!&lt;/p>
+&lt;p>قم بالتسجيل في &lt;a href="https://tinyletter.com/LaravelSPA" target="_blank">
+نشرتنا عبر البريد الإلكتروني&lt;/a> أو يمكنك إستخدام &lt;a href="https://laravelspa.site/index.xml" >
+RSS feed&lt;/a> لتلقي تنبيهات حول منشورات المدونة الجديدة.&lt;/p></description></item><item><title>تواصل معنا</title><link>https://laravelspa.site/ar/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/contact-us/</guid><description>&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://forms.gle/UjbPLAqrhvb7vVPd8"
+target="_blank"
+role="button"
 >
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->ونستنتج من السابق أن أهم شئ بيميز vite هى السرعة فى بداية السيرفر وأيضا عمل bundle لملفات المشروع عند الانتهاء من المشروع.&lt;/span>
-&lt;/div>
-&lt;div id="الخطوة-الأولى-إنشاء-مشروع-laravel-جديد" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الأولى: إنشاء مشروع Laravel جديد
+كن على تواصل
+&lt;/a></description></item><item><title>سياسة الخصوصية</title><link>https://laravelspa.site/ar/privacy-policy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/privacy-policy/</guid><description>&lt;div id="سياسة-خصوصية-المدونة" class="anchor">&lt;/div>
+&lt;h2 class="relative group">سياسة خصوصية المدونة
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%a3%d9%88%d9%84%d9%89-%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-laravel-%d8%ac%d8%af%d9%8a%d8%af" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%b3%d9%8a%d8%a7%d8%b3%d8%a9-%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%af%d9%88%d9%86%d8%a9" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">composer create-project laravel/laravel laravel10-vue3
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-الثانية-كيفية-تحميل-vue-3-فى-مشروع-laravel-10" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الثانية: كيفية تحميل Vue 3 فى مشروع Laravel 10
+&lt;p>قمنا بتصميم هذه المدونة للاسراء المحتوي العربي من خلال توفير موضوعات ومقالات هامة ومفيدة في تحضض المدونة وقد تم إعداد سياسة الخصوصية لمساعدتكم وحماية بياناتكم عند زيارتكم لمدونتنا علي شبكة الأنترنت وسيتم فقط استخدام البيانات التي تقدموها لنا بمعرفتكم ومحض إرادتكم ولا نجمع أي بيانات أخري عند تصفحكم مدونتنا الإلكترونية .&lt;/p>
+&lt;div id="عنوان-بروتوكول-شبكة-الإنترنت-ip" class="anchor">&lt;/div>
+&lt;h2 class="relative group">عنوان بروتوكول شبكة الإنترنت (IP)
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%86%d9%8a%d8%a9-%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d9%85%d9%8a%d9%84-vue-3-%d9%81%d9%89-%d9%85%d8%b4%d8%b1%d9%88%d8%b9-laravel-10" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%b9%d9%86%d9%88%d8%a7%d9%86-%d8%a8%d8%b1%d9%88%d8%aa%d9%88%d9%83%d9%88%d9%84-%d8%b4%d8%a8%d9%83%d8%a9-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa-ip" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">&lt;span class="nb">cd&lt;/span> laravel10-vue3
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">npm install vue@next vue-loader@next
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-الثالثة-تحميل-plugin-vue-من-vite" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الثالثة: تحميل Plugin Vue من Vite
+&lt;p>في أي وقت تزور فيه أي موقع انترنت بما فيها هذا الموقع , سيقوم السيرفر المضيف بتسجيل عنوان بروتوكول شبكة الإنترنت (IP) الخاص بك , تاريخ ووقت الزيارة ونوع متصفح الإنترنت الذي تستخدمه والعنوان URL الخاص بأي موقع من مواقع الإنترنت التي تقوم بإحالتك إلى الى هذا الموقع على الشبكة.&lt;/p>
+&lt;div id="الروابط-بالمواقع-الأخرى-على-شبكة-الإنترنت" class="anchor">&lt;/div>
+&lt;h2 class="relative group">الروابط بالمواقع الأخرى على شبكة الإنترنت
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%84%d8%ab%d8%a9-%d8%aa%d8%ad%d9%85%d9%8a%d9%84-plugin-vue-%d9%85%d9%86-vite" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%b1%d9%88%d8%a7%d8%a8%d8%b7-%d8%a8%d8%a7%d9%84%d9%85%d9%88%d8%a7%d9%82%d8%b9-%d8%a7%d9%84%d8%a3%d8%ae%d8%b1%d9%89-%d8%b9%d9%84%d9%89-%d8%b4%d8%a8%d9%83%d8%a9-%d8%a7%d9%84%d8%a5%d9%86%d8%aa%d8%b1%d9%86%d8%aa" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">npm i @vitejs/plugin-vue
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-الرابعة-قم-بتعديل-ملف-viteconfigjs" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الرابعة: قم بتعديل ملف &lt;em>&lt;strong>&lt;code>vite.config.js&lt;/code>&lt;/strong>&lt;/em>
+&lt;p>قد يشتمل موقعنا على روابط بالمواقع الأخرى على شبكة الإنترنت. او إعلانات من مواقع أخرى مثل Google AdSense ولا نعتبر مسئولين عن أساليب تجميع البيانات من قبل تلك المواقع, يمكنك الاطلاع على سياسات السرية والمحتويات الخاصة بتلك المواقع التي يتم الدخول إليها من خلال أي رابط ضمن هذا الموقع.&lt;/p>
+&lt;p>نحن قد نستعين بشركات إعلان لأطراف ثالثة لعرض الإعلانات عندما تزور موقعنا على الويب. يحق لهذه الشركات أن تستخدم معلومات حول زياراتك لهذا الموقع ولمواقع الويب الأخرى (باستثناء الاسم أو العنوان أو عنوان البريد الإلكتروني أو رقم الهاتف)، وذلك من أجل تقديم إعلانات حول البضائع والخدمات التي تهمك. إذا كنت ترغب في مزيد من المعلومات حول هذا الأمر وكذلك إذا كنت تريد معرفة الاختيارات المتاحة لك لمنع استخدام هذه المعلومات من قِبل هذه الشركات ، فالرجاء النقر هنا.&lt;/p>
+&lt;div id="إفشاء-المعلومات" class="anchor">&lt;/div>
+&lt;h2 class="relative group">إفشاء المعلومات
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%b1%d8%a7%d8%a8%d8%b9%d8%a9-%d9%82%d9%85-%d8%a8%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%85%d9%84%d9%81-viteconfigjs" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%a5%d9%81%d8%b4%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// vite.config.js
-&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span> &lt;span class="nx">defineConfig&lt;/span> &lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;vite&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">laravel&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;laravel-vite-plugin&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">vue&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;@vitejs/plugin-vue&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">export&lt;/span> &lt;span class="k">default&lt;/span> &lt;span class="nx">defineConfig&lt;/span>&lt;span class="p">({&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">plugins&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> &lt;span class="nx">vue&lt;/span>&lt;span class="p">(),&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">laravel&lt;/span>&lt;span class="p">({&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">input&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;resources/css/app.css&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="s1">&amp;#39;resources/js/app.js&amp;#39;&lt;/span>&lt;span class="p">],&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">refresh&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="kc">true&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}),&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">],&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-الخامسة-قم-بتعديل-ملف-appjs-داخل-مجلد-resourcesjs" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الخامسة: قم بتعديل ملف &lt;em>&lt;strong>&lt;code>app.js&lt;/code>&lt;/strong>&lt;/em> داخل مجلد &lt;em>&lt;strong>&lt;code>resources/js&lt;/code>&lt;/strong>&lt;/em>
+&lt;p>سنحافظ في كافة الأوقات على خصوصية وسرية كافة البيانات الشخصية التي نتحصل عليها. ولن يتم إفشاء هذه المعلومات إلا إذا كان ذلك مطلوباً بموجب أي قانون أو عندما نعتقد بحسن نية أن مثل هذا الإجراء سيكون مطلوباً أو مرغوباً فيه للتمشي مع القانون , أو للدفاع عن أو حماية حقوق الملكية الخاصة بهذا الموقع أو الجهات المستفيدة منه.&lt;/p>
+&lt;div id="البيانات-اللازمة-لتنفيذ-المعاملات-المطلوبة-من-قبلك" class="anchor">&lt;/div>
+&lt;h2 class="relative group">البيانات اللازمة لتنفيذ المعاملات المطلوبة من قبلك
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%ae%d8%a7%d9%85%d8%b3%d8%a9-%d9%82%d9%85-%d8%a8%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%85%d9%84%d9%81-appjs-%d8%af%d8%a7%d8%ae%d9%84-%d9%85%d8%ac%d9%84%d8%af-resourcesjs" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%84%d8%a7%d8%b2%d9%85%d8%a9-%d9%84%d8%aa%d9%86%d9%81%d9%8a%d8%b0-%d8%a7%d9%84%d9%85%d8%b9%d8%a7%d9%85%d9%84%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b7%d9%84%d9%88%d8%a8%d8%a9-%d9%85%d9%86-%d9%82%d8%a8%d9%84%d9%83" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-js" data-lang="js">&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="p">{&lt;/span>&lt;span class="nx">createApp&lt;/span>&lt;span class="p">}&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;vue&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="kr">import&lt;/span> &lt;span class="nx">App&lt;/span> &lt;span class="nx">from&lt;/span> &lt;span class="s1">&amp;#39;./App.vue&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">createApp&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">App&lt;/span>&lt;span class="p">).&lt;/span>&lt;span class="nx">mount&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;#app&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-السادسة-قم-بإنشاء-ملف-appbladephp-داخل-مجلد-resourcesviews" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة السادسة: قم بإنشاء ملف &lt;em>&lt;strong>&lt;code>app.blade.php&lt;/code>&lt;/strong>&lt;/em> داخل مجلد &lt;em>&lt;strong>&lt;code>resources/views&lt;/code>&lt;/strong>&lt;/em>
+&lt;p>عندما نحتاج إلى أية بيانات خاصة بك , فإننا سنطلب منك تقديمها بمحض إرادتك. حيث ستساعدنا هذه المعلومات في الاتصال بك وتنفيذ طلباتك حيثما كان ذلك ممكنناً. لن يتم اطلاقاً بيع البيانات المقدمة من قبلك إلى أي طرف ثالث بغرض تسويقها لمصلحته الخاصة دون الحصول على موافقتك المسبقة والمكتوبة ما لم يتم ذلك على أساس أنها ضمن بيانات جماعية تستخدم للأغراض الإحصائية والأبحاث دون اشتمالها على أية بيانات من الممكن استخدامها للتعريف بك.&lt;/p>
+&lt;div id="عند-الاتصال-بنا" class="anchor">&lt;/div>
+&lt;h2 class="relative group">عند الاتصال بنا
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d8%a7%d8%af%d8%b3%d8%a9-%d9%82%d9%85-%d8%a8%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d9%84%d9%81-appbladephp-%d8%af%d8%a7%d8%ae%d9%84-%d9%85%d8%ac%d9%84%d8%af-resourcesviews" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%b9%d9%86%d8%af-%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-%d8%a8%d9%86%d8%a7" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->تأكد من إضافة ملف css و javascript كما هو موضح وأيضا div ب id=app&lt;/span>
-&lt;/div>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="cp">&amp;lt;!DOCTYPE html&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">html&lt;/span> &lt;span class="na">lang&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ str_replace(&amp;#39;_&amp;#39;, &amp;#39;-&amp;#39;, app()-&amp;gt;getLocale()) }}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">charset&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;utf-8&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">meta&lt;/span> &lt;span class="na">name&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;viewport&amp;#34;&lt;/span> &lt;span class="na">content&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;width=device-width, initial-scale=1&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>ًApplication&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">title&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> @vite(&amp;#39;resources/css/app.css&amp;#39;)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">head&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;app&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> @vite(&amp;#39;resources/js/app.js&amp;#39;)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">body&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">html&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-السابعة-قم-بإنشاء-ملف-appvue-داخل-مجلد-resourcesjs" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة السابعة: قم بإنشاء ملف &lt;em>&lt;strong>&lt;code>App.vue&lt;/code>&lt;/strong>&lt;/em> داخل مجلد &lt;em>&lt;strong>&lt;code>resources/js&lt;/code>&lt;/strong>&lt;/em>
+&lt;p>سيتم التعامل مع كافة البيانات المقدمة من قبلك على أساس أنها سرية . تتطلب النماذج التي يتم تقديمها مباشرة على الشبكة تقديم البيانات التي ستساعدنا في تحسين موقعنا. سيتم استخدام البيانات التي يتم تقديمها من قبلك في الرد على كافة استفساراتك , ملاحظاتك , أو طلباتك من قبل هذا الموقع أو أيا من المواقع التابعة له.&lt;/p>
+&lt;div id="إفشاء-المعلومات-لأي-طرف-ثالث" class="anchor">&lt;/div>
+&lt;h2 class="relative group">إفشاء المعلومات لأي طرف ثالث
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%b3%d8%a7%d8%a8%d8%b9%d8%a9-%d9%82%d9%85-%d8%a8%d8%a5%d9%86%d8%b4%d8%a7%d8%a1-%d9%85%d9%84%d9%81-appvue-%d8%af%d8%a7%d8%ae%d9%84-%d9%85%d8%ac%d9%84%d8%af-resourcesjs" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%a5%d9%81%d8%b4%d8%a7%d8%a1-%d8%a7%d9%84%d9%85%d8%b9%d9%84%d9%88%d9%85%d8%a7%d8%aa-%d9%84%d8%a3%d9%8a-%d8%b7%d8%b1%d9%81-%d8%ab%d8%a7%d9%84%d8%ab" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-HTML" data-lang="HTML">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">template&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> How To Install Vue 3 in Laravel 10 : ZWebCourses :)
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">h1&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">template&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-الثامنة-قم-بتعديل-ملف-webphp-داخل-مجلد-routes" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة الثامنة: قم بتعديل ملف &lt;em>&lt;strong>&lt;code>web.php&lt;/code>&lt;/strong>&lt;/em> داخل مجلد &lt;em>&lt;strong>&lt;code>routes&lt;/code>&lt;/strong>&lt;/em>
+&lt;p>لن نقوم ببيع , المتاجرة , تأجير , أو إفشاء أية معلومات لمصلحة أي طرف ثالث خارج هذا الموقع, أو المواقع التابعة له. وسيتم الكشف عن المعلومات فقط في حالة صدور أمر بذلك من قبل أي سلطة قضائية أو تنظيمية.&lt;/p>
+&lt;div id="الاتصال-بنا" class="anchor">&lt;/div>
+&lt;h2 class="relative group">الاتصال بنا
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%ab%d8%a7%d9%85%d9%86%d8%a9-%d9%82%d9%85-%d8%a8%d8%aa%d8%b9%d8%af%d9%8a%d9%84-%d9%85%d9%84%d9%81-webphp-%d8%af%d8%a7%d8%ae%d9%84-%d9%85%d8%ac%d9%84%d8%af-routes" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%a7%d8%aa%d8%b5%d8%a7%d9%84-%d8%a8%d9%86%d8%a7" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Support\Facades\Route&lt;/span>&lt;span class="p">;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;app&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">})&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">name&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;application&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-التاسعة-قم-بتشغيل-السيرفر-المحلى" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة التاسعة: قم بتشغيل السيرفر المحلى
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%aa%d8%a7%d8%b3%d8%b9%d8%a9-%d9%82%d9%85-%d8%a8%d8%aa%d8%b4%d8%ba%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%b1%d9%81%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%89" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan serve
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="الخطوة-العاشرة-فم-بتشغيل-السيرفر-المحلى-node" class="anchor">&lt;/div>
-&lt;h2 class="relative group">الخطوة العاشرة: فم بتشغيل السيرفر المحلى Node
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%b7%d9%88%d8%a9-%d8%a7%d9%84%d8%b9%d8%a7%d8%b4%d8%b1%d8%a9-%d9%81%d9%85-%d8%a8%d8%aa%d8%b4%d8%ba%d9%8a%d9%84-%d8%a7%d9%84%d8%b3%d9%8a%d8%b1%d9%81%d8%b1-%d8%a7%d9%84%d9%85%d8%ad%d9%84%d9%89-node" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">npm run dev
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;div
-class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900"
->
-&lt;span
-class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
->
-&lt;span class="relative block icon">
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">&lt;path fill="currentColor" d="M506.3 417l-213.3-364c-16.33-28-57.54-28-73.98 0l-213.2 364C-10.59 444.9 9.849 480 42.74 480h426.6C502.1 480 522.6 445 506.3 417zM232 168c0-13.25 10.75-24 24-24S280 154.8 280 168v128c0 13.25-10.75 24-23.1 24S232 309.3 232 296V168zM256 416c-17.36 0-31.44-14.08-31.44-31.44c0-17.36 14.07-31.44 31.44-31.44s31.44 14.08 31.44 31.44C287.4 401.9 273.4 416 256 416z"/>&lt;/svg>
-&lt;/span>
-&lt;/span>
-&lt;span
-class="dark:text-neutral-300"
->قم بالذهاب الى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/&lt;/code>&lt;/strong>&lt;/em> ستجد ما يلى&lt;/span>
-&lt;/div>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
-&lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
-&lt;/figure>
-&lt;ul>
-&lt;li>ستجد repo الخاصة بهذا المشروع على github فى هذا &lt;a href="https://github.com/zwebcourses/laravel10-vue3" target="_blank">
-الرابط&lt;/a>
-&lt;a href="https://github.com/zwebcourses/laravel10-vue3" target="_blank">
-https://github.com/zwebcourses/laravel10-vue3&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/featured.png"/></item><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description/></item></channel></rss>
+&lt;p>يمكنكم الاتصال بنا عند الحاجة من خلال الضغط على &lt;a href="https://laravelspa.site/ar/contact" >
+رابط اتصل بنا&lt;/a> المتوفر في موقعنا أو مراسلتنا عبر &lt;a href="https://bit.ly/fb-laravelspa" target="_blank">
+صفحة الفيس بوك&lt;/a>.&lt;/p></description></item><item><title>شروط الإستخدام</title><link>https://laravelspa.site/ar/terms-and-conditions/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/terms-and-conditions/</guid><description>&lt;p>شروط الاستخدام&lt;/p>
+&lt;p>باستخدامك لهذه المدونة، بأي وسيلة كانت، فأنت تقر بأنك قد قرأت هذه الاتفاقية وفهمتها و بأنك موافق علي ما ورد فيها.&lt;/p>
+&lt;p>1- توفر المدونة إمكانية التعليق علي المحتوي المنشور فيها، و ويحق لك كما لكل المستخدمين المشاركة في التعليقات، علي الا تقوم بنشر أي محتوي يمكن ان يكون ضارا، غير مشروع، تشهيري، مخالف، مسيء، محرض، مضايق او ما شابه ذلك.&lt;/p>
+&lt;p>2- أنت وحدك المسؤول عن التعليقات التي تشارك بها ولا تتحمل المدونة أي مسؤولية.&lt;/p>
+&lt;p>3 - حقوق الملكية الفكرية للتعليقات تبقي مسجلة لك، لكن يحق لصاحب المدونة إعادة استخدام التعليقات في أي نشاط متعلق بالمدونة دون الحاجة الي طلب اذن مسبق من صاحب التعليق، بشرط ان يقوم بذكر اسم صاحب التعليق ولا يعدل علي التعليق يشكل يؤدي الي التحريف في معناه.&lt;/p>
+&lt;p>4- للتعليق في المدونة يفضل ذكر اسمك الشخصي، يمكنك استخدام اسم مستعار، لكن لا يسمح ابداً بانتحال اسم أي شخص أو هيئة.&lt;/p>
+&lt;p>5- يفضل ذكر بريدك الاليكتروني الحقيقي عند الاتصال بنا او التواصل معنا، المدونة تلتزم بعدم استخدام هذا البريد في أي نشاط سوي المراسلات الشخصية، وتلتزم بألا تسلم بريدك الي أي طرف ثالت دون اذن مسبق منك.&lt;/p>
+&lt;p>6- يجب عليك ألا تعدل أو تغير في مواضيع المدونة أو استخدامها بطرق غير مشروعة بأي طرق يمكن ان تضر أو تعطل المدونة.&lt;/p>
+&lt;p>7- لا يحق لك نقل محتوى المدنة من مواضيع و شروحات و فيديوهات إلى موقعك او مدونتك بدون ذكر المصدر و هي &amp;quot; مدونة Laravel SPA &amp;quot; مع رابط مباشر يؤدي إلى الموضوع الأصلي الذي تم نقله.&lt;/p>
+&lt;p>8- قد تتغير هذه الاتفاقية من فترة لأخري بما نراه مناسباً لهدف المدونة، لذا أرجو منك مراجعتها والتقيد بما فيها.&lt;/p></description></item><item><title>من نحن</title><link>https://laravelspa.site/ar/about-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/about-us/</guid><description>&lt;p>مرحبا انا محمود عادل.&lt;/p>
+&lt;p>مرحبًا بك في Laravel SPA: موطن البرامج التعليمية ومقاطع الفيديو والنصائح حول إطار العمل المفضل لدينا Laravel. بدأت في عام 2023 كمدونة شخصية صغيرة ، وسوف تنمو لتصبح مركزًا للمعلومات المفيدة لجميع المستويات ان شاء الله.&lt;/p>
+&lt;p>أدير أيضًا قناة على YouTube تحمل نفس اسم Laravel SPA.&lt;/p>
+&lt;p>يمكنك متابعة أحدث دروس Laravel التعليمية على Twitter أو عن طريق الاشتراك في النشرة الإخبارية الأسبوعية.&lt;/p>
+&lt;p>إذا كنت ترغب في التواصل ، أرسل بريدًا إلكترونيًا إلى &lt;a href="mailto:dev.mahmoud.adel@gmail.com" >
+dev.mahmoud.adel@gmail.com&lt;/a>&lt;/p></description></item></channel></rss>
