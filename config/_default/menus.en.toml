@@ -25,26 +25,33 @@
   pageRef = "tags"
   weight = 30
 
-[[main]]
-  name = "Subscribe"
-  pageRef = "subscribe"
-  weight = 40
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
- # [[footer]]
- #   name = "privacy"
- #   pageRef = "privacy"
- #   weight = 10
+[[footer]]
+   name = "Privacy Policy"
+   pageRef = "privacy-policy"
+   weight = 10
 
-# [[footer]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 10
+[[footer]]
+   name = "Terms and Conditions"
+   pageRef = "terms-and-conditions"
+   weight = 20
 
-# [[footer]]
-#   name = "Categories"
-#   pageRef = "categories"
-#   weight = 20
+[[footer]]
+   name = "Subscribe"
+   pageRef = "subscribe"
+   weight = 30
+
+[[footer]]
+   name = "Contact Us"
+   pageRef = "contact-us"
+   weight = 40
+
+[[footer]]
+   name = "About Us"
+   pageRef = "about-us"
+   weight = 50
+
+ 

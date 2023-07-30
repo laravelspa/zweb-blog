@@ -69,10 +69,3 @@ shortcode:
 
 recent:
   show_more: "عرض المزيد"
-
-subscribe:
-  message: "شكرا لك على قراءة مدونتي!"
-  signup: "قم بالتسجيل في"
-  newsletter: "نشرتنا عبر البريد الإلكتروني"
-  or_use_this: "أو يمكنك إستخدام"
-  to_get_notified: "لتلقي تنبيهات حول منشورات المدونة الجديدة."

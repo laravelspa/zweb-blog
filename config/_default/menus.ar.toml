@@ -26,32 +26,33 @@
   weight = 30
 
 
-[[main]]
-  name = "تابعنا"
-  pageRef = "subscribe"
-  weight = 40
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
 
- # [[footer]]
- #   name = "privacy"
- #   pageRef = "privacy"
- #   weight = 10
- 
-  [[footer]]
-    name = "المدونة"
-    pageRef = "blog"
-    weight = 10
+[[footer]]
+   name = "سياسة الخصوصية"
+   pageRef = "privacy-policy"
+   weight = 10
 
-  [[footer]]
-    name = "الأقسام"
-    pageRef = "categories"
-    weight = 20
-  
-  [[footer]]
-    name = "العلامات"
-    pageRef = "tags"
-    weight = 30
+[[footer]]
+   name = "شروط الإستخدام"
+   pageRef = "terms-and-conditions"
+   weight = 20
+
+[[footer]]
+   name = "تابعنا"
+   pageRef = "subscribe"
+   weight = 30
+
+[[footer]]
+   name = "تواصل معنا"
+   pageRef = "contact-us"
+   weight = 40
+
+[[footer]]
+   name = "من نحن"
+   pageRef = "about-us"
+   weight = 50
+
  
