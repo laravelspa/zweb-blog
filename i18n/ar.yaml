@@ -1,5 +1,5 @@
 global:
-  language: "اللغة"
+  language: "العربية"
 
 article:
   anchor_label: "رابط"
@@ -24,10 +24,10 @@ article:
   part_of_series: "هذه المقالة جزء من سلسلة."
   part: "جزء"
   this_article: "هذه المقالة"
-  related_articles: "متعلق ب"
+  related_articles: "مقالات مرتبطة"
 
 author:
-  byline_title: "الطاتب"
+  byline_title: "الكاتب"
 
 code:
   copy: "نسخ"

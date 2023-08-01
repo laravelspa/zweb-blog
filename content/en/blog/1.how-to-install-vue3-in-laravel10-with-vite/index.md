@@ -5,7 +5,7 @@ draft: true
 slug: "how-to-install-vue3-in-laravel10-with-vite"
 cascade:
   showReadingTime: true
-categories: ['Laravel', Vuejs]
+categories: ['Laravel', 'Vuejs']
 tags: ['laravel10', 'vue3', 'full stack', 'spa']
 ---
 
