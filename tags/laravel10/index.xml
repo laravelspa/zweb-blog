@@ -1,20 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>laravel10 on Laravel SPA</title>
-    <link>https://laravelspa.site/tags/laravel10/</link>
-    <description>Recent content in laravel10 on Laravel SPA</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/tags/laravel10/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How To Install Vue 3 In Laravel 10 With Vite</title>
-      <link>https://laravelspa.site/blog/how-to-install-vue3-in-laravel10-with-vite/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://laravelspa.site/blog/how-to-install-vue3-in-laravel10-with-vite/</guid>
-      <description>Preview # Laravel 10 Vue 3What is Laravel # Laravel is a web application framework with expressive, elegant syntax. A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>laravel10 on Laravel SPA</title><link>https://laravelspa.site/tags/laravel10/</link><description>Recent content in laravel10 on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/tags/laravel10/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 10 | One-To-One Relationship</title><link>https://laravelspa.site/blog/laravel10-one-to-one-relationship/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/laravel10-one-to-one-relationship/</guid><description>laravel10 one to one relationship Intro # Often the developer needs to interact with databases. And if you are using Laravel, you will learn about the most important feature of this framework which is called Eloquent, the Object Relationship Diagram (ORM) that makes this process simple and natural.</description></item></channel></rss>

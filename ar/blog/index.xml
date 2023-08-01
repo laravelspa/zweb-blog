@@ -1,20 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Blogs on Laravel SPA</title>
-    <link>https://laravelspa.site/ar/blog/</link>
-    <description>Recent content in Blogs on Laravel SPA</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ar</language>
-    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite</title>
-      <link>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</link>
-      <pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</guid>
-      <description>عرض المشروع # Laravel 10 Vue 3ما هو إطار عمل Laravel # Laravel هو إطار عمل لتطبيق ويب ذو بناء مرتب وأنيق. يوفر إطار عمل الويب هيكلًا ونقطة بداية لإنشاء تطبيقك ، مما يسمح لك بالتركيز على إنشاء شيء مذهل بينما تهتم بالتفاصيل.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blogs on Laravel SPA</title><link>https://laravelspa.site/ar/blog/</link><description>Recent content in Blogs on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 10 | One-To-One Relationship In Arabic</title><link>https://laravelspa.site/ar/blog/laravel10-one-to-one-relationship-in-arabic/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/laravel10-one-to-one-relationship-in-arabic/</guid><description>laravel10 one to one relationship مقدمة # غالبًا ما يحتاج المطور أن يتفاعل مع قواعد البيانات. وإذا كنت تستخدم Laravel فستتعرف على أهم مميزات إطار العمل هذا وهو ما يسمى Eloquent ، مخطط علاقات الكائنات (ORM) الذى يجعل هذه العملية بسيطة وطبيعية.</description></item></channel></rss>

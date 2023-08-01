@@ -1,4 +1,390 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>About Us</title><link>https://laravelspa.site/about-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/about-us/</guid><description>&lt;p>Hi, this is Mahmoud Adel.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 10 | One-To-One Relationship</title><link>https://laravelspa.site/blog/laravel10-one-to-one-relationship/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/laravel10-one-to-one-relationship/</guid><description>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_330x0_resize_box_3.png 330w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_660x0_resize_box_3.png 660w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1024x0_resize_box_3.png 1024w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_660x0_resize_box_3.png"
+alt="laravel10 one to one relationship"
+/>
+&lt;figcaption>laravel10 one to one relationship&lt;/figcaption>
+&lt;/figure>
+&lt;div id="intro" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Intro
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#intro" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>Often the developer needs to interact with databases. And if you are using &lt;strong>Laravel&lt;/strong>, you will learn about the most important feature of this framework which is called &lt;strong>Eloquent&lt;/strong>, the Object Relationship Diagram (ORM) that makes this process simple and natural.&lt;/p>
+&lt;p>&lt;strong>Laravel Eloquent&lt;/strong> is one of the main features in the &lt;strong>Laravel&lt;/strong> framework. This is due to its great support for defining, creating and managing relationships between different database tables. In this series I will show you how to create and use &lt;strong>Eloquent&lt;/strong> relationships, so you can get started without any prior knowledge of relationships.&lt;/p>
+&lt;p>It is essential as a professional that you recognize and understand the six major relationship types that we will go through and review. But before this we must know what are the relations in the first place?&lt;/p>
+&lt;div id="what-are-the-relationships-in-the-database" class="anchor">&lt;/div>
+&lt;h2 class="relative group">What are the relationships in the database?
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-are-the-relationships-in-the-database" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>When working with tables in a database between which there are relationships, we can describe relationships as connections between tables. This helps you organize and structure data effortlessly allowing superior readability and faster data processing.&lt;/p>
+&lt;div id="what-types-of-relationships-are-there-in-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">What types of relationships are there in Laravel?
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#what-types-of-relationships-are-there-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>There are three main types of relationships in a database that appear in practice:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>one-to-one&lt;/strong>: It is a single record associated with only one record. An example of this is that each user has one profile in another table.&lt;/li>
+&lt;li>&lt;strong>one-to-many&lt;/strong>: An example of this is that each writer owns more than one article in another table.&lt;/li>
+&lt;li>&lt;strong>many-to-many&lt;/strong>: An example of this is that more than one user can join more than one course.&lt;/li>
+&lt;/ul>
+&lt;p>Besides these relationships, &lt;strong>Laravel&lt;/strong> offers more of them, namely:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Has Many Through&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Polymorphic Relations&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Many-to-many Polymorphic&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;p>The number of relationships that we will explain becomes 6 types. And we will build a simple content management system to explain all the relationships.&lt;/p>
+&lt;p>Do I need specific knowledge of &lt;strong>Eloquent&lt;/strong> before reading this? In the examples below, I have tried to explain everything as clearly as possible, without using a lot of &lt;strong>Eloquent&amp;rsquo;s&lt;/strong> tricky functions and complex technologies. This means that prior knowledge is not strictly necessary. However, it is always best to learn the basics first, and then move on to more complex topics like relationships.&lt;/p>
+&lt;div id="one-to-one-relationship" class="anchor">&lt;/div>
+&lt;h2 class="relative group">One-To-One Relationship
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#one-to-one-relationship" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>Being the first and simplest basic relation offered by &lt;strong>Laravel&lt;/strong>, they join two tables so that one row of the first table is associated with only one row of the other table.&lt;/p>
+&lt;p>To see this in action we&amp;rsquo;ll start by creating a content management system,&lt;/p>
+&lt;p>Let&amp;rsquo;s say each user can have one profile. In some cases you could store all profile information in the users table, but that wouldn&amp;rsquo;t be ideal. Here, in our example, I want to create a separate table for them. For example, if we later want to transfer a profile to a different user, this will come in handy.&lt;/p>
+&lt;blockquote>
+&lt;p>By default, the Users table exists, and it does not matter which columns it will contain.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Let&amp;rsquo;s say we have a Users table with the following columns:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Schema&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">Blueprint&lt;/span> &lt;span class="nv">$table&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;email&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">unique&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">timestamps&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>We modify the &lt;em>&lt;strong>&lt;code>User.php&lt;/code>&lt;/strong>&lt;/em> file.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">protected&lt;/span> &lt;span class="nv">$fillable&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span>&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Let&amp;rsquo;s create a &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan make:model Profile -m
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In a &lt;em>&lt;strong>&lt;code>one-to-one&lt;/code>&lt;/strong>&lt;/em> relationship we have the freedom to choose one of these two methods:&lt;/p>
+&lt;ul>
+&lt;li>Add &lt;em>&lt;strong>&lt;code>user_id&lt;/code>&lt;/strong>&lt;/em> to &lt;em>&lt;strong>&lt;code>profiles&lt;/code>&lt;/strong>&lt;/em> table.&lt;/li>
+&lt;li>Add a &lt;em>&lt;strong>&lt;code>profile_id&lt;/code>&lt;/strong>&lt;/em> to the &lt;em>&lt;strong>&lt;code>users&lt;/code>&lt;/strong>&lt;/em> table.&lt;/li>
+&lt;/ul>
+&lt;p>But as a result of our way of thinking, each user will have their own profile. Mostly this column that connects the two tables is always added to the second table, so we will add it to the profiles table as follows.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Schema&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">Blueprint&lt;/span> &lt;span class="nv">$table&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line hl">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">foreignId&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">constrained&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">timestamps&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>We modify the &lt;em>&lt;strong>&lt;code>Profile.php&lt;/code>&lt;/strong>&lt;/em> file.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">protected&lt;/span> &lt;span class="nv">$fillable&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Let&amp;rsquo;s run this command to update the database.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan migrate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Let&amp;rsquo;s go to the &lt;em>&lt;strong>&lt;code>User.php&lt;/code>&lt;/strong>&lt;/em> file to set the new relationship.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">profile&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">hasOne&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Let&amp;rsquo;s see how &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> works.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">hasOne&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="c1">// foreignKey By Default Parent Model + Promary Key
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="c1">// localKey =&amp;gt; Primary Key In Parent Table By Default is Id
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>There are two ways to create a user and associate them with a relationship with their profile:&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>We will first go to the &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> file and add a new route so that we can test these ways.&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>Without using &lt;em>&lt;strong>&lt;code>function profile&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John Doe&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Doe&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;08-11-1991&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>We will open the browser and go to this link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> to find that the user has been created successfully.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>using &lt;em>&lt;strong>&lt;code>function profile&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom Cruz&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Cruz&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;01-02-2000&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>We will open the browser and go to this link again &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> to find that the user was created successfully.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>Let&amp;rsquo;s go to the &lt;em>&lt;strong>&lt;code>Profile.php&lt;/code>&lt;/strong>&lt;/em> file to set the inverse relationship.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">user&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">belongsTo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Learn how &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> works.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">belongsTo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="c1">// foreignKey By Default Parent Model + Promary Key
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="c1">// OwnerKey By Default Id
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Let&amp;rsquo;s say you want to give the relationship another name, like &lt;em>&lt;strong>&lt;code>admin&lt;/code>&lt;/strong>&lt;/em>, so we have to add a &lt;em>&lt;strong>&lt;code>foreignKey&lt;/code>&lt;/strong>&lt;/em>.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">admin&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">belongsTo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="c1">// You must add foreignKey
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>If you do not add a &lt;em>&lt;strong>&lt;code>foreignKey&lt;/code>&lt;/strong>&lt;/em> when changing the relationship name, you will see this error.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_330x0_resize_box_3.png 330w,
+/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png 660w,
+/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1024x0_resize_box_3.png 1024w,
+/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png"
+alt="Attempt to read property X on null"
+/>
+&lt;figcaption>Attempt to read property X on null&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Another way to create a profile and inversely associate it with the user who owns it is through the &lt;em>&lt;strong>&lt;code>user function&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Adam Smith&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Adam&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Smith&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;01-01-1999&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">associate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">save&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>We will open the browser and go to this link again &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> to find that the user was created successfully.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="how-to-optimize-eloquent-query-in-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">How to Optimize Eloquent query in Laravel?
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#how-to-optimize-eloquent-query-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>When dealing with a large database with a lot of data inside it comes time to look at the matter from another point of view. It is not just a matter of fetching the data but how long you will need to fetch that data. How many queries will you make per page? To test this, we will download a very popular library called &lt;a href="https://github.com/barryvdh/laravel-debugbar" target="_blank">
+Laravel Debugbar&lt;/a>. It will help us to know all the inquiries that are made on each page.&lt;/p>
+&lt;ul>
+&lt;li>Let&amp;rsquo;s do this command.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">composer require barryvdh/laravel-debugbar --dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>Make sure that &lt;em>&lt;strong>&lt;code>APP_DEBUG=true&lt;/code>&lt;/strong>&lt;/em> inside the &lt;em>&lt;strong>&lt;code>.env&lt;/code>&lt;/strong>&lt;/em> file.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Then we will create a new route to display all the users that were saved in the database while we performed the previous steps.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">all&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users.oneToOne&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>In the &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> folder, we also add another folder named &lt;em>&lt;strong>&lt;code>users&lt;/code>&lt;/strong>&lt;/em>, and inside it we add the &lt;em>&lt;strong>&lt;code>oneToOne.blade&lt;/code>&lt;/strong>&lt;/em>.php file, and we add this simple table to display the users.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Username&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Firstname&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Lastname&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">foreach&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$users&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">endforeach&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>We now go to the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_330x0_resize_box_3.png 330w,
+/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_660x0_resize_box_3.png 660w,
+/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_1024x0_resize_box_3.png 1024w,
+/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_660x0_resize_box_3.png"
+alt="Users View"
+/>
+&lt;figcaption>Users View&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>We will now find at the bottom of the page the &lt;em>&lt;strong>&lt;code>Laravel Debugbar&lt;/code>&lt;/strong>&lt;/em> bar. When you open it, we will find that the number of queries on this page is “4”. And they are only 3 users, imagine with me if there are thousands or millions of users in the database, the time to load this page will be very slow. This is called the N+1 problem in Laravel or it is called Lazy Loading.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_330x0_resize_box_3.png 330w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png 660w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1024x0_resize_box_3.png 1024w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png"
+alt="laravel debugbar lazy loading"
+/>
+&lt;figcaption>laravel debugbar lazy loading&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>To solve this problem, we modify the method of fetching users as follows.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>As you can see, by adding the word &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em> with the name of the relationship, this problem will be overcome, so the number of queries has been reduced from 4 to 2, and this matter will clearly see its effect if the database is of medium size or large, of course, and this is what is called Eager Loading.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_330x0_resize_box_3.png 330w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png 660w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1024x0_resize_box_3.png 1024w,
+/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png"
+alt="laravel debugbar eager loading"
+/>
+&lt;figcaption>laravel debugbar eager loading&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>And we can do the same previous steps if we are going to use the relationship in reverse. An example of this.&lt;/p>
+&lt;/blockquote>
+&lt;ul>
+&lt;li>Then we will create a new route to display all the profiles that were saved in the database while we performed the previous steps.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profiles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles.oneToOne&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>In the &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> folder, we also add another folder named &lt;em>&lt;strong>&lt;code>profiles&lt;/code>&lt;/strong>&lt;/em>, and inside it we add the &lt;em>&lt;strong>&lt;code>oneToOne.blade.php&lt;/code>&lt;/strong>&lt;/em> file, and we add this simple table to display the users.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Username&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Firstname&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">th&lt;/span> &lt;span class="nx">style&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;text-align: center&amp;#34;&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="nx">Lastname&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">th&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">foreach&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nv">$profiles&lt;/span> &lt;span class="k">as&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="p">{{&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span> &lt;span class="p">}}&lt;/span>&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">td&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">endforeach&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>We now go to the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>You will find that the results that will appear are similar to the previous results.&lt;/p>
+&lt;/blockquote>
+&lt;div id="conclusion" class="anchor">&lt;/div>
+&lt;h3 class="relative group">Conclusion
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;p>This article is the start of a whole series on &lt;em>&lt;strong>Laravel Eloquent Relationships&lt;/strong>&lt;/em> - Relationships within &lt;em>&lt;strong>Laravel&lt;/strong>&lt;/em>. In it, we have dealt with the &lt;em>&lt;strong>One to One&lt;/strong>&lt;/em> relationship in a simple way, and we did not spare you any information. God willing, in the next article, we will learn about the &lt;em>&lt;strong>One To Many&lt;/strong>&lt;/em> relationship.&lt;/p></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/laravel10-one-to-one-relationship/featured.png"/></item><item><title>About Us</title><link>https://laravelspa.site/about-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/about-us/</guid><description>&lt;p>Hi, this is Mahmoud Adel.&lt;/p>
 &lt;p>Welcome to Laravel SPA: home of tutorials, videos and tips about Laravel framework. Started back in 2023 as a small personal blog, it grew into a hub of useful information for all levels.&lt;/p>
 &lt;p>I also run a YouTube channel with the same name of Laravel SPA.&lt;/p>
 &lt;p>You can follow the latest Laravel tutorials on Twitter or by subscribing to our weekly newsletter.&lt;/p>
