@@ -1,7 +1,7 @@
 ---
 title: "How To Install Vue 3 In Laravel 10 With Vite"
 date: 2023-05-01
-draft: true
+draft: false
 slug: "how-to-install-vue3-in-laravel10-with-vite"
 cascade:
   showReadingTime: true
