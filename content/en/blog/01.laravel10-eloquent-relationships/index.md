@@ -334,3 +334,6 @@ Route::get('/profiles', function () {
 
 ### Conclusion
 This article is the start of a whole series on ***Laravel Eloquent Relationships*** - Relationships within ***Laravel***. In it, we have dealt with the ***One to One*** relationship in a simple way, and we did not spare you any information. God willing, in the next article, we will learn about the ***One To Many*** relationship.
+
+- You will find the repo for this series on github here [
+{{< github repo="laravelspa/laravel-relations" >}}

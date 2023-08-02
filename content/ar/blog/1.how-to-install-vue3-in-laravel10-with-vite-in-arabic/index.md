@@ -107,7 +107,7 @@ createApp(App).mount("#app")
 ```HTML
 <template>
     <h1>
-        How To Install Vue 3 in Laravel 10 : ZWebCourses :)
+        How To Install Vue 3 in Laravel 10 : Laravel SPA :)
     </h1>
 </template>
 ```
@@ -143,5 +143,6 @@ alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
 
-- ستجد repo الخاصة بهذا المشروع على github فى هذا [الرابط](https://github.com/zwebcourses/laravel10-vue3)
-https://github.com/zwebcourses/laravel10-vue3
+
+- ستجد repo الخاصة بهذا المشروع على github هنا
+{{< github repo="laravelspa/laravel10-vue3" >}}

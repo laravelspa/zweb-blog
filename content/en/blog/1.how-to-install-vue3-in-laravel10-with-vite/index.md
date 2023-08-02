@@ -103,7 +103,7 @@ Make sure to add the css file and javascript as shown and also the div with id=a
 ```HTML
 <template>
     <h1>
-        How To Install Vue 3 in Laravel 10 : ZWebCourses :)
+        How To Install Vue 3 in Laravel 10 : Laravel SPA :)
     </h1>
 </template>
 ```
@@ -141,5 +141,5 @@ alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
 
-- You will find the repo for this project on github at this [Link](https://github.com/zwebcourses/laravel10-vue3)
-https://github.com/zwebcourses/laravel10-vue3
+- You will find the repo for this project on github here [
+{{< github repo="laravelspa/laravel10-vue3" >}}
