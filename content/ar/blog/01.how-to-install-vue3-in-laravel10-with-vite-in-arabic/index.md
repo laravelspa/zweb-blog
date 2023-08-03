@@ -3,6 +3,7 @@ title: "كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخد�
 date: 2023-05-08
 draft: false
 slug: "how-to-install-vue3-in-laravel10-with-vite-in-arabic"
+description: "كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite"
 cascade:
   showReadingTime: true
 categories: ['Laravel', Vuejs]

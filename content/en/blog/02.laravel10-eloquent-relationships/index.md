@@ -3,6 +3,7 @@ title: "Laravel 10 | One-To-One Relationship"
 date: 2023-07-30
 draft: false
 slug: "laravel10-one-to-one-relationship"
+description: "Being the first and simplest basic relation offered by Laravel, they join two tables so that one row of the first table is associated with only one row of the other table."
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']

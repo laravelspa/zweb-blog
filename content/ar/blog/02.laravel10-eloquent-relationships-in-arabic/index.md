@@ -3,6 +3,7 @@ title: "Laravel 10 | One-To-One Relationship In Arabic"
 date: 2023-07-30
 draft: false
 slug: "laravel10-one-to-one-relationship-in-arabic"
+description: "نظرًا لكونها أول علاقة أساسية وأبسطها يقدمها Laravel ، فإنهم يربطون جدولين بطريقة بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر."
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
