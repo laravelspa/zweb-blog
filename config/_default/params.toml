@@ -127,11 +127,11 @@ mainSections = ["blog"]
   # domain = "llama.yoursite.com"
 
 [buymeacoffee]
-  # identifier = ""
-  # globalWidget = true
-  # globalWidgetMessage = "Hello"
-  # globalWidgetColor = "#FFDD00"
-  # globalWidgetPosition = "Right"
+   identifier = "devmahmoud"
+   globalWidget = true
+   globalWidgetMessage = "Hello"
+   globalWidgetColor = "#FFDD00"
+   globalWidgetPosition = "Right"
 
 [verification]
   # google = ""
