@@ -1,36 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Sun, 30 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel 10 | One-To-One Relationship In Arabic</title><link>https://laravelspa.site/ar/blog/laravel10-one-to-one-relationship-in-arabic/</link><pubDate>Sun, 30 Jul 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/laravel10-one-to-one-relationship-in-arabic/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel Eloquent One-To-One Relationship - Ultimate Guide 2023 In Arabic</title><link>https://laravelspa.site/ar/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic/</guid><description>&lt;p>غالبًا ما يحتاج المطور أن يتفاعل مع قواعد البيانات. وإذا كنت تستخدم إطار عمل &lt;strong>Laravel&lt;/strong> فيجب علبك أن تتعرف على أهم مميزات &lt;strong>لارافيل&lt;/strong> وهو ما يسمى &lt;strong>Eloquent&lt;/strong> , مخطط علاقات الكائنات (ORM) الذى يجعل هذه العملية بسيطة وسهلة.&lt;/p>
+&lt;p>يعد &lt;strong>Laravel Eloquent&lt;/strong> أحد الميزات الرئيسية في إطار عمل &lt;strong>لارافل&lt;/strong>. ويرجع ذلك إلى دعمه الرائع فى تحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة.
+سأوضح لك في هذه السلسلة من المقالات كيفية إنشاء واستخدام علاقات &lt;strong>Eloquent&lt;/strong>.&lt;/p>
+&lt;p>مع ملاحظة أنه يمكنك البدء دون أي معرفة سابقة بالعلاقات.&lt;/p>
 &lt;figure >
 &lt;img
 class="my-0 rounded-md"
 srcset="
-/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_330x0_resize_box_3.png 330w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_660x0_resize_box_3.png 660w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1024x0_resize_box_3.png 1024w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_660x0_resize_box_3.png"
-alt="laravel10 one to one relationship"
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_9233971e878ca934cf1173ecced9ee72.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_2e6579d44a8c099f3f5708391ec03f18.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_3897a8c0a0434a29fce61c65f9966bc3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png"
+alt="laravel one to one relationship"
 />
-&lt;figcaption>laravel10 one to one relationship&lt;/figcaption>
+&lt;figcaption>laravel one to one relationship&lt;/figcaption>
 &lt;/figure>
-&lt;div id="مقدمة" class="anchor">&lt;/div>
-&lt;h2 class="relative group">مقدمة
+&lt;p>من الضروري كمبرمج محترف أن تدرك أنواع العلاقات
+ولكن قبل هذا يجب أن تسأل نفسك سؤالاً هاماً ما هى العلاقات من الأساس؟&lt;/p>
+&lt;div id="ما-هي-العلاقات-فى-قواعد-البيانات" class="anchor">&lt;/div>
+&lt;h2 class="relative group">ما هي العلاقات فى قواعد البيانات؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%85%d9%82%d8%af%d9%85%d8%a9" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d9%81%d9%89-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>غالبًا ما يحتاج المطور أن يتفاعل مع قواعد البيانات. وإذا كنت تستخدم &lt;strong>Laravel&lt;/strong> فستتعرف على أهم مميزات إطار العمل هذا وهو ما يسمى &lt;strong>Eloquent&lt;/strong> ، مخطط علاقات الكائنات (ORM) الذى يجعل هذه العملية بسيطة وطبيعية.&lt;/p>
-&lt;p>يعد &lt;strong>Laravel Eloquent&lt;/strong> أحد الميزات الرئيسية في إطار عمل &lt;strong>Laravel&lt;/strong>. ويرجع ذلك إلى دعمه الرائع لتحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة. سأوضح لك في هذه السلسلة كيفية إنشاء واستخدام علاقات &lt;strong>Eloquent&lt;/strong> ، بحيث يمكنك البدء دون أي معرفة سابقة بالعلاقات.&lt;/p>
-&lt;p>من الضروري كمحترف أن تتعرف وتفهم أنواع العلاقات الرئيسية الستة التي سنمر بها ونراجعها.
-ولكن قبل هذا يجب أن نعرف ما هى العلاقات من الأساس؟&lt;/p>
-&lt;div id="ما-هي-العلاقات-فى-قاعدة-البيانات" class="anchor">&lt;/div>
-&lt;h2 class="relative group">ما هي العلاقات فى قاعدة البيانات؟
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d9%81%d9%89-%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;p>عند العمل مع الجداول في قاعدة بيانات يوجد بينها علاقات ، يمكننا وصف العلاقات على أنها اتصالات بين الجداول. يساعدك هذا في تنظيم البيانات وهيكلتها دون عناء مما يتيح إمكانية قراءة فائقة ومعالجة للبيانات بشكل أسرع.&lt;/p>
+&lt;p>عند العمل مع جداول في قاعدة بيانات يوجد بينها علاقات , يمكننا وصف هذه العلاقات على أنها اتصالات بين تلك الجداول. يساعدك هذا في تنظيم البيانات وهيكلتها دون عناء مما يتيح إمكانية قراءة ومعالجة للبيانات بشكل أسرع.&lt;/p>
 &lt;div id="ما-هي-أنواع-العلاقات-الموجودة-فى-laravel" class="anchor">&lt;/div>
 &lt;h2 class="relative group">ما هي أنواع العلاقات الموجودة فى Laravel؟
 &lt;span
@@ -38,32 +32,35 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%88%d8%ac%d9%88%d8%af%d8%a9-%d9%81%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>هناك ثلاثة أنواع رئيسية من العلاقات قى قاعدة البيانات تظهر عند الممارسة:&lt;/p>
+&lt;p>هناك ثلاثة أنواع رئيسية من العلاقات قى قواعد البيانات تظهر عند الممارسة:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>one-to-one&lt;/strong>: وهو سجل واحد مرتبط بسجل واحد فقط. ومثال على ذلك أن كل مستخدم يمتلك بروفايل واحد خاص به فى جدول أخر.&lt;/li>
-&lt;li>&lt;strong>one-to-many&lt;/strong>: ومثال على ذلك أن كل كاتب يمتلك أكثر من تدوينه فى جدول أخر.&lt;/li>
-&lt;li>&lt;strong>many-to-many&lt;/strong>: ومثال على ذلك أنه يمكن لأكثر من مستخدم الانضمام إلى أكثر من دورة واحدة.&lt;/li>
+&lt;li>&lt;strong>one-to-one&lt;/strong>: وهو ارتباط سجل واحد فقط بسجل أخر. ومثال على ذلك أن كل مستخدم يمتلك ملف تعريف واحد خاص به.&lt;/li>
+&lt;li>&lt;strong>one-to-many&lt;/strong>: وهو ارتباط سجل واحد فقط بأكثر من سجل أخر ومثال على ذلك أن كل كاتب يمتلك أكثر من مقال.&lt;/li>
+&lt;li>&lt;strong>many-to-many&lt;/strong>: وهو ارتباط أكثر من سجل بأكثر من سجل أخر ومثال على ذلك أنه يمكن لأكثر من مستخدم الانضمام إلى أكثر من دورة واحدة.&lt;/li>
 &lt;/ul>
-&lt;p>إلى جانب هذه العلاقات ، يقدم &lt;strong>Laravel&lt;/strong> المزيد منها ، وهي:&lt;/p>
+&lt;p>إلى جانب هذه العلاقات , تقدم &lt;strong>Laravel&lt;/strong> المزيد من العلاقات , وهي:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Has Many Through&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>Polymorphic Relations&lt;/strong>&lt;/li>
 &lt;li>&lt;strong>Many-to-many Polymorphic&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;p>ليصبح عدد العلاقات التى سنقوم بشرحها هم 6 أنواع.
-وسنقوم ببناء نظام إدارة محتوى بسيط لشرح جميع العلاقات.&lt;/p>
-&lt;p>هل أحتاج إلى معرفة خاصة بـ &lt;strong>Eloquent&lt;/strong> قبل قراءة هذا؟
-في الأمثلة أدناه ، حاولت أن أشرح كل شيء بأكبر قدر ممكن من الوضوح ، دون استخدام الكثير من وظائف &lt;strong>Eloquent&lt;/strong> الصعبة والتقنيات المعقدة. هذا يعني أن المعرفة السابقة ليست ضرورية تمامًا. ومع ذلك ، من الأفضل دائمًا تعلم الأساسيات أولاً ، ثم متابعة موضوعات أكثر تعقيدًا مثل العلاقات.&lt;/p>
-&lt;div id="one-to-one-relationship" class="anchor">&lt;/div>
-&lt;h2 class="relative group">One-To-One Relationship
+وسنقوم ببناء نظام إدارة محتوى بسيط لشرح جميع تلك العلاقات.&lt;/p>
+&lt;p>هل أحتاج إلى معرفة خاصة بـ &lt;strong>Eloquent&lt;/strong> قبل قراءة هذا؟&lt;/p>
+&lt;p>في الأمثلة أدناه, حاولت أن أشرح كل شيء بأكبر قدر ممكن من الوضوح, دون استخدام الكثير من وظائف &lt;strong>Eloquent&lt;/strong> الصعبة والتقنيات المعقدة. هذا يعني أن المعرفة السابقة ليست ضرورية تمامًاً.&lt;/p>
+&lt;p>ومع ذلك من الأفضل دائمًاً تعلم الأساسيات أولاً ثم متابعة موضوعات أكثر تعقيدًاً مثل العلاقات.&lt;/p>
+&lt;div id="كيف-تنشئ-علاقة-one-to-one-فى-لارافل" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيف تنشئ علاقة One-To-One فى لارافل؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#one-to-one-relationship" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b4%d8%a6-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-%d9%84%d8%a7%d8%b1%d8%a7%d9%81%d9%84" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>نظرًا لكونها أول علاقة أساسية وأبسطها يقدمها &lt;strong>Laravel&lt;/strong> ، فإنهم يربطون جدولين بطريقة بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر.&lt;/p>
-&lt;p>لرؤية هذا كتطبيق عملى سنبدأ بإنشاء نظام إدارة المحتوى،&lt;/p>
-&lt;p>لنفترض أن كل مستخدم يمكن أن يكون له ملف تعريف واحد. في بعض الحالات ، يمكنك تخزين جميع معلومات الملف الشخصي في جدول المستخدمين ، لكن هذا لن يكون مثاليًا. هنا ، في مثالنا ، أريد إنشاء جدول منفصل لهم. على سبيل المثال ، إذا أردنا لاحقًا نقل ملف تعريف إلى مستخدم مختلف ، فسيكون هذا مفيدًا.&lt;/p>
+&lt;p>نظرًا لكونها أول علاقة أساسية وأبسطها تقدمها &lt;strong>Laravel&lt;/strong> , فإنه يتم ربط جدولين بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر, أو بنفس الجدول.&lt;/p>
+&lt;p>لرؤية هذا كتطبيق عملى سنبدأ بإنشاء نظام إدارة المحتوى,&lt;/p>
+&lt;p>لنفترض أن كل مستخدم له ملف تعريف واحد خاص به. في بعض الحالات , يمكنك تخزين جميع معلومات الملف الشخصي في جدول المستخدمين.
+لكن هذا لن يكون مثاليًا.&lt;/p>
+&lt;p>في المثال الخاص بنا نريد إنشاء جدول منفصل خاص بملفات التعريف الشخصية ,إذا أردنا لاحقًا نقل ملف تعريف من مستخدم إلى أخر فسيكون هذا متاحاً.&lt;/p>
 &lt;blockquote>
 &lt;p>افتراضيا جدول المستخدمين موجود ولا يهم الأعمدة التى سيحتويها.&lt;/p>
 &lt;/blockquote>
@@ -81,7 +78,7 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">protected&lt;/span> &lt;span class="nv">$fillable&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span>&lt;span class="p">];&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>لنقم بإنشاء &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;li>نقوم بإنشاء &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em> مع الجدول الخاص به.&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan make:model Profile -m
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>فى علاقة &lt;em>&lt;strong>&lt;code>One-to-One&lt;/code>&lt;/strong>&lt;/em> لدينا الحرية فى اختيار احد هاتين الطريقتين:&lt;/p>
@@ -89,7 +86,9 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;li>إضافة &lt;em>&lt;strong>&lt;code>user_id&lt;/code>&lt;/strong>&lt;/em> فى جدول &lt;em>&lt;strong>&lt;code>profiles&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
 &lt;li>إضافة &lt;em>&lt;strong>&lt;code>profile_id&lt;/code>&lt;/strong>&lt;/em> فى جدول &lt;em>&lt;strong>&lt;code>users&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
 &lt;/ul>
-&lt;p>ولكن نتيجة طريقة تفكيرنا ، سيكون لكل مستخدم ملفه الشخصي الخاص به. وفي الغالب يتم دائمًا إضافة هذا العمود الذي يربط بين الجدولين إلى الجدول الثاني ، لذلك سنضيفه إلى جدول الملفات الشخصية على النحو التالي.&lt;/p>
+&lt;blockquote>
+&lt;p>وفي الغالب يتم دائمًا إضافة هذا العمود الذي يربط بين الجدولين إلى الجدول الثاني , لذلك سنضيفه إلى جدول الملفات الشخصية على النحو التالي.&lt;/p>
+&lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Schema&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="nx">Blueprint&lt;/span> &lt;span class="nv">$table&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$table&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">string&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span>&lt;span class="p">);&lt;/span>
@@ -112,7 +111,7 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan migrate
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>لنتوجه الى ملف &lt;em>&lt;strong>&lt;code>User.php&lt;/code>&lt;/strong>&lt;/em> لنقم بتعيين العلاقة الجديدة.&lt;/li>
+&lt;li>لنتوجه الى ملف &lt;em>&lt;strong>&lt;code>User.php&lt;/code>&lt;/strong>&lt;/em> لنقم بتعيين العلاقة.&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">profile&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">hasOne&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">);&lt;/span>
@@ -124,61 +123,6 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="c1">// foreignKey By Default Parent Model + Promary Key
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="c1">// localKey =&amp;gt; Primary Key In Parent Table By Default is Id
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>هناك طريقتين لإنشاء مستخدم وربطه بعلاقة مع ملف التعريف الخاص به:&lt;/li>
-&lt;/ul>
-&lt;blockquote>
-&lt;p>سنتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> نضيف رابط جديد حتى نستطيع أن نختبر هذه الطرق.&lt;/p>
-&lt;/blockquote>
-&lt;ol>
-&lt;li>بدون إستخدام &lt;strong>function profile&lt;/strong>.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John Doe&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Doe&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;08-11-1991&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>سنقوم بفتح المتصفح ونذهب الى هذا الرابط &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
-&lt;li>بإستخدام &lt;em>&lt;strong>&lt;code>function profile&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
-&lt;/ol>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom Cruz&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Cruz&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;01-02-2000&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>سنقوم بفتح المتصفح ونذهب الى هذا الرابط مرة أخرى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>لنتوجه الى ملف &lt;em>&lt;strong>&lt;code>Profile.php&lt;/code>&lt;/strong>&lt;/em> لنقم بتعيين العلاقة العكسية.&lt;/li>
 &lt;/ul>
@@ -193,7 +137,7 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="c1">// OwnerKey By Default Id
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="p">);&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>لنقل أنك تريد تسمية العلاقة بإسم أخر مثل &lt;em>&lt;strong>&lt;code>admin&lt;/code>&lt;/strong>&lt;/em> فيجب علينا إضافة ***&lt;code>foreignKey&lt;/code>***s.&lt;/p>
+&lt;p>لنقل أنك تريد تسمية العلاقة بإسم أخر مثل &lt;em>&lt;strong>&lt;code>admin&lt;/code>&lt;/strong>&lt;/em> فيجب علينا إضافة &lt;em>&lt;strong>&lt;code>foreignKey&lt;/code>&lt;/strong>&lt;/em>.&lt;/p>
 &lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">admin&lt;/span>&lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">belongsTo&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">class&lt;/span>&lt;span class="p">,&lt;/span>
@@ -206,73 +150,271 @@ style="text-decoration-line: none !important;" href="#one-to-one-relationship" a
 &lt;img
 class="my-0 rounded-md"
 srcset="
-/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_330x0_resize_box_3.png 330w,
-/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png 660w,
-/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1024x0_resize_box_3.png 1024w,
-/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png"
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png"
 alt="Attempt to read property X on null"
 />
 &lt;figcaption>Attempt to read property X on null&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;/blockquote>
+&lt;div id="كيفية-حفظ-البيانات-فى-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية حفظ البيانات فى علاقة one to one قى Laravel؟
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d9%81%d8%b8-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%81%d9%89-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>بعد أن قمنا بإنشاء علاقة One-To-One بين كلا من جدول المستخدمين وجدول ملفات التعريف وأضفنا &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> داخل &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, وأيضا قمنا بإضافة العلاقة العكسية داخل &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em> بإضافة &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> إليه.&lt;/p>
+&lt;p>جاء الوقت لمعرفة كيف يتم حفظ البيانات فى قاعدة البيانات أثناء إستخدامنا لهذه العلاقة.
+وما هى الطرق المستخدمة فى ذلك&lt;/p>
+&lt;p>تنقسم هذه الطرق الى ثلاث طرق اساسية:&lt;/p>
+&lt;ol>
+&lt;li>بدون إستخدام &lt;strong>function profile&lt;/strong>.&lt;/li>
+&lt;li>عن طريق إستخدام &lt;strong>function profile&lt;/strong>.&lt;/li>
+&lt;li>عن طريق إستخدام العلاقة العكسية &lt;strong>function user&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;div id="1-بدون-إستخدام-function-profile" class="anchor">&lt;/div>
+&lt;h3 class="relative group">1. بدون إستخدام &lt;strong>function profile&lt;/strong>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#1-%d8%a8%d8%af%d9%88%d9%86-%d8%a5%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-function-profile" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
 &lt;ul>
-&lt;li>هناك طريقة أخرى لإنشاء ملف تعريف وربطه بعلاقة عكسية مع المستخدم الذى يمتلكه من خلال &lt;strong>&lt;code>function user&lt;/code>&lt;/strong>.&lt;/li>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نضيف رابط جديد حتى نستطيع أن نختبر هذه الطرق.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Models\Profile&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Models\User&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">---&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John Doe&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user_id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;John&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Doe&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;08-11-1991&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="2-بإستخدام-function-profile" class="anchor">&lt;/div>
+&lt;h3 class="relative group">2. بإستخدام &lt;em>&lt;strong>&lt;code>function profile&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#2-%d8%a8%d8%a5%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-function-profile" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بالتعديل على هذا الرابط.&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Adam Smith&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom Cruz&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Tom&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Cruz&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;01-02-2000&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط مرة أخرى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="3-عن-طريق-إستخدام-العلاقة-العكسية-function-user-مع-associate" class="anchor">&lt;/div>
+&lt;h3 class="relative group">3. عن طريق إستخدام العلاقة العكسية &lt;em>&lt;strong>&lt;code>function user&lt;/code>&lt;/strong>&lt;/em> مع &lt;em>&lt;strong>&lt;code>associate&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#3-%d8%b9%d9%86-%d8%b7%d8%b1%d9%8a%d9%82-%d8%a5%d8%b3%d8%aa%d8%ae%d8%af%d8%a7%d9%85-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a9-%d8%a7%d9%84%d8%b9%d9%83%d8%b3%d9%8a%d8%a9-function-user-%d9%85%d8%b9-associate" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بالتعديل على هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/one-to-one&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">create&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Adam Smith&amp;#39;&lt;/span>&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="k">new&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="p">([&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Adam&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Smith&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;birthday&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;01-01-1999&amp;#39;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">associate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">);&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">save&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">associate&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">save&lt;/span>&lt;span class="p">();&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">([&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>سنقوم بفتح المتصفح ونذهب الى هذا الرابط مرة أخرى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/p>
-&lt;/blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط مرة أخرى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/one-to-one&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم إنشاء المستخدم بنجاح.&lt;/li>
+&lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيفية-تحسين-استعلام-eloquent-في-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيفية تحسين استعلام Eloquent في Laravel؟
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيف-تحصل-على-البيانات-في-علاقة-one-to-one-في-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيف تحصل على البيانات في علاقة One-To-One في Laravel؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-eloquent-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d8%ad%d8%b5%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%81%d9%8a-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>عند التعامل مع قاعدة بيانات كبيرة بداخلها الكثير من البيانات يأتى الوقت لتنظر للأمر بنظرة أخرى.
-فالأمر ليس مجرد جلب للبيانات ولكن كم من الوقت ستحتاج لجلب تلك البيانات.
-وكم عدد الإستعلامات التى ستقوم فى كل صفحة. ولإختبار هذا الأمر سنقوم بتنزيل مكتبة مشههور جدا اسمها
-&lt;a href="https://github.com/barryvdh/laravel-debugbar" target="_blank">
-Laravel Debugbar&lt;/a>. ستساعدنا فى معرفة جميع الإستعلامات التى تتم فى كل صفحة.&lt;/p>
+&lt;p>رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-One فى Laravel.&lt;/p>
+&lt;p>ولكن كيف يتم الحصول على البيانات من قاعدة البيانات؟
+هناك عدة طرق يمكن من خلالها الحصول على البيانات من قاعدة البيانات.&lt;/p>
+&lt;p>وتنقسم هذه الطرق الى طريقتين أساسيتين:&lt;/p>
+&lt;div id="أثناء-الحصول-على--بيانات-المستخدمين" class="anchor">&lt;/div>
+&lt;h3 class="relative group">أثناء الحصول على بيانات المستخدمين.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%a3%d8%ab%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89--%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85%d9%8a%d9%86" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;p>أثناء الحصول على بيانات المستخدمين سنقوم بالحصول على ملفات التعريف الشخصية الخاصة بهم.
+بعد ذلك ينقسم الأمر فى عرض تلك البيانات بين شكلين لا ثالث لهم.
+يحدد نوع التطبيق الذى تعمل عليه الشكل المستخدم:&lt;/p>
 &lt;ul>
-&lt;li>لنقم بتنفيذ هذا الأمر.&lt;/li>
+&lt;li>أولا: تطبيق يعتمد على web routes.&lt;/li>
+&lt;li>ثانياً: تطبيق يعتمد على api routes.&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">composer require barryvdh/laravel-debugbar --dev
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>وتأكد أن &lt;em>&lt;strong>&lt;code>APP_DEBUG=true&lt;/code>&lt;/strong>&lt;/em> داخل ملف &lt;em>&lt;strong>&lt;code>.env&lt;/code>&lt;/strong>&lt;/em>.&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>ثم سنقوم بإنشاء رابط جديد لعرض جميع المستخدمين الذين تم حفظهم فى قاعدة البينات أثناء قيامنا بالخطوات السابقة.&lt;/li>
-&lt;/ul>
+&lt;div id="أولا-الإعتماد-على-web-routes" class="anchor">&lt;/div>
+&lt;h4 class="relative group">أولاً: الإعتماد على &lt;em>&lt;strong>&lt;code>Web Routes&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%a3%d9%88%d9%84%d8%a7-%d8%a7%d9%84%d8%a5%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d8%b9%d9%84%d9%89-web-routes" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h4>
+&lt;ol>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بالتعديلات التالية.&lt;/li>
+&lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">all&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users.oneToOne&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users.list&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>ونضيف أيضا بداخل فولدر &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> فولدر أخر أسمه &lt;em>&lt;strong>&lt;code>users&lt;/code>&lt;/strong>&lt;/em> وبداخله نضيف ملف &lt;em>&lt;strong>&lt;code>oneToOne.blade.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بإضافة هذا الجدول البسيط لعرض المستخدمين.&lt;/li>
-&lt;/ul>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>إذا قمنا بفحص Response (الأستجابة) الخاصة بهذا الأمر سنجد أن جميع البيانات تم الحصول عليها من قاعدة البيانات.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-02-2000&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-01-1999&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>هنا يمكننا اختيار الاعمده التى نحتاجها فقط بالشكل التالي.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;profile:firstname,lastname,user_id&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users.list&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;users&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>أذا قمنا الأن بالفحص مرة أخرى سنجد أن حجم البيانات تم تقليصه.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>وهنا نرى الفرق بين الحالتين فى حجم البيانات التى تمت معالجتها ويزداد الأمر إذا كانت البيانات حجمها أكبر من ذلك بكثير.
+يجب عند إختيار إعمدة محددة من العلاقات أن تختار عمود &lt;em>&lt;strong>foreignKey&lt;/strong>&lt;/em> لأن بدون إختيارك له لن تعود البيانات بشكل صحيح من قاعدة البيانات.&lt;/p>
+&lt;/blockquote>
+&lt;ol start="2">
+&lt;li>داخل فولدر &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> نقوم بإضافة فولدر أخر أسمه &lt;em>&lt;strong>&lt;code>users&lt;/code>&lt;/strong>&lt;/em> وبداخله نقوم بإضافة ملف &lt;em>&lt;strong>&lt;code>list.blade.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بإضافة هذا الجدول البسيط لعرض المستخدمين بداخله.&lt;/li>
+&lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
@@ -291,75 +433,263 @@ Laravel Debugbar&lt;/a>. ستساعدنا فى معرفة جميع الإستع�
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">endforeach&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>نتجه الأن للمتصفح ونذهب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>قم بفتح المتصفح والذهاب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.
 &lt;figure >
 &lt;img
 class="my-0 rounded-md"
 srcset="
-/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_330x0_resize_box_3.png 330w,
-/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_660x0_resize_box_3.png 660w,
-/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_1024x0_resize_box_3.png 1024w,
-/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/users-view_hue8d81819824f3f4683b1575db93e8100_16442_660x0_resize_box_3.png"
-alt="Users View"
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png"
+alt="Laravel One To One Relationship - Users Table"
 />
-&lt;figcaption>Users View&lt;/figcaption>
+&lt;figcaption>Users Table&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
-&lt;/ul>
+&lt;/ol>
+&lt;div id="ثانيا-الإعتماد-على-api-routes" class="anchor">&lt;/div>
+&lt;h4 class="relative group">ثانياً: الإعتماد على &lt;em>&lt;strong>&lt;code>Api Routes&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%ab%d8%a7%d9%86%d9%8a%d8%a7-%d8%a7%d9%84%d8%a5%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d8%b9%d9%84%d9%89-api-routes" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h4>
 &lt;blockquote>
-&lt;p>سنجد الأن أسفل الصفحة شريط &lt;em>&lt;strong>&lt;code>Laravel Debugbar&lt;/code>&lt;/strong>&lt;/em> عند فتحه سنجد أن عدد الإستعلامات الموجوده فى هذه الصفحة &amp;ldquo;4&amp;rdquo; إستعلامات. وهم فقط 3 مستخدمين, تخيل معى لو داخل قاعدة البيانات الاف او ملايين المستخدمين سيكون وقت تحميل هذه الصفحة بظئ جدا. وهذا ما يسمى بمشكلة N+1 فى Laravel أو ما يطلق عليه Lazy Loading.
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_330x0_resize_box_3.png 330w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png 660w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1024x0_resize_box_3.png 1024w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png"
-alt="laravel debugbar lazy loading"
-/>
-&lt;figcaption>laravel debugbar lazy loading&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
+&lt;p>ما هو API Resources?&lt;/p>
 &lt;/blockquote>
+&lt;p>ببساطة هى طبقة وسيطة بين &lt;strong>Eloquent&lt;/strong> وما بين الإستجابة الخاصة ب API وتحويل تلك البيانات التى تم الحصول علىها من قاعدة البيانات الى JSON مع امكانية تحديد بيانات محددة دون غيرها أو التلاعب تلك البيانات.&lt;/p>
+&lt;ol>
+&lt;li>سنقوم بإنشاء API Resource لكل من User, Profile قم تنفيذ هذا الأمر فى موجه الأوامر.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">php artisan make:resource UserResource
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">php artisan make:resource ProfileResource
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>قم بالذهاب الى المسار التالى &lt;em>&lt;strong>&lt;code>App/Http/Resources&lt;/code>&lt;/strong>&lt;/em> والتعديل على كلا من:&lt;/li>
+&lt;/ol>
 &lt;ul>
-&lt;li>ولحل هذه المشكلة نقوم بتعديل طريقة جلب المستخدمين بالشكل التالى.&lt;/li>
+&lt;li>ملف &lt;em>&lt;strong>&lt;code>ProfileResource.php&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>وكما ترى بإضافة كلمة &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em> مع أسم العلاقة سيتم التغلب على هذه المشكلة فتم تقليص عدد الإستعلامات من 4 الى 2 وهذا الأمر سترى تأثيره بشكل واضح إذا كانت قاعدة البيانات متوسطة الحجم او كبيرة بالطبع وهذا ما يطلق عليه Eager Loading.
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_330x0_resize_box_3.png 330w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png 660w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1024x0_resize_box_3.png 1024w,
-/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png"
-alt="laravel debugbar eager loading"
-/>
-&lt;figcaption>laravel debugbar eager loading&lt;/figcaption>
-&lt;/figure>
-&lt;/p>
-&lt;/blockquote>
-&lt;blockquote>
-&lt;p>ويمكننا القيام بنفس تلك الخطوات السابقة إذا كنا سنستخدم العلاقة بشكل عكسى.
-مثال على هذا.&lt;/p>
-&lt;/blockquote>
-&lt;ul>
-&lt;li>ثم سنقوم بإنشاء رابط جديد لعرض جميع ملفات التعريف الذين تم حفظهم فى قاعدة البينات أثناء قيامنا بالخطوات السابقة.&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profiles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">\App\Models\Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles.oneToOne&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">namespace&lt;/span> &lt;span class="nx">App\Http\Resources&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Request&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Resources\Json\JsonResource&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">class&lt;/span> &lt;span class="nc">ProfileResource&lt;/span> &lt;span class="k">extends&lt;/span> &lt;span class="nx">JsonResource&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">toArray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Request&lt;/span> &lt;span class="nv">$request&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="k">array&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;firstname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>ونضيف أيضا بداخل فولدر &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> فولدر أخر أسمه &lt;em>&lt;strong>&lt;code>profiles&lt;/code>&lt;/strong>&lt;/em> وبداخله نضيف ملف &lt;em>&lt;strong>&lt;code>oneToOne.blade.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بإضافة هذا الجدول البسيط لعرض المستخدمين.&lt;/li>
+&lt;li>ملف &lt;em>&lt;strong>&lt;code>UserResource.php&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
 &lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">namespace&lt;/span> &lt;span class="nx">App\Http\Resources&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Request&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Resources\Json\JsonResource&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">class&lt;/span> &lt;span class="nc">UserResource&lt;/span> &lt;span class="k">extends&lt;/span> &lt;span class="nx">JsonResource&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">toArray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Request&lt;/span> &lt;span class="nv">$request&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="k">array&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nx">ProfileResource&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">make&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">whenLoaded&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>قم بالتوجه ألى ملف &lt;em>&lt;strong>&lt;code>routes/api.php&lt;/code>&lt;/strong>&lt;/em> وإضافة رابط جديد.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Models\User&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Http\Resources\UserResource&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">---&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$usersResource&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">UserResource&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">collection&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$users&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$usersResource&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="4">
+&lt;li>قم بفتح المتصفح والذهاب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/api/users&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>ونرى هنا أيضا أننا قمنا نالحصول على البيانات المطلوبة والمحددة داهل ملفات API Resources فقط.&lt;/p>
+&lt;/blockquote>
+&lt;div id="أثناء-الحصول-على-بيانات-ملفات-التعريف-الشخصية" class="anchor">&lt;/div>
+&lt;h3 class="relative group">أثناء الحصول على بيانات ملفات التعريف الشخصية.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%a3%d8%ab%d9%86%d8%a7%d8%a1-%d8%a7%d9%84%d8%ad%d8%b5%d9%88%d9%84-%d8%b9%d9%84%d9%89-%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%84%d9%81%d8%a7%d8%aa-%d8%a7%d9%84%d8%aa%d8%b9%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%8a%d8%a9" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;p>أثناء الحصول على بيانات الملفات الشخصية سنقوم بالحصول على كل مستخدم مرتبط بتلك الملفات.
+بعد ذلك ينقسم الأمر فى عرض تلك البيانات بين شكلين لا ثالث لهم.
+يحدد نوع التطبيق الذى تعمل عليه الشكل المستخدم:&lt;/p>
+&lt;ul>
+&lt;li>أولا: تطبيق يعتمد على web routes.&lt;/li>
+&lt;li>ثانياً: تطبيق يعتمد على api routes.&lt;/li>
+&lt;/ul>
+&lt;div id="أولا-الإعتماد-على-web-routes-1" class="anchor">&lt;/div>
+&lt;h4 class="relative group">أولاً: الإعتماد على &lt;em>&lt;strong>&lt;code>Web Routes&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%a3%d9%88%d9%84%d8%a7-%d8%a7%d9%84%d8%a5%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d8%b9%d9%84%d9%89-web-routes-1" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h4>
+&lt;ol>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بالتعديلات التالية.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profiles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles.list&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>إذا قمنا بفحص Response (الأستجابة) الخاصة بهذا الأمر سنجد أن جميع البيانات تم الحصول عليها من قاعدة البيانات.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-02-2000&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-01-1999&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>هنا يمكننا اختيار الاعمده التى نحتاجها فقط بالشكل التالي.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profiles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user:username,id&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">view&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles.list&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="nx">compact&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profiles&amp;#39;&lt;/span>&lt;span class="p">));&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>أذا قمنا الأن بالفحص مرة أخرى سنجد أن حجم البيانات تم تقليصه.&lt;/p>
+&lt;/blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-02-2000&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;01-01-1999&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>يجب عند إختيار إعمدة محددة فى العلاقات أن تختار &lt;em>&lt;strong>id&lt;/strong>&lt;/em> وأنت تختار علاقة &lt;em>&lt;strong>user&lt;/strong>&lt;/em> لأن بدون إختيارك له لن يعود المستخدم مع ملف التعريف.&lt;/p>
+&lt;/blockquote>
+&lt;ol start="2">
+&lt;li>داخل فولدر &lt;em>&lt;strong>&lt;code>views&lt;/code>&lt;/strong>&lt;/em> نقوم بإضافة فولدر أخر أسمه &lt;em>&lt;strong>&lt;code>profiles&lt;/code>&lt;/strong>&lt;/em> وبداخله نقوم بإضافة ملف &lt;em>&lt;strong>&lt;code>list.blade.php&lt;/code>&lt;/strong>&lt;/em> ونقوم بإضافة هذا الجدول البسيط لعرض الملفات الضخصية بداخله.&lt;/li>
+&lt;/ol>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">thead&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nx">tr&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
@@ -378,21 +708,395 @@ alt="laravel debugbar eager loading"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">@&lt;/span>&lt;span class="k">endforeach&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">tbody&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;/&lt;/span>&lt;span class="nx">table&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>نتجه الأن للمتصفح ونذهب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.&lt;/li>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>قم بفتح المتصفح والذهاب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png"
+alt="Laravel One To One Relationship - Profiles Table"
+/>
+&lt;figcaption>Profiles Table&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;div id="ثانيا-الإعتماد-على-api-routes-1" class="anchor">&lt;/div>
+&lt;h4 class="relative group">ثانياً: الإعتماد على &lt;em>&lt;strong>&lt;code>Api Routes&lt;/code>&lt;/strong>&lt;/em>.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%ab%d8%a7%d9%86%d9%8a%d8%a7-%d8%a7%d9%84%d8%a5%d8%b9%d8%aa%d9%85%d8%a7%d8%af-%d8%b9%d9%84%d9%89-api-routes-1" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h4>
+&lt;ol>
+&lt;li>قم بالذهاب الى المسار التالى &lt;em>&lt;strong>&lt;code>App/Http/Resources&lt;/code>&lt;/strong>&lt;/em> والتعديل على ملف &lt;em>&lt;strong>&lt;code>ProfileResource.php&lt;/code>&lt;/strong>&lt;/em>:&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;lt;?&lt;/span>&lt;span class="nx">php&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">namespace&lt;/span> &lt;span class="nx">App\Http\Resources&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Request&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">Illuminate\Http\Resources\Json\JsonResource&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">class&lt;/span> &lt;span class="nc">ProfileResource&lt;/span> &lt;span class="k">extends&lt;/span> &lt;span class="nx">JsonResource&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">public&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="nf">toArray&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nx">Request&lt;/span> &lt;span class="nv">$request&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">:&lt;/span> &lt;span class="k">array&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;id&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">id&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;title&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">title&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;body&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">body&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="nx">UserResource&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">make&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$this&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">whenLoaded&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">];&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>قم بالتوجه ألى ملف &lt;em>&lt;strong>&lt;code>routes/api.php&lt;/code>&lt;/strong>&lt;/em> وإضافة رابط جديد.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Models\Profile&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">use&lt;/span> &lt;span class="nx">App\Http\Resources\ProfileResource&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">---&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles-resource&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profiles&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">([&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">])&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profilesResource&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">ProfileResource&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">collection&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$profiles&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$profilesResource&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>قم بفتح المتصفح والذهاب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/api/profiles&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر.&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Cruz&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">2&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Tom Cruz&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">3&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Adam Smith&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيفية-تحسين-استعلامات-eloquent-في-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية تحسين استعلامات Eloquent في Laravel؟
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-eloquent-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;p>عند التعامل مع قاعدة بيانات كبيرة بداخلها الكثير من البيانات هنا لتنظر للأمر بنظرة مختلفة.&lt;/p>
+&lt;p>فالأمر ليس مجرد الحصول على البيانات ولكن كم من الوقت سيستغرق للحصول على تلك البيانات.
+وكم عدد الإستعلامات التى ستنفذ فى كل صفحة.&lt;/p>
+&lt;p>ولإختبار هذا الأمر سنقوم بتنزيل مكتبة مشهورة جدا اسمها
+&lt;a href="https://github.com/barryvdh/laravel-debugbar" target="_blank">
+Laravel Debugbar&lt;/a>. ستساعدنا فى معرفة جميع الإستعلامات التى تنفذ فى كل صفحة.&lt;/p>
+&lt;ul>
+&lt;li>لنقم بتنفيذ هذا الأمر.&lt;/li>
 &lt;/ul>
-&lt;blockquote>
-&lt;p>ستجد أن النتائج التى سوف تظهر تشبه نفس النتائج السابقة.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">composer require barryvdh/laravel-debugbar --dev
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>وتأكد أن &lt;em>&lt;strong>&lt;code>APP_DEBUG=true&lt;/code>&lt;/strong>&lt;/em> داخل ملف &lt;em>&lt;strong>&lt;code>.env&lt;/code>&lt;/strong>&lt;/em>.&lt;/p>
 &lt;/blockquote>
+&lt;ul>
+&lt;li>الفرق بين الحالتين:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">all&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nv">$users&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى الرابط التالى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> لنرى ما هى النتائج التى ستظهر فى الشريط الخاص بالمكتبة.&lt;/li>
+&lt;/ul>
+&lt;ol>
+&lt;li>&lt;strong>(Lazy Loading)&lt;/strong> - الحصول على البيانات بدون إستخدام &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png"
+alt="laravel debugbar lazy loading"
+/>
+&lt;figcaption>laravel debugbar lazy loading&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>سنجد الأن أسفل الصفحة شريط يخص مكتبة &lt;em>&lt;strong>&lt;code>Laravel Debugbar&lt;/code>&lt;/strong>&lt;/em> عند فتحه سنجد أنه يعملنا بكثير من البيانات.
+الأمر الذى يهمنا هنا هو عدد الإستعلامات الموجوده فى هذه الصفحة وكما هو موضح فهم &lt;strong>4&lt;/strong> إستعلامات.&lt;/p>
+&lt;p>ونحن نفوم بجلب 3 مستخدمين فقط, تخيل معى لو داخل قاعدة البيانات هذه عشران الألاف او ملايين المستخدمين سيكون وقت تحميل هذه الصفحة بظئ جدا بسبب عدد الإستعلامات الضخم.&lt;/p>
+&lt;p>وهذا ما يسمى بمشكلة N+1 فى Laravel أو ما يطلق عليه Lazy Loading.&lt;/p>
+&lt;blockquote>
+&lt;p>فتخيل مع 1000 مستخدم سيتم طلب 1001 إستعلام لقاعدة البيانات فى هذه الصفحة فقط. وهذا يعتبر إستهلاك لموارد السيرفر. وأيضا دليل على عدم إحترافية الكود الخاص بك.&lt;/p>
+&lt;/blockquote>
+&lt;ol start="2">
+&lt;li>&lt;strong>(Eager Loading)&lt;/strong> - الحصول على البيانات بدون إستخدام &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png"
+alt="laravel debugbar eager loading"
+/>
+&lt;figcaption>laravel debugbar eager loading&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ol>
+&lt;p>وكما ترى بإضافة كلمة &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em> مع أسم العلاقة سيتم جلب بيانات كل مستخدم مع الملف الشخصى الخاص به بدون مشكلة N+1.&lt;/p>
+&lt;p>فتم تقليص عدد الإستعلامات من 4 الى 2 فقط وهذا الأمر سترى تأثيره بشكل واضح إذا كانت قاعدة البيانات هذه كما قلنا متوسطة الحجم او كبيرة وهذا ما يطلق عليه Eager Loading.&lt;/p>
+&lt;div id="كيفية-تحديث-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية تحديث علاقة one to one قى Laravel؟
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div id="تحديث-البيانات-من-ناحية-المستخدم" class="anchor">&lt;/div>
+&lt;h3 class="relative group">تحديث البيانات من ناحية المستخدم.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d9%86%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ol>
+&lt;li>إستخدام &lt;em>&lt;strong>&lt;code>push function&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بإضافة هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users/update&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;John Doe Updated&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Doe Updated&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">push&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users/update&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم تحديث المستخدم وملف التعريف بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe Updated&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T04:44:19.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe Updated&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T04:44:19.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>إستخدام &lt;em>&lt;strong>&lt;code>update function&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بالتعديل على هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users/update&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;John Doe&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">save&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">update&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;lastname&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Doe&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users/update&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم تحديث المستخدم وملف التعريف بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T04:46:11.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T04:46:11.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="تحديث-البيانات-من-ناحية-ملف-التعريف-الشخصى" class="anchor">&lt;/div>
+&lt;h3 class="relative group">تحديث البيانات من ناحية ملف التعريف الشخصى.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d9%86%d8%a7%d8%ad%d9%8a%d8%a9-%d9%85%d9%84%d9%81-%d8%a7%d9%84%d8%aa%d8%b9%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%89" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ol>
+&lt;li>إستخدام &lt;em>&lt;strong>&lt;code>push function&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بإضافة هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles/update&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;John Updated&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Doe Updated&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">username&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;John Doe Updated&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">push&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$profile&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles/update&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم تحديث المستخدم وملف التعريف بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Updated&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe Updated&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:02:31.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John Doe Updated&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:02:31.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>إستخدام &lt;em>&lt;strong>&lt;code>update function&lt;/code>&lt;/strong>&lt;/em>.&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بالتعديل على هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles/update&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">firstname&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;John&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">lastname&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s1">&amp;#39;Doe&amp;#39;&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">save&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">update&lt;/span>&lt;span class="p">([&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="s1">&amp;#39;username&amp;#39;&lt;/span> &lt;span class="o">=&amp;gt;&lt;/span> &lt;span class="s1">&amp;#39;Joun Doe&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$profile&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>نقوم بفتح المتصفح والذهاب الى هذا الرابط الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles/update&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم تحديث المستخدم وملف التعريف بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;firstname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;John&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;birthday&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;08-11-1991&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user_id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:07:38.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;user&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Joun Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:07:38.000000Z&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيفية-حذف-البيانات-من-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية حذف البيانات من علاقة one to one قى Laravel؟
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d8%b0%d9%81-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;div id="حذف-البيانات-من-ناحية-المستخدم" class="anchor">&lt;/div>
+&lt;h3 class="relative group">حذف البيانات من ناحية المستخدم.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%ad%d8%b0%d9%81-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d9%86%d8%a7%d8%ad%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بإضافة هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/users/profile/delete&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">User&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;profile&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">find&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">1&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$user&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">profile&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">delete&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="nx">response&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">json&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="nv">$user&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>سنقوم بفتح المتصفح والذهاب الى هذا الرابط الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users/profile/delete&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم حذف ملف التعريف الخاص بالمستخدم بنجاح.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;id&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="mi">1&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;username&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Joun Doe&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;created_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-07T06:23:03.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:07:38.000000Z&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;profile&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">null&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;p>قم بعمل تحديث للصفحة مرتان لتظهر لك أنه تم حذف ملف التعريف الخاص بهذا المستخدم&lt;/p>
+&lt;/blockquote>
+&lt;div id="حذف-البيانات-من-ناحية-ملف-التعريف-الشخصى" class="anchor">&lt;/div>
+&lt;h3 class="relative group">حذف البيانات من ناحية ملف التعريف الشخصى.
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#%d8%ad%d8%b0%d9%81-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d9%86%d8%a7%d8%ad%d9%8a%d8%a9-%d9%85%d9%84%d9%81-%d8%a7%d9%84%d8%aa%d8%b9%d8%b1%d9%8a%d9%81-%d8%a7%d9%84%d8%b4%d8%ae%d8%b5%d9%89" aria-label="رابط">#&lt;/a>&lt;/span>
+&lt;/h3>
+&lt;ul>
+&lt;li>نقوم بالتوجه أولا لملف &lt;em>&lt;strong>&lt;code>routes/web.php&lt;/code>&lt;/strong>&lt;/em> و نقوم بإضافة هذا الرابط.&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-PHP" data-lang="PHP">&lt;span class="line">&lt;span class="cl">&lt;span class="nx">Route&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">get&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;/profiles/user/delete&amp;#39;&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="k">function&lt;/span> &lt;span class="p">()&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="nx">Profile&lt;/span>&lt;span class="o">::&lt;/span>&lt;span class="na">with&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s1">&amp;#39;user&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">findOrFail&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="mi">2&lt;/span>&lt;span class="p">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">delete&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nv">$profile&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">user&lt;/span>&lt;span class="p">()&lt;/span>&lt;span class="o">-&amp;gt;&lt;/span>&lt;span class="na">delete&lt;/span>&lt;span class="p">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
+&lt;li>سنقوم بفتح المتصفح والذهاب الى هذا الرابط &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles/user/delete&lt;/code>&lt;/strong>&lt;/em> لنجد أنه تم حذف كلاً من المستخدم وملف التعريف بنجاح.
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png"
+alt="Rcord has deleted"
+/>
+&lt;figcaption>Rcord has deleted&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;/ul>
 &lt;div id="الخاتمة" class="anchor">&lt;/div>
-&lt;h3 class="relative group">الخاتمة
+&lt;h2 class="relative group">الخاتمة
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%a7%d8%aa%d9%85%d8%a9" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h3>
+&lt;/h2>
 &lt;p>هذه المقالة هى بداية لسلسلة كاملة عن &lt;em>&lt;strong>Laravel Eloquent Relationships&lt;/strong>&lt;/em> - العلاقات داخل &lt;em>&lt;strong>Laravel&lt;/strong>&lt;/em>.
-وقد تناولنا فيها علاقة &lt;em>&lt;strong>One TO One&lt;/strong>&lt;/em> بطريقة بسيطة ولم نبخل عليكم بأى معلومة, وإن شاء الله فى المقال القادم سنتعرف على علاقة &lt;em>&lt;strong>One To Many&lt;/strong>&lt;/em>. وفى الختام نصلى على رسول الله سيدنا محمد وعلى اُله وصحبه أجمعين.&lt;/p>
+وقد تناولنا فيها علاقة &lt;em>&lt;strong>One TO One&lt;/strong>&lt;/em> بطريقة كاملة.
+ولم نبخل عليكم بأى معلوم, وإن شاء الله فى الشرح القادم سنتعرف على علاقة &lt;em>&lt;strong>One To Many&lt;/strong>&lt;/em>.
+وفى الختام نصلى على رسول الله سيدنا محمد وعلى اُله وصحبه أجمعين.&lt;/p>
 &lt;ul>
 &lt;li>ستجد repo الخاصة بهذه السلسلة على github هنا
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
@@ -433,7 +1137,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/laravel10-one-to-one-relationship-in-arabic/featured.png"/></item><item><title>كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite</title><link>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</guid><description>&lt;div id="عرض-المشروع" class="anchor">&lt;/div>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic/featured.png"/></item><item><title>كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite</title><link>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</link><pubDate>Mon, 08 May 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</guid><description>&lt;div id="عرض-المشروع" class="anchor">&lt;/div>
 &lt;h2 class="relative group">عرض المشروع
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -454,7 +1158,7 @@ alt="Laravel 10 Vue 3"
 &lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
 &lt;/figure>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
-&lt;iframe src="https://www.youtube.com/embed/0iwQSd6aKOY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
+&lt;iframe src="https://www.youtube.com/embed/dvI5Qu-XXk8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="How To Install Vue 3 in Laravel 10">&lt;/iframe>
 &lt;/div>
 &lt;div id="ما-هو-إطار-عمل-laravelhttpslaravelcomdocs10xmeet-laravel" class="anchor">&lt;/div>
 &lt;h2 class="relative group">&lt;a href="https://laravel.com/docs/10.x#meet-laravel" target="_blank">
