@@ -16,6 +16,8 @@ src="/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png"
 alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
+
+{{< youtube id="dvI5Qu-XXk8" title="How To Install Vue 3 in Laravel 10" >}}
 ## [What is Laravel](https://laravel.com/docs/10.x#meet-laravel)
 - Laravel is a web application framework with expressive, elegant syntax.
 - A web framework provides a structure and starting point for creating your application, allowing you to focus on creating something amazing while we sweat the details.

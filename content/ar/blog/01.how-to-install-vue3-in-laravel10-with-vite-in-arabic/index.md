@@ -16,8 +16,7 @@ alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
 
-{{< youtube 0iwQSd6aKOY >}}
-
+{{< youtube id="dvI5Qu-XXk8" title="How To Install Vue 3 in Laravel 10" >}}
 ## [ما هو إطار عمل Laravel](https://laravel.com/docs/10.x#meet-laravel)
 - Laravel هو إطار عمل لتطبيق ويب ذو بناء مرتب وأنيق.
 - يوفر إطار عمل الويب هيكلًا ونقطة بداية لإنشاء تطبيقك ، مما يسمح لك بالتركيز على إنشاء شيء مذهل بينما تهتم بالتفاصيل.
