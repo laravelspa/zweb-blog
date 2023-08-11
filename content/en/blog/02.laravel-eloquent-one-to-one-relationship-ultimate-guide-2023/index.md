@@ -27,9 +27,19 @@ caption="laravel one to one relationship"
 It is necessary as a professional programmer to understand the types of relationships, but before that you must ask yourself an important question, what are the relationships in the first place?
 
 ## What are relationships in databases?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database.png"
+alt="What are relationships in databases?"
+caption="What are relationships in databases?"
+>}}
 When working with tables in a database that have relationships between them, we can describe these relationships as connections between those tables. This helps you organize and structure data effortlessly allowing for faster data reading and processing.
 
 ## What types of relationships are there in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel.png"
+alt="What types of relationships are there in Laravel?"
+caption="What types of relationships are there in Laravel?"
+>}}
 There are three main types of relationships in databases that emerge in practice:
 * __one-to-one__: It is a single record associated with only one record. An example of this is that each user has one profile in another table.
 * __one-to-many__: It is the association of only one record with more than one other record. An example of this is that each writer has more than one article.
@@ -48,8 +58,12 @@ In the examples below, I have tried to explain everything as clearly as possible
 
 However, it is always best to learn the basics first and then pursue more complex topics such as relationships.
 
-
 ## How to create a One-To-One relationship in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-Laravel.png"
+alt="How to create a One-To-One relationship in Laravel?"
+caption="How to create a One-To-One relationship in Laravel?"
+>}}
 Being the first and simplest basic relationship offered by Laravel, it joins two tables such that one row of the first table is associated with only one row of the other table, or the same table.
 
 To see this in action, we'll start by creating a content management system.
@@ -158,6 +172,11 @@ caption="Attempt to read property X on null"
 >}}
 
 ## How to insert data in one to one relationship in database?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png"
+alt="How to insert data in one to one relationship in database?"
+caption="How to insert data in one to one relationship in database?"
+>}}
 After we created a One-To-One relationship between both Users table and Profiles table and added ***`hasOne`*** inside ***`User Model`***, also we added the inverse relationship inside ***` Profile Model`*** by adding ***`belongsTo`*** to it.
 
 The time has come to find out how the data is saved in the database while we use this relationship.
@@ -255,6 +274,11 @@ Route::get('/one-to-one', function () {
 ```
 
 ## How do you get data into a One-To-One relationship in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png"
+alt="How do you get data into a One-To-One relationship in Laravel?"
+caption="How do you get data into a One-To-One relationship in Laravel?"
+>}}
 We have seen how data is saved in several different ways inside the database using the One-To-One relationship in Laravel.
 
 But how is the data get from the database?
@@ -736,6 +760,11 @@ Route::get('/profiles-resource', function () {
 ```
 
 ## How to improve Eloquent queries in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png"
+alt="How to improve Eloquent queries in Laravel?"
+caption="How to improve Eloquent queries in Laravel?"
+>}}
 When dealing with a large database with a lot of data inside, here is a way to look at the matter from a different perspective.
 
 It is not just about getting the data but how long it will take to get that data.
@@ -786,7 +815,12 @@ As you can see, by adding the word ***`with`*** with the name of the relationshi
 
 So the number of queries was reduced from 4 to 2 only, and this matter will clearly see its effect if this database, as we said, is of medium size or large, and this is what is called Eager Loading.
 
-## How to update one to one relationship in laravel?
+## How to update one to one relationship in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel.png"
+alt="How to update one to one relationship in laravel?"
+caption="How to update one to one relationship in laravel?"
+>}}
 ### Update data from the user's discretion.
 
 1. Using ***`push function`***.
@@ -918,6 +952,11 @@ Route::get('/profiles/update', function () {
 ```
 
 ## How to delete data from one to one relationship in Laravel?
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-one-relationship-in-laravel.png"
+alt="How to delete data from one to one relationship in Laravel?"
+caption="How to delete data from one to one relationship in Laravel?"
+>}}
 ### Delete data from the user's.
 * We go first to the file ***`routes/web.php`*** and add this link.
 ```PHP

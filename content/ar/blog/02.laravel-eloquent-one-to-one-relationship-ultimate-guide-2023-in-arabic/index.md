@@ -14,7 +14,7 @@ series_order: 1
 
 غالبًا ما يحتاج المطور أن يتفاعل مع قواعد البيانات. وإذا كنت تستخدم إطار عمل __Laravel__ فيجب علبك أن تتعرف على أهم مميزات __لارافيل__ وهو ما يسمى __Eloquent__ , مخطط علاقات الكائنات (ORM) الذى يجعل هذه العملية بسيطة وسهلة.
 
-يعد __Laravel Eloquent__ أحد الميزات الرئيسية في إطار عمل __لارافل__. ويرجع ذلك إلى دعمه الرائع فى تحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة.
+يعد __Laravel Eloquent__ أحد الميزات الرئيسية في إطار عمل __لارافيل__. ويرجع ذلك إلى دعمه الرائع فى تحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة.
  سأوضح لك في هذه السلسلة من المقالات كيفية إنشاء واستخدام علاقات __Eloquent__. 
  
  مع ملاحظة أنه يمكنك البدء دون أي معرفة سابقة بالعلاقات.
@@ -29,10 +29,20 @@ caption="laravel one to one relationship"
 ولكن قبل هذا يجب أن تسأل نفسك سؤالاً هاماً ما هى العلاقات من الأساس؟
 
 ## ما هي العلاقات فى قواعد البيانات؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database.png"
+alt="ما هي العلاقات فى قواعد البيانات?"
+caption="ما هي العلاقات فى قواعد البيانات?"
+>}}
 عند العمل مع جداول في قاعدة بيانات يوجد بينها علاقات , يمكننا وصف هذه العلاقات على أنها اتصالات بين تلك الجداول. يساعدك هذا في تنظيم البيانات وهيكلتها دون عناء مما يتيح إمكانية قراءة ومعالجة للبيانات بشكل أسرع.
 
 ## ما هي أنواع العلاقات الموجودة فى Laravel؟
- هناك ثلاثة أنواع رئيسية من العلاقات قى قواعد البيانات تظهر عند الممارسة:
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel.png"
+alt="ما هي أنواع العلاقات الموجودة فى Laravel؟"
+caption="ما هي أنواع العلاقات الموجودة فى Laravel؟"
+>}}
+ هناك ثلاثة أنواع رئيسية من العلاقات فى قواعد البيانات تظهر عند الممارسة:
  * __one-to-one__: وهو ارتباط سجل واحد فقط بسجل أخر. ومثال على ذلك أن كل مستخدم يمتلك ملف تعريف واحد خاص به.
  * __one-to-many__: وهو ارتباط سجل واحد فقط بأكثر من سجل أخر ومثال على ذلك أن كل كاتب يمتلك أكثر من مقال.
  * __many-to-many__: وهو ارتباط أكثر من سجل بأكثر من سجل أخر ومثال على ذلك أنه يمكن لأكثر من مستخدم الانضمام إلى أكثر من دورة واحدة.
@@ -51,7 +61,12 @@ caption="laravel one to one relationship"
 
 ومع ذلك من الأفضل دائمًاً تعلم الأساسيات أولاً ثم متابعة موضوعات أكثر تعقيدًاً مثل العلاقات.
 
-## كيف تنشئ علاقة One-To-One فى لارافل؟
+## كيف تنشئ علاقة One-To-One فى لارافيل؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-Laravel.png"
+alt="كيف تنشئ علاقة One-To-One فى لارافيل؟"
+caption="كيف تنشئ علاقة One-To-One فى لارافيل؟"
+>}}
 نظرًا لكونها أول علاقة أساسية وأبسطها تقدمها __Laravel__ , فإنه يتم ربط جدولين بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر, أو بنفس الجدول.
 
 لرؤية هذا كتطبيق عملى سنبدأ بإنشاء نظام إدارة المحتوى,
@@ -160,7 +175,12 @@ alt="Attempt to read property X on null"
 caption="Attempt to read property X on null"
 >}}
 
-## كيفية حفظ البيانات فى علاقة one to one قى Laravel؟
+## كيفية حفظ البيانات فى علاقة one to one فى Laravel؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-one-relationship-in-database.png"
+alt="كيفية حفظ البيانات فى علاقة one to one فى Laravel؟"
+caption="كيفية حفظ البيانات فى علاقة one to one فى Laravel؟"
+>}}
 بعد أن قمنا بإنشاء علاقة One-To-One بين كلا من جدول المستخدمين وجدول ملفات التعريف وأضفنا ***`hasOne`*** داخل ***`User Model`***, وأيضا قمنا بإضافة العلاقة العكسية داخل ***`Profile Model`*** بإضافة ***`belongsTo`*** إليه.
 
  جاء الوقت لمعرفة كيف يتم حفظ البيانات فى قاعدة البيانات أثناء إستخدامنا لهذه العلاقة.
@@ -258,6 +278,11 @@ Route::get('/one-to-one', function () {
 ```
 
 ## كيف تحصل على البيانات في علاقة One-To-One في Laravel؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png"
+alt="كيف تحصل على البيانات في علاقة One-To-One في Laravel؟"
+caption="كيف تحصل على البيانات في علاقة One-To-One في Laravel؟"
+>}}
 رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-One فى Laravel.
 
 ولكن كيف يتم الحصول على البيانات من قاعدة البيانات؟
@@ -739,6 +764,11 @@ Route::get('/profiles-resource', function () {
 ```
 
 ## كيفية تحسين استعلامات Eloquent في Laravel؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel.png"
+alt="كيفية تحسين استعلامات Eloquent في Laravel؟"
+caption="كيفية تحسين استعلامات Eloquent في Laravel؟"
+>}}
 عند التعامل مع قاعدة بيانات كبيرة بداخلها الكثير من البيانات هنا لتنظر للأمر بنظرة مختلفة.
 
 فالأمر ليس مجرد الحصول على البيانات ولكن كم من الوقت سيستغرق للحصول على تلك البيانات.
@@ -789,7 +819,12 @@ caption="laravel debugbar eager loading"
 
 فتم تقليص عدد الإستعلامات من 4 الى 2 فقط وهذا الأمر سترى تأثيره بشكل واضح إذا كانت قاعدة البيانات هذه كما قلنا متوسطة الحجم او كبيرة وهذا ما يطلق عليه Eager Loading.
 
-## كيفية تحديث علاقة one to one قى Laravel؟
+## كيفية تحديث علاقة one to one فى Laravel؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel.png"
+alt="كيفية تحديث علاقة one to one فى Laravel؟"
+caption="كيفية تحديث علاقة one to one فى Laravel؟"
+>}}
 ### تحديث البيانات من ناحية المستخدم.
 
 1. إستخدام ***`push function`***.
@@ -921,7 +956,12 @@ Route::get('/profiles/update', function () {
 ```
 
 
-## كيفية حذف البيانات من علاقة one to one قى Laravel؟
+## كيفية حذف البيانات من علاقة one to one فى Laravel؟
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/---.png"
+alt="كيفية حذف البيانات من علاقة one to one فى Laravel؟"
+caption="كيفية حذف البيانات من علاقة one to one فى Laravel؟"
+>}}
 ### حذف البيانات من ناحية المستخدم.
 * نقوم بالتوجه أولا لملف ***`routes/web.php`*** و نقوم بإضافة هذا الرابط.
 ```PHP
