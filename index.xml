@@ -22,7 +22,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#what-are-relationships-in-databases" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>When working with tables in a database that have relationships between them, we can describe these relationships as connections between those tables. This helps you organize and structure data effortlessly allowing for faster data reading and processing.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_660x0_resize_box_3.png"
+alt="What are relationships in databases?"
+/>
+&lt;figcaption>What are relationships in databases?&lt;/figcaption>
+&lt;/figure>
+When working with tables in a database that have relationships between them, we can describe these relationships as connections between those tables. This helps you organize and structure data effortlessly allowing for faster data reading and processing.&lt;/p>
 &lt;div id="what-types-of-relationships-are-there-in-laravel" class="anchor">&lt;/div>
 &lt;h2 class="relative group">What types of relationships are there in Laravel?
 &lt;span
@@ -30,7 +44,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#what-types-of-relationships-are-there-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>There are three main types of relationships in databases that emerge in practice:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_660x0_resize_box_3.png"
+alt="What types of relationships are there in Laravel?"
+/>
+&lt;figcaption>What types of relationships are there in Laravel?&lt;/figcaption>
+&lt;/figure>
+There are three main types of relationships in databases that emerge in practice:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>one-to-one&lt;/strong>: It is a single record associated with only one record. An example of this is that each user has one profile in another table.&lt;/li>
 &lt;li>&lt;strong>one-to-many&lt;/strong>: It is the association of only one record with more than one other record. An example of this is that each writer has more than one article.&lt;/li>
@@ -53,7 +81,12 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-to-create-a-one-to-one-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>Being the first and simplest basic relationship offered by Laravel, it joins two tables such that one row of the first table is associated with only one row of the other table, or the same table.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-Laravel.png" alt="How to create a One-To-One relationship in Laravel?" />
+&lt;figcaption>How to create a One-To-One relationship in Laravel?&lt;/figcaption>
+&lt;/figure>
+Being the first and simplest basic relationship offered by Laravel, it joins two tables such that one row of the first table is associated with only one row of the other table, or the same table.&lt;/p>
 &lt;p>To see this in action, we&amp;rsquo;ll start by creating a content management system.&lt;/p>
 &lt;p>Let&amp;rsquo;s say each user has his own single profile. In some cases, you can store all profile information in the Users table. But this will not be ideal.&lt;/p>
 &lt;p>In our example, we want to create a separate table for personal profiles. If we later want to transfer a profile from one user to another, this will be available.&lt;/p>
@@ -164,7 +197,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-to-insert-data-in-one-to-one-relationship-in-database" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>After we created a One-To-One relationship between both Users table and Profiles table and added &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> inside &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, also we added the inverse relationship inside &lt;em>&lt;strong>&lt;code> Profile Model&lt;/code>&lt;/strong>&lt;/em> by adding &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> to it.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_0d0a4ba3fca906b84369e18f9541925d.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_02d6187808c85899b095f7d94b22edb9.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_f4792042e1b8c0174a0901273cfec52d.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_8733e93d6e1ec1a3d1984f3960856736.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_02d6187808c85899b095f7d94b22edb9.png"
+alt="How to insert data in one to one relationship in database?"
+/>
+&lt;figcaption>How to insert data in one to one relationship in database?&lt;/figcaption>
+&lt;/figure>
+After we created a One-To-One relationship between both Users table and Profiles table and added &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> inside &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, also we added the inverse relationship inside &lt;em>&lt;strong>&lt;code> Profile Model&lt;/code>&lt;/strong>&lt;/em> by adding &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> to it.&lt;/p>
 &lt;p>The time has come to find out how the data is saved in the database while we use this relationship.
 And what are the methods used for that.&lt;/p>
 &lt;p>These methods are divided into three main ways:&lt;/p>
@@ -279,7 +326,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-do-you-get-data-into-a-one-to-one-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>We have seen how data is saved in several different ways inside the database using the One-To-One relationship in Laravel.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_e9b9fedb1bae16efed9d50c688551625.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_aa9c81af685f30227ef477a21fe9ac08.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_4cec212d2e227be283aedded933d7fe4.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_c981c0341db52ab0441e0c1cc584397c.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_aa9c81af685f30227ef477a21fe9ac08.png"
+alt="How do you get data into a One-To-One relationship in Laravel?"
+/>
+&lt;figcaption>How do you get data into a One-To-One relationship in Laravel?&lt;/figcaption>
+&lt;/figure>
+We have seen how data is saved in several different ways inside the database using the One-To-One relationship in Laravel.&lt;/p>
 &lt;p>But how is the data get from the database?
 There are several ways in which data can be get from the database.&lt;/p>
 &lt;p>These methods are divided into two main ways:&lt;/p>
@@ -800,7 +861,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-to-improve-eloquent-queries-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>When dealing with a large database with a lot of data inside, here is a way to look at the matter from a different perspective.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_660x0_resize_box_3.png"
+alt="How to improve Eloquent queries in Laravel?"
+/>
+&lt;figcaption>How to improve Eloquent queries in Laravel?&lt;/figcaption>
+&lt;/figure>
+When dealing with a large database with a lot of data inside, here is a way to look at the matter from a different perspective.&lt;/p>
 &lt;p>It is not just about getting the data but how long it will take to get that data.
 How many queries will be executed per page.&lt;/p>
 &lt;p>To test this matter, we will download a very famous library called
@@ -863,12 +938,25 @@ alt="laravel debugbar eager loading"
 &lt;p>As you can see, by adding the word &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em> with the name of the relationship, each user&amp;rsquo;s data will be fetched with their own profile without a problem, N+1.&lt;/p>
 &lt;p>So the number of queries was reduced from 4 to 2 only, and this matter will clearly see its effect if this database, as we said, is of medium size or large, and this is what is called Eager Loading.&lt;/p>
 &lt;div id="how-to-update-one-to-one-relationship-in-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">How to update one to one relationship in laravel?
+&lt;h2 class="relative group">How to update one to one relationship in Laravel?
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-to-update-one-to-one-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel_hu3aa1c20160f643425265df99777aac92_78078_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel_hu3aa1c20160f643425265df99777aac92_78078_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel_hu3aa1c20160f643425265df99777aac92_78078_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel_hu3aa1c20160f643425265df99777aac92_78078_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel_hu3aa1c20160f643425265df99777aac92_78078_660x0_resize_box_3.png"
+alt="How to update one to one relationship in laravel?"
+/>
+&lt;figcaption>How to update one to one relationship in laravel?&lt;/figcaption>
+&lt;/figure>
 &lt;div id="update-data-from-the-users-discretion" class="anchor">&lt;/div>
 &lt;h3 class="relative group">Update data from the user&amp;rsquo;s discretion.
 &lt;span
@@ -1020,6 +1108,19 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#how-to-delete-data-from-one-to-one-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_393a8a42993bb9e6b3407445b0d62a08.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_9dd6ea0943fe0c459eced37cf91560d3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_6bc3b30530678b0feba3803826a7fca2.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_5c01c6f2579a327bfb966addb6ef0619.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_9dd6ea0943fe0c459eced37cf91560d3.png"
+alt="How to delete data from one to one relationship in Laravel?"
+/>
+&lt;figcaption>How to delete data from one to one relationship in Laravel?&lt;/figcaption>
+&lt;/figure>
 &lt;div id="delete-data-from-the-users" class="anchor">&lt;/div>
 &lt;h3 class="relative group">Delete data from the user&amp;rsquo;s.
 &lt;span

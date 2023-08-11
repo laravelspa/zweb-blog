@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Thu, 10 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>Laravel Eloquent One-To-One Relationship - Ultimate Guide 2023 In Arabic</title><link>https://laravelspa.site/ar/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic/</guid><description>&lt;p>غالبًا ما يحتاج المطور أن يتفاعل مع قواعد البيانات. وإذا كنت تستخدم إطار عمل &lt;strong>Laravel&lt;/strong> فيجب علبك أن تتعرف على أهم مميزات &lt;strong>لارافيل&lt;/strong> وهو ما يسمى &lt;strong>Eloquent&lt;/strong> , مخطط علاقات الكائنات (ORM) الذى يجعل هذه العملية بسيطة وسهلة.&lt;/p>
-&lt;p>يعد &lt;strong>Laravel Eloquent&lt;/strong> أحد الميزات الرئيسية في إطار عمل &lt;strong>لارافل&lt;/strong>. ويرجع ذلك إلى دعمه الرائع فى تحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة.
+&lt;p>يعد &lt;strong>Laravel Eloquent&lt;/strong> أحد الميزات الرئيسية في إطار عمل &lt;strong>لارافيل&lt;/strong>. ويرجع ذلك إلى دعمه الرائع فى تحديد وإنشاء وإدارة العلاقات بين جداول البيانات المختلفة.
 سأوضح لك في هذه السلسلة من المقالات كيفية إنشاء واستخدام علاقات &lt;strong>Eloquent&lt;/strong>.&lt;/p>
 &lt;p>مع ملاحظة أنه يمكنك البدء دون أي معرفة سابقة بالعلاقات.&lt;/p>
 &lt;figure >
@@ -24,7 +24,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d9%81%d9%89-%d9%82%d9%88%d8%a7%d8%b9%d8%af-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>عند العمل مع جداول في قاعدة بيانات يوجد بينها علاقات , يمكننا وصف هذه العلاقات على أنها اتصالات بين تلك الجداول. يساعدك هذا في تنظيم البيانات وهيكلتها دون عناء مما يتيح إمكانية قراءة ومعالجة للبيانات بشكل أسرع.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_660x0_resize_box_3.png"
+alt="ما هي العلاقات فى قواعد البيانات?"
+/>
+&lt;figcaption>ما هي العلاقات فى قواعد البيانات?&lt;/figcaption>
+&lt;/figure>
+عند العمل مع جداول في قاعدة بيانات يوجد بينها علاقات , يمكننا وصف هذه العلاقات على أنها اتصالات بين تلك الجداول. يساعدك هذا في تنظيم البيانات وهيكلتها دون عناء مما يتيح إمكانية قراءة ومعالجة للبيانات بشكل أسرع.&lt;/p>
 &lt;div id="ما-هي-أنواع-العلاقات-الموجودة-فى-laravel" class="anchor">&lt;/div>
 &lt;h2 class="relative group">ما هي أنواع العلاقات الموجودة فى Laravel؟
 &lt;span
@@ -32,7 +46,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-%d8%a3%d9%86%d9%88%d8%a7%d8%b9-%d8%a7%d9%84%d8%b9%d9%84%d8%a7%d9%82%d8%a7%d8%aa-%d8%a7%d9%84%d9%85%d9%88%d8%ac%d9%88%d8%af%d8%a9-%d9%81%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>هناك ثلاثة أنواع رئيسية من العلاقات قى قواعد البيانات تظهر عند الممارسة:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_660x0_resize_box_3.png"
+alt="ما هي أنواع العلاقات الموجودة فى Laravel؟"
+/>
+&lt;figcaption>ما هي أنواع العلاقات الموجودة فى Laravel؟&lt;/figcaption>
+&lt;/figure>
+هناك ثلاثة أنواع رئيسية من العلاقات فى قواعد البيانات تظهر عند الممارسة:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>one-to-one&lt;/strong>: وهو ارتباط سجل واحد فقط بسجل أخر. ومثال على ذلك أن كل مستخدم يمتلك ملف تعريف واحد خاص به.&lt;/li>
 &lt;li>&lt;strong>one-to-many&lt;/strong>: وهو ارتباط سجل واحد فقط بأكثر من سجل أخر ومثال على ذلك أن كل كاتب يمتلك أكثر من مقال.&lt;/li>
@@ -49,14 +77,19 @@ style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-
 &lt;p>هل أحتاج إلى معرفة خاصة بـ &lt;strong>Eloquent&lt;/strong> قبل قراءة هذا؟&lt;/p>
 &lt;p>في الأمثلة أدناه, حاولت أن أشرح كل شيء بأكبر قدر ممكن من الوضوح, دون استخدام الكثير من وظائف &lt;strong>Eloquent&lt;/strong> الصعبة والتقنيات المعقدة. هذا يعني أن المعرفة السابقة ليست ضرورية تمامًاً.&lt;/p>
 &lt;p>ومع ذلك من الأفضل دائمًاً تعلم الأساسيات أولاً ثم متابعة موضوعات أكثر تعقيدًاً مثل العلاقات.&lt;/p>
-&lt;div id="كيف-تنشئ-علاقة-one-to-one-فى-لارافل" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيف تنشئ علاقة One-To-One فى لارافل؟
+&lt;div id="كيف-تنشئ-علاقة-one-to-one-فى-لارافيل" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيف تنشئ علاقة One-To-One فى لارافيل؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b4%d8%a6-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-%d9%84%d8%a7%d8%b1%d8%a7%d9%81%d9%84" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b4%d8%a6-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-%d9%84%d8%a7%d8%b1%d8%a7%d9%81%d9%8a%d9%84" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>نظرًا لكونها أول علاقة أساسية وأبسطها تقدمها &lt;strong>Laravel&lt;/strong> , فإنه يتم ربط جدولين بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر, أو بنفس الجدول.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-Laravel.png" alt="كيف تنشئ علاقة One-To-One فى لارافيل؟" />
+&lt;figcaption>كيف تنشئ علاقة One-To-One فى لارافيل؟&lt;/figcaption>
+&lt;/figure>
+نظرًا لكونها أول علاقة أساسية وأبسطها تقدمها &lt;strong>Laravel&lt;/strong> , فإنه يتم ربط جدولين بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر, أو بنفس الجدول.&lt;/p>
 &lt;p>لرؤية هذا كتطبيق عملى سنبدأ بإنشاء نظام إدارة المحتوى,&lt;/p>
 &lt;p>لنفترض أن كل مستخدم له ملف تعريف واحد خاص به. في بعض الحالات , يمكنك تخزين جميع معلومات الملف الشخصي في جدول المستخدمين.
 لكن هذا لن يكون مثاليًا.&lt;/p>
@@ -161,14 +194,28 @@ alt="Attempt to read property X on null"
 &lt;/figure>
 &lt;/p>
 &lt;/blockquote>
-&lt;div id="كيفية-حفظ-البيانات-فى-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيفية حفظ البيانات فى علاقة one to one قى Laravel؟
+&lt;div id="كيفية-حفظ-البيانات-فى-علاقة-one-to-one-فى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية حفظ البيانات فى علاقة one to one فى Laravel؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d9%81%d8%b8-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%81%d9%89-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d9%81%d8%b8-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%81%d9%89-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>بعد أن قمنا بإنشاء علاقة One-To-One بين كلا من جدول المستخدمين وجدول ملفات التعريف وأضفنا &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> داخل &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, وأيضا قمنا بإضافة العلاقة العكسية داخل &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em> بإضافة &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> إليه.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_0d0a4ba3fca906b84369e18f9541925d.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_02d6187808c85899b095f7d94b22edb9.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_f4792042e1b8c0174a0901273cfec52d.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_8733e93d6e1ec1a3d1984f3960856736.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_02d6187808c85899b095f7d94b22edb9.png"
+alt="كيفية حفظ البيانات فى علاقة one to one فى Laravel؟"
+/>
+&lt;figcaption>كيفية حفظ البيانات فى علاقة one to one فى Laravel؟&lt;/figcaption>
+&lt;/figure>
+بعد أن قمنا بإنشاء علاقة One-To-One بين كلا من جدول المستخدمين وجدول ملفات التعريف وأضفنا &lt;em>&lt;strong>&lt;code>hasOne&lt;/code>&lt;/strong>&lt;/em> داخل &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, وأيضا قمنا بإضافة العلاقة العكسية داخل &lt;em>&lt;strong>&lt;code>Profile Model&lt;/code>&lt;/strong>&lt;/em> بإضافة &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> إليه.&lt;/p>
 &lt;p>جاء الوقت لمعرفة كيف يتم حفظ البيانات فى قاعدة البيانات أثناء إستخدامنا لهذه العلاقة.
 وما هى الطرق المستخدمة فى ذلك&lt;/p>
 &lt;p>تنقسم هذه الطرق الى ثلاث طرق اساسية:&lt;/p>
@@ -283,7 +330,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d8%ad%d8%b5%d9%84-%d8%b9%d9%84%d9%89-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%81%d9%8a-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-One فى Laravel.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_e9b9fedb1bae16efed9d50c688551625.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_aa9c81af685f30227ef477a21fe9ac08.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_4cec212d2e227be283aedded933d7fe4.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_c981c0341db52ab0441e0c1cc584397c.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_aa9c81af685f30227ef477a21fe9ac08.png"
+alt="كيف تحصل على البيانات في علاقة One-To-One في Laravel؟"
+/>
+&lt;figcaption>كيف تحصل على البيانات في علاقة One-To-One في Laravel؟&lt;/figcaption>
+&lt;/figure>
+رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-One فى Laravel.&lt;/p>
 &lt;p>ولكن كيف يتم الحصول على البيانات من قاعدة البيانات؟
 هناك عدة طرق يمكن من خلالها الحصول على البيانات من قاعدة البيانات.&lt;/p>
 &lt;p>وتنقسم هذه الطرق الى طريقتين أساسيتين:&lt;/p>
@@ -804,7 +865,21 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%b3%d9%8a%d9%86-%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85%d8%a7%d8%aa-eloquent-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;p>عند التعامل مع قاعدة بيانات كبيرة بداخلها الكثير من البيانات هنا لتنظر للأمر بنظرة مختلفة.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_660x0_resize_box_3.png"
+alt="كيفية تحسين استعلامات Eloquent في Laravel؟"
+/>
+&lt;figcaption>كيفية تحسين استعلامات Eloquent في Laravel؟&lt;/figcaption>
+&lt;/figure>
+عند التعامل مع قاعدة بيانات كبيرة بداخلها الكثير من البيانات هنا لتنظر للأمر بنظرة مختلفة.&lt;/p>
 &lt;p>فالأمر ليس مجرد الحصول على البيانات ولكن كم من الوقت سيستغرق للحصول على تلك البيانات.
 وكم عدد الإستعلامات التى ستنفذ فى كل صفحة.&lt;/p>
 &lt;p>ولإختبار هذا الأمر سنقوم بتنزيل مكتبة مشهورة جدا اسمها
@@ -868,13 +943,26 @@ alt="laravel debugbar eager loading"
 &lt;/ol>
 &lt;p>وكما ترى بإضافة كلمة &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em> مع أسم العلاقة سيتم جلب بيانات كل مستخدم مع الملف الشخصى الخاص به بدون مشكلة N+1.&lt;/p>
 &lt;p>فتم تقليص عدد الإستعلامات من 4 الى 2 فقط وهذا الأمر سترى تأثيره بشكل واضح إذا كانت قاعدة البيانات هذه كما قلنا متوسطة الحجم او كبيرة وهذا ما يطلق عليه Eager Loading.&lt;/p>
-&lt;div id="كيفية-تحديث-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيفية تحديث علاقة one to one قى Laravel؟
+&lt;div id="كيفية-تحديث-علاقة-one-to-one-فى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية تحديث علاقة one to one فى Laravel؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%aa%d8%ad%d8%af%d9%8a%d8%ab-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_660x0_resize_box_3.png"
+alt="كيفية تحديث علاقة one to one فى Laravel؟"
+/>
+&lt;figcaption>كيفية تحديث علاقة one to one فى Laravel؟&lt;/figcaption>
+&lt;/figure>
 &lt;div id="تحديث-البيانات-من-ناحية-المستخدم" class="anchor">&lt;/div>
 &lt;h3 class="relative group">تحديث البيانات من ناحية المستخدم.
 &lt;span
@@ -1019,13 +1107,17 @@ style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;updated_at&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;2023-08-10T05:07:38.000000Z&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيفية-حذف-البيانات-من-علاقة-one-to-one-قى-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيفية حذف البيانات من علاقة one to one قى Laravel؟
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div id="كيفية-حذف-البيانات-من-علاقة-one-to-one-فى-laravel" class="anchor">&lt;/div>
+&lt;h2 class="relative group">كيفية حذف البيانات من علاقة one to one فى Laravel؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d8%b0%d9%81-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%82%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
+style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d8%a9-%d8%ad%d8%b0%d9%81-%d8%a7%d9%84%d8%a8%d9%8a%d8%a7%d9%86%d8%a7%d8%aa-%d9%85%d9%86-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/---.png" alt="كيفية حذف البيانات من علاقة one to one فى Laravel؟" />
+&lt;figcaption>كيفية حذف البيانات من علاقة one to one فى Laravel؟&lt;/figcaption>
+&lt;/figure>
 &lt;div id="حذف-البيانات-من-ناحية-المستخدم" class="anchor">&lt;/div>
 &lt;h3 class="relative group">حذف البيانات من ناحية المستخدم.
 &lt;span
