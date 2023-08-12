@@ -85,8 +85,17 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b4%d8%a6-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%89-%d9%84%d8%a7%d8%b1%d8%a7%d9%81%d9%8a%d9%84" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
 &lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-Laravel.png" alt="كيف تنشئ علاقة One-To-One فى لارافيل؟" />
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_660x0_resize_box_3.png"
+alt="كيف تنشئ علاقة One-To-One فى لارافيل؟"
+/>
 &lt;figcaption>كيف تنشئ علاقة One-To-One فى لارافيل؟&lt;/figcaption>
 &lt;/figure>
 نظرًا لكونها أول علاقة أساسية وأبسطها تقدمها &lt;strong>Laravel&lt;/strong> , فإنه يتم ربط جدولين بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر, أو بنفس الجدول.&lt;/p>

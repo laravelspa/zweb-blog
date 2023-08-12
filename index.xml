@@ -82,8 +82,17 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 style="text-decoration-line: none !important;" href="#how-to-create-a-one-to-one-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
 &lt;p>
-&lt;figure>
-&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-Laravel.png" alt="How to create a One-To-One relationship in Laravel?" />
+&lt;figure >
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_660x0_resize_box_3.png"
+alt="How to create a One-To-One relationship in Laravel?"
+/>
 &lt;figcaption>How to create a One-To-One relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 Being the first and simplest basic relationship offered by Laravel, it joins two tables such that one row of the first table is associated with only one row of the other table, or the same table.&lt;/p>
