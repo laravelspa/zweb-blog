@@ -60,7 +60,7 @@ However, it is always best to learn the basics first and then pursue more comple
 
 ## How to create a One-To-One relationship in Laravel?
 {{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-Laravel.png"
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png"
 alt="How to create a One-To-One relationship in Laravel?"
 caption="How to create a One-To-One relationship in Laravel?"
 >}}

@@ -63,7 +63,7 @@ caption="ما هي أنواع العلاقات الموجودة فى Laravel؟"
 
 ## كيف تنشئ علاقة One-To-One فى لارافيل؟
 {{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-Laravel.png"
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png"
 alt="كيف تنشئ علاقة One-To-One فى لارافيل؟"
 caption="كيف تنشئ علاقة One-To-One فى لارافيل؟"
 >}}
