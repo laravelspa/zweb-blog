@@ -3,7 +3,7 @@ title: "Laravel Eloquent One-To-One Relationship - Ultimate Guide 2023"
 date: 2023-08-10
 draft: false
 slug: "laravel-eloquent-one-to-one-relationship-ultimate-guide-2023"
-description: "Being the first and simplest basic relation offered by Laravel, they join two tables so that one row of the first table is associated with only one row of the other table."
+description: "Laravel one-to-one relationship is a database relationship where each row in one table can be associated with exactly one row in another table. It can be easily created and managed using the hasOne() and belongsTo() methods in Laravel."
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']

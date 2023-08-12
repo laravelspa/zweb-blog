@@ -3,7 +3,7 @@ title: "Laravel Eloquent One-To-One Relationship - Ultimate Guide 2023 In Arabic
 date: 2023-08-10
 draft: false
 slug: "laravel-eloquent-one-to-one-relationship-ultimate-guide-2023-in-arabic"
-description: "نظرًا لكونها أول علاقة أساسية وأبسطها يقدمها Laravel , فإنهم يربطون جدولين بطريقة بحيث يرتبط صف واحد من الجدول الأول بصف واحد فقط من الجدول الآخر."
+description: "علاقة Laravel one-to-one هي علاقة قاعدة بيانات حيث يمكن ربط كل صف في جدول واحد بصف واحد بالضبط في جدول آخر. يمكن إنشاؤه ومعالجته بسهولة باستخدام methods hasOne() و belongsTo() في Laravel."
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
