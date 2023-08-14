@@ -1,7 +1,7 @@
 ---
 title: "Laravel Eloquent One-To-Many Relationship - Ultimate Guide 2023 In Arabic"
-date: 2023-08-07
-draft: true
+date: 2023-08-12
+draft: false
 slug: "laravel-eloquent-one-to-many-relationship-ultimate-guide-2023-in-arabic"
 description: ""
 cascade:
@@ -1096,4 +1096,5 @@ Route::get('/profiles-resource', function () {
 > ونرى هنا أيضا أننا نجلب البيانات المطلوبة فقط.
 
 
-## How to update data in one-to-many relationship in Laravel?
+## كيفية تحديث علاقة one to many فى Laravel؟
+

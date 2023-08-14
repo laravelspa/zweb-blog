@@ -100,7 +100,7 @@ mainSections = ["blog"]
   showViews = true
   showLikes = true
   #showTableOfContents = true
-  #cardView = false
+  cardView = false
 
 [term]
   #showHero = true
@@ -111,7 +111,7 @@ mainSections = ["blog"]
   #showTableOfContents = true
   #groupByYear = false
   #cardViewScreenWidth = false
-  cardView = true
+  cardView = false
 
 [firebase]
    apiKey = "AIzaSyAbobgb8uyAa603RBYEpBJ_LkDn_3l5Ack"
