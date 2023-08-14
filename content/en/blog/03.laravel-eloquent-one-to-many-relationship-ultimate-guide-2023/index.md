@@ -1,7 +1,7 @@
 ---
 title: "Laravel Eloquent One-To-Many Relationship - Ultimate Guide 2023"
 date: 2023-07-30
-draft: false
+draft: true
 slug: "laravel-eloquent-one-to-many-relationship-ultimate-guide-2023"
 description: "Being the first and simplest basic relation offered by Laravel, they join two tables so that one row of the first table is associated with only one row of the other table."
 cascade:
