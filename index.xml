@@ -364,14 +364,14 @@ style="text-decoration-line: none !important;" href="#how-can-you-retrieve-data-
 &lt;img
 class="my-0 rounded-md"
 srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_e9b9fedb1bae16efed9d50c688551625.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_aa9c81af685f30227ef477a21fe9ac08.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_4cec212d2e227be283aedded933d7fe4.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_c981c0341db52ab0441e0c1cc584397c.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huc0fd1758fa57cd5e3314e4aede1b1502_88996_aa9c81af685f30227ef477a21fe9ac08.png"
-alt="How do you get data into a One-To-One relationship in Laravel?"
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_8d5f3ce3ef6ba6ac1158fd2c0128a5cf.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_580515eefc194976fa7bbc57c96e8a0f.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_c9b23138da00013e87a43c43821530ce.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_ee365768b1c2653cf924c40e900e08bd.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_580515eefc194976fa7bbc57c96e8a0f.png"
+alt="How can you retrieve data from a one-to-one relationship in Laravel?"
 />
-&lt;figcaption>How do you get data into a One-To-One relationship in Laravel?&lt;/figcaption>
+&lt;figcaption>How can you retrieve data from a one-to-one relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 We have seen how data is saved in several different ways in the database using the one-to-one relationship in Laravel. But how do we retrieve the data from the database? There are several ways to retrieve data from the database.&lt;/p>
 &lt;p>These methods can be divided into two main categories:&lt;/p>
