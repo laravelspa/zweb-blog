@@ -295,9 +295,9 @@ Route::get('/one-to-one', method () {
 
 ## How can you retrieve data from a one-to-one relationship in Laravel?
 {{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png"
-alt="How do you get data into a One-To-One relationship in Laravel?"
-caption="How do you get data into a One-To-One relationship in Laravel?"
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-larave.png"
+alt="How can you retrieve data from a one-to-one relationship in Laravel?"
+caption="How can you retrieve data from a one-to-one relationship in Laravel?"
 >}}
 We have seen how data is saved in several different ways in the database using the one-to-one relationship in Laravel. But how do we retrieve the data from the database? There are several ways to retrieve data from the database.
 
