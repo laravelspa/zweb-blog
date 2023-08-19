@@ -8,7 +8,7 @@ contentDir = "content/ar"
 
 title = "Laravel SPA"
 #logo = "img/Laravel_SPA_Logo.png"
-description = "This blog is interested in providing advanced courses in programming in general and web design in particular in an easy and professional way We will explain the most famous and basic languages Like HTML, CSS, JS We will rely on back-end languages ​​such as PHP and Node JS. We will explain in an advanced way the uses of the frameworks Laravel and Vue JS. We will explain in individual lessons how to use Laravel , Vue JS. We will make a set of advanced applications.Built with the Laravel , Vue JS . frameworkWe will learn how to build Single Page Applications.We will learn about the front-end roadmap as well as the back-end roadmap.Let's start our journey with God's blessing"
+description = "Laravel + Vue.js: The perfect pair for full-stack development. Fast, scalable, secure, and easy to learn."
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
@@ -53,9 +53,9 @@ dateFormat = "2 January 2006"
   #   { soundcloud = "https://soundcloud.com/username" },
       { stack-overflow = "https://bit.ly/sof-mahmoud" },
   #   { steam = "https://steamcommunity.com/profiles/userid" },
-      { telegram = "https://t.me/DevMahmoudAdel" },
+      { telegram = "https://t.me/+Orn4XkfoT0diN2I0" },
       { tiktok = "https://bit.ly/tkt-mahmoud" },
-  #   { tumblr = "https://username.tumblr.com" },
+     { tumblr = "https://laravelspa.tumblr.com" },
   #   { twitch = "https://twitch.tv/username" },
       { twitter = "https://bit.ly/twt-mahmoud" },
       { whatsapp = "https://chat.whatsapp.com/CWDspK88zE99kPY9N7VNrA" },
