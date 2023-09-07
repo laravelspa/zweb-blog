@@ -18,29 +18,18 @@ __Laravel Eloquent__ هي واحدة من السمات الرئيسية في إ�
 
 من المهم ملاحظة أنه يمكنك البدء في استخدام Eloquent دون أي معرفة مسبقة بالعلاقات.
 
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png"
-alt="laravel one to one relationship"
-caption="laravel one to one relationship"
->}}
+![laravel one to one relationship](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png "laravel one to one relationship")
 
 كمبرمج محترف ، من الضروري فهم أنواع العلاقات. ومع ذلك ، يجب أن تسأل نفسك سؤالًا مهمًا: ما هي العلاقات في المقام الأول؟
 
 ## ما هي العلاقات في قواعد البيانات؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database.png"
-alt="ما هي العلاقات في قواعد البيانات؟"
-caption="ما هي العلاقات في قواعد البيانات؟"
->}}
+![ما هي العلاقات في قواعد البيانات؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database.png "ما هي العلاقات في قواعد البيانات؟")
 
 عند العمل مع جداول في قاعدة بيانات لها علاقات فيما بينها ، يمكننا وصف هذه العلاقات على أنها روابط بين تلك الجداول. يساعدك هذا في تنظيم البيانات وهيكتلها دون عناء ، مما يسمح بقراءة البيانات ومعالجتها بشكل أسرع.
 
 ## ما هي أنواع العلاقات الموجودة في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel.png"
-alt="ما هي أنواع العلاقات الموجودة في Laravel؟"
-caption="ما هي أنواع العلاقات الموجودة في Laravel؟"
->}}
+![ما هي أنواع العلاقات الموجودة في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel.png "ما هي أنواع العلاقات الموجودة في Laravel؟")
+
 هناك ثلاثة أنواع رئيسية من العلاقات في قواعد البيانات شائعة الاستخدام في الممارسة:
 
 * __one-to-one (واحد لواحد)__: تعني علاقة رأس برأس أن سجلًا واحدًا في جدول واحد يمكن أن يكون مرتبطًا بسجل واحد فقط في جدول آخر. على سبيل المثال ، قد يكون لجدول العملاء علاقة رأس برأس بجدول عنوان. هذا يعني أنه يمكن لكل عميل الحصول على عنوان واحد فقط ، ويمكن ربط كل عنوان بعميل واحد فقط.
@@ -71,11 +60,7 @@ caption="ما هي أنواع العلاقات الموجودة في Laravel؟"
 في الأمثلة أدناه ، حاولت أن أشرح كل شيء بأكبر قدر ممكن من الوضوح ، دون استخدام الكثير من أساليب Eloquent الصعبة والتقنيات المعقدة. هذا يعني أن المعرفة المسبقة ليست ضرورية تمامًا. ومع ذلك ، فمن الأفضل دائمًا تعلم الأساسيات أولاً ثم متابعة موضوعات أكثر تعقيدًا مثل العلاقات.
 
 ## كيف تُنشئ علاقة One-To-One في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png"
-alt="كيف تُنشئ علاقة One-To-One في Laravel؟"
-caption="كيف تُنشئ علاقة One-To-One في Laravel؟"
->}}
+![كيف تُنشئ علاقة One-To-One في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png "كيف تُنشئ علاقة One-To-One في Laravel؟")
 
 __علاقات واحد لواحد__ هي أبسط أنواع العلاقات التي يقدمها Laravel. يتم من خلالها ربط جدولين بحيث يرتبط صف واحد في الجدول الأول بصف واحد فقط في الجدول الآخر ، أو نفس الجدول.
 
@@ -183,18 +168,11 @@ public method admin() {
 > يتم استخدام ***`foreignKey`*** property لتحديد اسم العمود في النموذج الفرعي المستخدم للإشارة إلى النموذج الأصلي.
 
 > إذا لم تقم بإضافة ***`foreignKey`*** property إلى العلاقة عند تغيير اسم العلاقة ، فسترى الخطأ التالي:
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png"
-alt="Attempt to read property X on null"
-caption="Attempt to read property X on null"
->}}
+![Attempt to read property X on null](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png "Attempt to read property X on null")
+
 
 ## كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-one-relationship-in-database.png"
-alt="كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟"
-caption="كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟"
->}}
+![كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-one-relationship-in-database.png "كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟")
 
 بعد أن أنشأنا علاقة ***واحد لواحد*** بين جدول ***المستخدمين*** وجدول ***ملفات تعريف*** ، وأضفنا ***`hasOne()`*** method إلى نموذج ***User*** ، و method ***belongsTo()*** إلى نموذج ***Profile*** ، حان الوقت لمعرفة كيفية حفظ البيانات في قاعدة البيانات عندما نستخدم هذه العلاقة. وما هي الأساليب المتبعة في ذلك؟
 
@@ -238,7 +216,7 @@ Route::get('/one-to-one', method () {
 }
 ```
 
-### باستخدام **method profile**.
+### 2. باستخدام **method profile**.
 * نذهب أولاً إلى ملف ***`routes/web.php`*** ونقوم بتعديل هذا المسار.
 ```PHP
 Route::get('/one-to-one', method () {
@@ -295,11 +273,8 @@ Route::get('/one-to-one', method () {
 ```
 
 ## كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png"
-alt="كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟"
-caption="كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟"
->}}
+![كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png "كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟")
+
 لقد رأينا كيف يتم حفظ البيانات بعدة طرق مختلفة في قاعدة البيانات باستخدام علاقة one to one في Laravel. لكن كيف نسترجع البيانات من قاعدة البيانات؟ هناك عدة طرق لاسترداد البيانات من قاعدة البيانات.
 
 يمكن تقسيم هذه الطرق إلى فئتين رئيسيتين:
@@ -447,11 +422,7 @@ Route::get('/users', method () {
 ```
 
 3. افتح المتصفح وانتقل إلى عنوان URL التالي ***`http://127.0.0.1:8000/users`*** لترى النتائج التي ستظهر.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png"
-alt="Laravel One To One Relationship - Users Table"
-caption="Users Table"
->}}
+![Laravel One To One Relationship - Users Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png "Users Table")
 
 #### ثانيًا: تطبيق يعتمد على مسارات API.
 
@@ -704,11 +675,7 @@ Route::get('/profiles', method () {
 ```
 
 3. افتح المتصفح وانتقل إلى عنوان URL التالي ***`http://127.0.0.1:8000/profiles`*** لترى النتائج التي ستظهر.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png"
-alt="Laravel One To One Relationship - Profiles Table"
-caption="Profiles Table"
->}}
+![Laravel One To One Relationship - Profiles Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png "Profiles Table")
 
 #### ثانيًا: تطبيق يعتمد على مسارات API.
 
@@ -781,11 +748,7 @@ Route::get('/profiles', method () {
 ```
 
 ## كيفية تحسين استعلامات Eloquent في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel.png"
-alt="كيفية تحسين استعلامات Eloquent في Laravel؟"
-caption="كيفية تحسين استعلامات Eloquent في Laravel؟"
->}}
+![كيفية تحسين استعلامات Eloquent في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel.png "كيفية تحسين استعلامات Eloquent في Laravel؟")
 
 عند التعامل مع قاعدة بيانات كبيرة بها الكثير من البيانات ، من المهم مراعاة الأداء. هذا لا يعني فقط الوقت الذي يستغرقه الحصول على البيانات ، ولكن أيضًا عدد الاستعلامات التي يتم تنفيذها لكل صفحة.
 
@@ -807,11 +770,7 @@ $users = User::with('profile')->get();
 * افتح المتصفح وانتقل إلى عنوان URL التالي ***`http://127.0.0.1:8000/users`*** لترى النتائج التي ستظهر في شريط المكتبة.
 
 1. __(Lazy Loading)__ - استرداد البيانات بدون استخدام ***`with`***.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png"
-alt="laravel debugbar lazy loading"
-caption="laravel debugbar lazy loading"
->}}
+![laravel debugbar lazy loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png "laravel debugbar lazy loading")
 
 في الجزء السفلي من الصفحة ، سنجد الآن شريطًا لمكتبة __Laravel Debugbar__. عند النقر فوقه ، سنجد أنه يعمل مع الكثير من البيانات. الشيء الذي يثير اهتمامنا هنا هو عدد استعلامات SQL في هذه الصفحة ، وكما هو موضح ، فهي __4__ استعلامات.
 
@@ -826,22 +785,14 @@ caption="laravel debugbar lazy loading"
 يمكن أن يؤدي التحميل الجاد إلى تحسين أداء تطبيقك عن طريق تقليل عدد الاستعلامات. إنها ممارسة جيدة يجب تحميل العلاقات eager loading كلما أمكن ذلك.
 
 2. __(Eager Loading)__ - استرداد البيانات بإستخدام ***`with`***.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png"
-alt="laravel debugbar eager loading"
-caption="laravel debugbar eager loading"
->}}
+![laravel debugbar eager loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png "laravel debugbar eager loading")
 
 كما ترى ، بإضافة طريقة with () مع اسم العلاقة ، سيتم جلب بيانات كل مستخدم بملف التعريف الخاص به بدون مشكلة N + 1.
 
 لذلك تم تقليل عدد الاستعلامات من 4 إلى 2 فقط. من الواضح أن هذا سيكون له تأثير إذا كانت قاعدة البيانات هذه متوسطة الحجم أو كبيرة. هذا ما يسمى eager loading.
 
 ## كيفية تحديث علاقة one-to-one في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel.png"
-alt="كيفية تحديث علاقة one-to-one في Laravel؟"
-caption="كيفية تحديث علاقة one-to-one في Laravel؟"
->}}
+![كيفية تحديث علاقة one-to-one في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel.png "كيفية تحديث علاقة one-to-one في Laravel؟")
 ### تحديث البيانات باستخدام نموذج المستخدم.
 
 1. باستخدام ***`push method`***.
@@ -976,11 +927,7 @@ Route::get('/profiles/update', method () {
 ```
 
 ## كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-delete-data-from-one-to-one-relationship-in-laravel.png"
-alt="كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟"
-caption="كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟"
->}}
+![كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-delete-data-from-one-to-one-relationship-in-laravel.png "كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟")
 ### حذف البيانات باستخدام نموذج المستخدم.
 * نذهب أولاً إلى ملف ***`routes/web.php`*** وأضف هذا المسار:
 ```PHP
@@ -1012,11 +959,7 @@ Route::get('/profiles/user/delete', method () {
 });
 ```
 * نفتح المتصفح وننتقل إلى عنوان URL الجديد ***`http://127.0.0.1:8000/profiles/user/delete`***. نرى أنه تم حذف المستخدم والملف الشخصي بنجاح.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png"
-alt="Rcord has deleted"
-caption="Rcord has deleted"
->}}
+![Rcord has deleted](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png "Rcord has deleted")
 
 ## الخاتمة
 هذه المقالة هي بداية سلسلة كاملة عن __Laravel Eloquent Relationships__ علاقات ضمن __Laravel__. لقد غطينا __علاقة واحد إلى واحد__ بطريقة كاملة. لم ندخر لكم أي معلومة ، وإن شاء الله ، سنتعرف في الشرح التالي على __علاقة واحد إلى كثير__.

@@ -1,9 +1,9 @@
 ---
 title: "Laravel Eloquent One-To-Many Relationship - Ultimate Guide 2023"
-date: 2023-07-30
-draft: true
+date: 2023-08-12
+draft: false
 slug: "laravel-eloquent-one-to-many-relationship-ultimate-guide-2023"
-description: "Being the first and simplest basic relation offered by Laravel, they join two tables so that one row of the first table is associated with only one row of the other table."
+description: "A Laravel one-to-many relationship is a database relationship where each row in one table can be linked to more than one row in another table. It can be easily created and manipulated using hasMany() and belongsTo() methods in Laravel."
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
@@ -11,247 +11,549 @@ tags: ['laravel10', 'eloquent', 'eloquent relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 2
 ---
-{{< figure
-src="/img/laravel10-one-to-one-relationship-in-arabic/laravel10-one-to-one-relationship.png"
-alt="laravel10 one to one relationship"
-caption="laravel10 one to one relationship"
->}}
 
-## Intro
-Often the developer needs to interact with databases. And if you are using __Laravel__, you will learn about the most important feature of this framework which is called __Eloquent__, the Object Relationship Diagram (ORM) that makes this process simple and natural.
+After we learned about the types of relationships within __Laravel__ in the previous part.
+We discussed the first type of these relationships, which is the One-To-One relationship.
 
-__Laravel Eloquent__ is one of the main features in the __Laravel__ framework. This is due to its great support for defining, creating and managing relationships between different database tables. In this series I will show you how to create and use __Eloquent__ relationships, so you can get started without any prior knowledge of relationships.
+Today we continue the series we started learning about __Laravel Eloquent Relationships__.
 
-It is essential as a professional that you recognize and understand the six major relationship types that we will go through and review. But before this we must know what are the relations in the first place?
+We are talking about the second type, which is called __One-To-Many__ or __hasMany__.
 
-## What are the relationships in the database?
-When working with tables in a database between which there are relationships, we can describe relationships as connections between tables. This helps you organize and structure data effortlessly allowing superior readability and faster data processing.
+![laravel one to many relationship](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023.png "laravel one to many relationship")
 
-## What types of relationships are there in Laravel?
-There are three main types of relationships in a database that appear in practice:
-* __one-to-one__: It is a single record associated with only one record. An example of this is that each user has one profile in another table.
-* __one-to-many__: An example of this is that each writer owns more than one article in another table.
-* __many-to-many__: An example of this is that more than one user can join more than one course.
 
-Besides these relationships, __Laravel__ offers more of them, namely:
-* __Has Many Through__
-* __Polymorphic Relations__
-* __Many-to-many Polymorphic__
+## How to create a One-To-Many relationship in Laravel?
+![How to create a One-To-Many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel.png "How to create a One-To-Many relationship in Laravel?")
 
-The number of relationships that we will explain becomes 6 types. And we will build a simple content management system to explain all the relationships.
+ The One-To-Many relationship is one of the most important types of relationships inside __Laravel Eloquent__.
+  We also learned in the previous lesson that it is the connection of a row from the first table to more than one row from the second table.
 
-Do I need specific knowledge of __Eloquent__ before reading this? In the examples below, I have tried to explain everything as clearly as possible, without using a lot of __Eloquent's__ tricky functions and complex technologies. This means that prior knowledge is not strictly necessary. However, it is always best to learn the basics first, and then move on to more complex topics like relationships.
+And as a continuation of the practical application (content management system), which we started in the previous lesson.
+We create a __One-To-One__ relationship between the user and the personal profile.
 
-## How do you create a one-to-one relationship?
-Being the first and simplest basic relation offered by __Laravel__, they join two tables so that one row of the first table is associated with only one row of the other table.
+Today we are going to create __One-To-Many__ relationship between user and post.
+Each user can own one or more publications.
 
-To see this in action we'll start by creating a content management system,
-
-Let's say each user can have one profile. In some cases you could store all profile information in the users table, but that wouldn't be ideal. Here, in our example, I want to create a separate table for them. For example, if we later want to transfer a profile to a different user, this will come in handy.
-
-> By default, the Users table exists, and it does not matter which columns it will contain.
-
-* Let's say we have a Users table with the following columns:
-```PHP
-Schema::create('users', function (Blueprint $table) {
-  $table->id();
-  $table->string('username');
-  $table->string('email')->unique();
-  $table->timestamps();
-});
-```
-
-* We modify the ***`User.php`*** file.
-```PHP
-protected $fillable = ['username'];
-```
-
-* Let's create a ***`Profile Model`***.
+* We create ***`Post Model`*** with its own table.
 ```bash
-php artisan make:model Profile -m
+php artisan make:model Post -m
 ```
 
-In a ***`one-to-one`*** relationship we have the freedom to choose one of these two methods:
-* Add ***`user_id`*** to ***`profiles`*** table.
-* Add a ***`profile_id`*** to the ***`users`*** table.
-
-But as a result of our way of thinking, each user will have their own profile. Mostly this column that connects the two tables is always added to the second table, so we will add it to the profiles table as follows.
-
-```PHP {hl_lines=["6"]} 
-Schema::create('profiles', function (Blueprint $table) {
+* We go to this path ***`database/migrations`*** and modify the publications table by adding some columns as follows:
+```PHP
+Schema::create('posts', function (Blueprint $table) {
   $table->id();
-  $table->string('firstname');
-  $table->string('lastname');
-  $table->string('birthday');
+  $table->string('title');
+  $table->text('body');
   $table->foreignId('user_id')->constrained();
   $table->timestamps();
 });
 ```
 
-* We modify the ***`Profile.php`*** file.
+* We modify the ***`Post.php`*** file.
 ```PHP
 protected $fillable = [
   'user_id',
-  'firstname',
-  'lastname',
-  'birthday'
+  'title',
+  'body',
 ];
 ```
 
-* Let's run this command to update the database.
+* We execute this command to update the database and add the Posts table.
 ```bash
 php artisan migrate
 ```
 
-* Let's go to the ***`User.php`*** file to set the new relationship.
+* We go to the ***`User.php`*** file and set the ***`hasMany`*** relationship.
 ```PHP
-public function profile() {
-    return $this->hasOne(Profile::class);
+public function posts() {
+    return $this->hasMany(Post::class);
 }
 ```
 
-> Let's see how ***`hasOne`*** works.
+
+> Let's learn how ***`hasMany`*** works
 ```PHP
-$this->hasOne(Profile::class,
+$this->hasMany(Post::class,
   'user_id' // foreignKey By Default Parent Model + Promary Key
   'id' // localKey => Primary Key In Parent Table By Default is Id
 );
 ```
 
-* There are two ways to create a user and associate them with a relationship with their profile:
-
-> We will first go to the ***`routes/web.php`*** file and add a new route so that we can test these ways.
-
-
-1. Without using ***`function profile`***.
-```PHP
-Route::get('/one-to-one', function () {
-    $user = \App\Models\User::create(['username' => 'John Doe']);
-    \App\Models\Profile::create([
-        'user_id' => $user->id,
-        'firstname' => 'John',
-        'lastname' => 'Doe',
-        'birthday' => '08-11-1991'
-    ]);
-    return response()->json([
-        'username' => $user->username,
-        'firstname' => $user->profile->firstname,
-        'lastname' => $user->profile->lastname,
-    ]);
-});
-```
-> We will open the browser and go to this link ***`http://127.0.0.1:8000/one-to-one`*** to find that the user has been created successfully.
-```json
-{
-  "username": "John Doe",
-  "firstname": "John",
-  "lastname": "Doe"
-}
-```
-2. using ***`function profile`***.
-```PHP
-Route::get('/one-to-one', function () {
-    $user = \App\Models\User::create(['username' => 'Tom Cruz']);
-    $user->profile()->create([
-      'firstname' => 'Tom',
-      'lastname' => 'Cruz',
-      'birthday' => '01-02-2000'
-    ]);
-    return response()->json([
-        'username' => $user->username,
-        'firstname' => $user->profile->firstname,
-        'lastname' => $user->profile->lastname,
-    ]);
-});
-```
-
-> We will open the browser and go to this link again ***`http://127.0.0.1:8000/one-to-one`*** to find that the user was created successfully.
-```json
-{
-  "username": "Tom Cruz",
-  "firstname": "Tom",
-  "lastname": "Cruz"
-}
-```
-
-* Let's go to the ***`Profile.php`*** file to set the inverse relationship.
+* We go to the file ***`Post.php`*** and set the inverse relationship ***`belongsTo`***.
 ```PHP
 public function user() {
     return $this->belongsTo(User::class);
 }
 ```
 
-> Learn how ***`belongsTo`*** works.
-```PHP
-$this->belongsTo(User::class,
-  'user_id' // foreignKey By Default Parent Model + Promary Key
-  'id' // OwnerKey By Default Id
-);
-```
+> We have explained ***`belongsTo`*** in this part of the previous article and we are explaining the __One-To-One__ relationship.
 
-> Let's say you want to give the relationship another name, like ***`admin`***, so we have to add a ***`foreignKey`***.
-```PHP
-public function admin() {
-    return $this->belongsTo(User::class, 
-      'user_id' // You must add foreignKey
-    );
-}
-```
+## How to insert data in a one-to-many relationship in the database?
+![How to insert data in a one-to-many relationship in the database?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-many-relationship-in-database.png "How to insert data in a one-to-many relationship in the database?")
 
-> If you do not add a ***`foreignKey`*** when changing the relationship name, you will see this error.
-{{< figure
-src="/img/laravel10-one-to-one-relationship-in-arabic/Attempt-to-read-property-X-on-null.png"
-alt="Attempt to read property X on null"
-caption="Attempt to read property X on null"
->}}
+After we created a One-To-Many relationship between both Users table and Posts table and added ***`hasMany`*** inside ***`User Model`***, also we added the inverse relationship inside ***`Post Model`*** by adding ***`belongsTo`*** to it.
 
-* Another way to create a profile and inversely associate it with the user who owns it is through the ***`user function`***.
+  The time has come to find out how the data is saved in the database while we use this relationship.
+What are the methods used in this?
+
+
+These methods are divided into three basic methods:
+1. Without using **function post**.
+2. By using **function post**.
+3. By using the inverse relationship **function user**.
+### 1. Without using **function post**.
+Here there are two scenarios:
+* First: Add only one post for the user.
+* Second: Add more than one post for the user.
+#### First: Add only one post for the user.
+* We first go to the ***`routes/web.php`*** file and add a new route so that we can test these methods.
 ```PHP
-Route::get('/one-to-one', function () {
-    $user = \App\Models\User::create(['username' => 'Adam Smith']);
-    $profile = new \App\Models\Profile([
-        'firstname' => 'Adam',
-        'lastname' => 'Smith',
-        'birthday' => '01-01-1999'
+use App\Models\User;
+use App\Models\Post;
+---
+Route::get('/one-to-many', function () {
+    $user = User::find(1);
+    Post::create([
+        'user_id' => $user->id,
+        'title' => 'Post title 1',
+        'body' => 'Post body 1',
     ]);
-
-    $profile->user()->associate($user);
-    $profile->save();
     return response()->json([
-        'username' => $profile->user->username,
-        'firstname' => $profile->firstname,
-        'lastname' => $profile->lastname,
+        'username' => $user->username,
+        'post' => $user->posts
     ]);
 });
 ```
 
-> We will open the browser and go to this link again ***`http://127.0.0.1:8000/one-to-one`*** to find that the user was created successfully.
+* We open the browser and go to this link ***`http://127.0.0.1:8000/one-to-many`*** to find that one post has been successfully added to user NoisyId No. 1.
+```json
+{
+  "username": "John Doe",
+  "post": [
+    {
+      "id": 1,
+      "title": "Post title 1",
+      "body": "Post body 1",
+      "user_id": 1,
+      "created_at": "2023-08-05T03:18:22.000000Z",
+      "updated_at": "2023-08-05T03:18:22.000000Z"
+    }
+  ]
+}
+```
+
+#### Second: Add more than one post for the user.
+* We first go to the ***`routes/web.php`*** file and edit this route.
+```PHP
+use App\Models\User;
+use App\Models\Post;
+---
+Route::get('/one-to-many', function () {
+   $user = User::find(2);
+    Post::insert(
+        [
+            [
+                'user_id' => $user->id,
+                'title' => 'Post title 2',
+                'body' => 'Post body 2',
+            ],
+            [
+                'user_id' => $user->id,
+                'title' => 'Post title 3',
+                'body' => 'Post body 3',
+            ],
+        ]
+    );
+    return response()->json([
+        'username' => $user->username,
+        'post' => $user->posts
+    ]);
+});
+```
+
+* We open the browser and go to this link ***`http://127.0.0.1:8000/one-to-many`*** to find that 2 posts have been successfully added to the user with ID No. 2.
+```json
+{
+  "username": "Tom Cruz",
+  "post": [
+    {
+      "id": 2,
+      "title": "Post title 2",
+      "body": "Post body 2",
+      "user_id": 2,
+      "created_at": null,
+      "updated_at": null
+    },
+    {
+      "id": 3,
+      "title": "Post title 3",
+      "body": "Post body 3",
+      "user_id": 2,
+      "created_at": null,
+      "updated_at": null
+    }
+  ]
+}
+```
+
+### 2. By using **function post**.
+Here also there are two scenarios:
+First: Add only one post for the user
+Second: Add more than one post for the user
+#### First: Add only one post for the user
+* We first go to the ***`routes/web.php`*** file and edit this route.
+```PHP
+use App\Models\User;
+---
+Route::get('/one-to-many', function () {
+    $user = User::find(3);
+    $user->posts()->create([
+      'title' => 'Post title 4',
+      'body' => 'Post body 4',
+    ]);
+    return response()->json([
+        'username' => $user->username,
+        'post' => $user->posts,
+    ]);
+});
+```
+
+* We open the browser and go to this link ***`http://127.0.0.1:8000/one-to-many`*** to find that one post has been successfully added to the user with ID No. 3.
 ```json
 {
   "username": "Adam Smith",
-  "firstname": "Adam",
-  "lastname": "Smith"
+  "post": [
+    {
+      "id": 4,
+      "title": "Post title 4",
+      "body": "Post body 4",
+      "user_id": 3,
+      "created_at": "2023-08-05T03:37:55.000000Z",
+      "updated_at": "2023-08-05T03:37:55.000000Z"
+    }
+  ]
 }
 ```
 
-## How to Optimize Eloquent query in Laravel?
-When dealing with a large database with a lot of data inside it comes time to look at the matter from another point of view. It is not just a matter of fetching the data but how long you will need to fetch that data. How many queries will you make per page? To test this, we will download a very popular library called [Laravel Debugbar](https://github.com/barryvdh/laravel-debugbar). It will help us to know all the inquiries that are made on each page.
-
-* Let's do this command.
-```bash
-composer require barryvdh/laravel-debugbar --dev
-```
-
-> Make sure that ***`APP_DEBUG=true`*** inside the ***`.env`*** file.
-* Then we will create a new route to display all the users that were saved in the database while we performed the previous steps.
+#### Second: Add more than one post for the user
+* We first go to the ***`routes/web.php`*** file and edit this route.
 ```PHP
-Route::get('/users', function () {
-    $users = \App\Models\User::all();
-    return view('users.oneToOne', compact('users'));
+use App\Models\User;
+---
+Route::get('/one-to-many', function () {
+   $user = User::find(1);
+    $user->posts()->createMany([
+        [
+            'title' => 'Post title 5',
+            'body' => 'Post body 5',
+        ],
+        [
+            'title' => 'Post title 6',
+            'body' => 'Post body 6',
+        ]
+    ]);
+    return response()->json([
+        'username' => $user->username,
+        'post' => $user->posts,
+    ]);
 });
 ```
 
-* In the ***`views`*** folder, we also add another folder named ***`users`***, and inside it we add the ***`oneToOne.blade`***.php file, and we add this simple table to display the users.
+* We open the browser and go to this link ***`http://127.0.0.1:8000/one-to-many`*** to find that 2 posts have been successfully added to the user with ID No. 1.
+
+{{< alert >}}
+In addition to these posts, there is another post that was added in a previous step, and therefore there should be 3 posts for this user. This is actually the data obtained from the database in the following response.
+{{< /alert >}}
+
+```json
+{
+  "username": "John Doe",
+  "post": [
+    {
+      "id": 1,
+      "title": "Post title 1",
+      "body": "Post body 1",
+      "user_id": 1,
+      "created_at": "2023-08-05T03:18:22.000000Z",
+      "updated_at": "2023-08-05T03:18:22.000000Z"
+    },
+    {
+      "id": 5,
+      "title": "Post title 5",
+      "body": "Post body 5",
+      "user_id": 3,
+      "created_at": "2023-08-05T03:42:27.000000Z",
+      "updated_at": "2023-08-05T03:42:27.000000Z"
+    },
+    {
+      "id": 6,
+      "title": "Post title 6",
+      "body": "Post body 6",
+      "user_id": 3,
+      "created_at": "2023-08-05T03:42:27.000000Z",
+      "updated_at": "2023-08-05T03:42:27.000000Z"
+    }
+  ]
+}
+```
+
+### 3. By using the inverse relationship **function user**.
+* We first go to the ***`routes/web.php`*** file and edit this route.
+```PHP
+use App\Models\User;
+use App\Models\Post;
+---
+Route::get('/one-to-many', function () {
+    $user = User::find(2);
+    $post = new Post([
+        'title' => 'Post title 7',
+        'body' => 'Post body 7',
+    ]);
+
+    $post->user()->associate($user)->save();
+    return response()->json([
+        'username' => $post->user->username,
+        'title' => $post->title,
+        'body' => $post->body,
+    ]);
+});
+```
+
+* We open the browser and go to this link ***`http://127.0.0.1:8000/one-to-many`*** to find that a post has been successfully added to the user with ID No. 2.
+```json
+{
+  "username": "Tom Cruz",
+  "title": "Post title 7",
+  "body": "Post body 7"
+}
+```
+
+## How do you retrieve data from one to many relationship in Laravel?
+![How do you retrieve data from one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png "How do you retrieve data from one to many relationship in Laravel?")
+We saw how data is saved in multiple different ways within the database using the One-To-Many relationship in Laravel.
+But how to fetch data from the database?
+There are several ways in which data can be fetched from a database.
+These methods are divided into two basic methods:
+
+### Through the user ***`User Model`***
+This method is divided into two sub-methods depending on how the data is organized after it is fetched from the data base
+
+#### Without using ***`API Resources`***.
+1. We go first to the ***`routes/web.php`*** file so that we can test these methods and make the following modifications.
+```PHP
+use App\Models\User;
+---
+Route::get('/users', function () {
+    $users = User::with(['profile', 'posts'])->get();
+    return view('users.list', compact('users'));
+});
+```
+Here we can choose the columns for each relationship as follows.
+```PHP
+use App\Models\User;
+---
+Route::get('/users', function () {
+    $users = User::with(['profile:id,firstname,lastname,user_id', 'posts:title,user_id'])->get();
+    return view('users.list', compact('users'));
+});
+```
+
+In order to know the difference between selecting or not selecting columns from the database, let us see the specific response to each case.
+* In the first case, with all data retrieved without exception, we find that ***`$users`*** contains that data.
+```json
+[
+  {
+    "id": 1,
+    "username": "John Doe",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "birthday": "08-11-1991",
+      "user_id": 1,
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "Post title 1",
+        "body": "Post body 1",
+        "user_id": 1,
+        "created_at": "2023-08-07T06:23:41.000000Z",
+        "updated_at": "2023-08-07T06:23:41.000000Z"
+      },
+      {
+        "id": 5,
+        "title": "Post title 5",
+        "body": "Post body 5",
+        "user_id": 1,
+        "created_at": "2023-08-07T06:23:41.000000Z",
+        "updated_at": "2023-08-07T06:23:41.000000Z"
+      },
+      {
+        "id": 6,
+        "title": "Post title 6",
+        "body": "Post body 6",
+        "user_id": 1,
+        "created_at": "2023-08-07T06:23:41.000000Z",
+        "updated_at": "2023-08-07T06:23:41.000000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "Tom Cruz",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 2,
+      "firstname": "Tom",
+      "lastname": "Cruz",
+      "birthday": "01-02-2000",
+      "user_id": 2,
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    },
+    "posts": [
+      {
+        "id": 2,
+        "title": "Post title 2",
+        "body": "Post body 2",
+        "user_id": 2,
+        "created_at": null,
+        "updated_at": null
+      },
+      {
+        "id": 3,
+        "title": "Post title 3",
+        "body": "Post body 3",
+        "user_id": 2,
+        "created_at": null,
+        "updated_at": null
+      },
+      {
+        "id": 7,
+        "title": "Post title 7",
+        "body": "Post body 7",
+        "user_id": 2,
+        "created_at": "2023-08-07T06:23:41.000000Z",
+        "updated_at": "2023-08-07T06:23:41.000000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "Adam Smith",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 3,
+      "firstname": "Adam",
+      "lastname": "Smith",
+      "birthday": "01-01-1999",
+      "user_id": 3,
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    },
+    "posts": [
+      {
+        "id": 4,
+        "title": "Post title 4",
+        "body": "Post body 4",
+        "user_id": 3,
+        "created_at": "2023-08-07T06:23:41.000000Z",
+        "updated_at": "2023-08-07T06:23:41.000000Z"
+      }
+    ]
+  }
+]
+```
+
+* In the second case, when specifying the exact required columns from the database, we find that the response is as follows.
+```json
+[
+  {
+    "id": 1,
+    "username": "John Doe",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe",
+      "user_id": 1
+    },
+    "posts": [
+      {
+        "title": "Post title 1",
+        "user_id": 1
+      },
+      {
+        "title": "Post title 5",
+        "user_id": 1
+      },
+      {
+        "title": "Post title 6",
+        "user_id": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "Tom Cruz",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 2,
+      "firstname": "Tom",
+      "lastname": "Cruz",
+      "user_id": 2
+    },
+    "posts": [
+      {
+        "title": "Post title 2",
+        "user_id": 2
+      },
+      {
+        "title": "Post title 3",
+        "user_id": 2
+      },
+      {
+        "title": "Post title 7",
+        "user_id": 2
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "Adam Smith",
+    "created_at": "2023-08-07T06:23:03.000000Z",
+    "updated_at": "2023-08-07T06:23:03.000000Z",
+    "profile": {
+      "id": 3,
+      "firstname": "Adam",
+      "lastname": "Smith",
+      "user_id": 3
+    },
+    "posts": [
+      {
+        "title": "Post title 4",
+        "user_id": 3
+      }
+    ]
+  }
+]
+```
+
+> Here we see the difference between the two cases in the size of the data that was processed, and the matter increases if the size of the data is much larger than that.
+> When selecting specific columns in relationships, you must choose ***foreignKey*** because without choosing it, the data will not be returned correctly from the database.
+
+2. We go to the following path ***`resources/views/users`*** and modify this file ***`list.blade.php`*** to display the users and their profiles. Also, what interests us here is displaying the posts for each user.
+
 ```PHP
 <table>
     <thead>
@@ -259,6 +561,7 @@ Route::get('/users', function () {
             <th style="text-align: center">Username</th>
             <th style="text-align: center">Firstname</th>
             <th style="text-align: center">Lastname</th>
+            <th style="text-align: center">Posts</th>
         </tr>
     </thead>
     <tbody>
@@ -267,49 +570,395 @@ Route::get('/users', function () {
                 <td>{{ $user->username }}</td>
                 <td>{{ $user->profile->firstname }}</td>
                 <td>{{ $user->profile->lastname }}</td>
+                <td>
+                    <ul>
+                        @foreach ($user->posts as $post)
+                            <li>{{ $post->title }}</li>
+                        @endforeach
+                    </ul>
+                </td>
             </tr>
         @endforeach
     </tbody>
 </table>
 ```
 
-* We now go to the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
+3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
 {{< figure
-src="/img/laravel10-one-to-one-relationship-in-arabic/users-view.png"
-alt="Users View"
-caption="Users View"
+src="/img/laravel10-one-to-many-relationship/users-view-with-posts.png"
+alt="Users view with posts"
+caption="Users view with posts"
 >}}
 
->  We will now find at the bottom of the page the ***`Laravel Debugbar`*** bar. When you open it, we will find that the number of queries on this page is “4”. And they are only 3 users, imagine with me if there are thousands or millions of users in the database, the time to load this page will be very slow. This is called the N+1 problem in Laravel or it is called Lazy Loading.
-{{< figure
-src="/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-lazy-loading.png"
-alt="laravel debugbar lazy loading"
-caption="laravel debugbar lazy loading"
->}}
 
-* To solve this problem, we modify the method of fetching users as follows.
+#### By using ***`API Resources`***.
+1. We will create an API Resource for the Post form by executing this command in the command prompt.
+```bash
+php artisan make:resource PostResource
+```
+2. You go to the following path ***`App/Http/Resources`*** and we begin to modify each of the following:
+
+* ***PostResource.php***.
 ```PHP
-$users = \App\Models\User::with('profile')->get();
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class PostResource extends JsonResource
+{
+    public function toArray(Request $request): array
+    {
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'body' => $this->body,
+        ];
+    }
+}
 ```
 
-> As you can see, by adding the word ***`with`*** with the name of the relationship, this problem will be overcome, so the number of queries has been reduced from 4 to 2, and this matter will clearly see its effect if the database is of medium size or large, of course, and this is what is called Eager Loading.
-{{< figure
-src="/img/laravel10-one-to-one-relationship-in-arabic/laravel-debugbar-eager-loading.png"
-alt="laravel debugbar eager loading"
-caption="laravel debugbar eager loading"
->}}
-
-> And we can do the same previous steps if we are going to use the relationship in reverse. An example of this.
-
-* Then we will create a new route to display all the profiles that were saved in the database while we performed the previous steps.
+3. We first go to the ***`routes/api.php`*** file to add a new route.
 ```PHP
-Route::get('/profiles', function () {
-    $profiles = \App\Models\Profile::with('user')->get();
-    return view('profiles.oneToOne', compact('profiles'));
+use App\Models\User;
+use App\Http\Resources\UserResource;
+---
+Route::get('/users', function () {
+    $users = User::with(['profile', 'posts'])->get();
+    $usersResource = UserResource::collection($users);
+    return response()->json($usersResource);
 });
 ```
 
-* In the ***`views`*** folder, we also add another folder named ***`profiles`***, and inside it we add the ***`oneToOne.blade.php`*** file, and we add this simple table to display the users.
+4. Open the browser and go to the following link ***`http://127.0.0.1:8000/api/users`*** to see what results will appear.
+```json
+[
+  {
+    "id": 1,
+    "username": "John Doe",
+    "profile": {
+      "id": 1,
+      "firstname": "John",
+      "lastname": "Doe"
+    },
+    "postss": [
+      {
+        "user_id": 1,
+        "title": "Post title 1"
+      },
+      {
+        "user_id": 1,
+        "title": "Post title 5"
+      },
+      {
+        "user_id": 1,
+        "title": "Post title 6"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "Tom Cruz",
+    "profile": {
+      "id": 2,
+      "firstname": "Tom",
+      "lastname": "Cruz"
+    },
+    "postss": [
+      {
+        "user_id": 2,
+        "title": "Post title 2"
+      },
+      {
+        "user_id": 2,
+        "title": "Post title 3"
+      },
+      {
+        "user_id": 2,
+        "title": "Post title 7"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "Adam Smith",
+    "profile": {
+      "id": 3,
+      "firstname": "Adam",
+      "lastname": "Smith"
+    },
+    "postss": [
+      {
+        "user_id": 3,
+        "title": "Post title 4"
+      }
+    ]
+  }
+]
+```
+
+>We also see here that we fetch only the required data.
+
+
+### Through the post ***`Post Model`***
+This method is divided into two sub-methods depending on how the data is organized after it is fetched from the data base
+
+#### Without using ***`API Resources`***.
+1. We first go to the ***`routes/web.php`*** file so that we can test these methods and add this new route.
+```PHP
+use App\Models\Post;
+---
+Route::get('/posts', function () {
+    $posts = Post::with('user', 'user.profile')->get();
+    return view('posts.list', compact('posts'));
+});
+```
+Here we can choose the columns for each relationship as follows.
+```PHP
+use App\Models\Post;
+---
+Route::get('/posts', function () {
+    $posts = Post::with('user:username,id', 'user.profile:firstname,lastname,user_id')->get();
+    return view('posts.list', compact('posts'));
+});
+```
+
+In order to know the difference between selecting or not selecting columns from the database, let us see the specific response to each case.
+* In the first case, with all data retrieved without exception, we find that ***`$posts`*** contains that data.
+```json
+[
+  {
+    "id": 1,
+    "title": "Post title 1",
+    "body": "Post body 1",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "id": 1,
+      "username": "John Doe",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 2,
+    "title": "Post title 2",
+    "body": "Post body 2",
+    "user_id": 2,
+    "created_at": null,
+    "updated_at": null,
+    "user": {
+      "id": 2,
+      "username": "Tom Cruz",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 3,
+    "title": "Post title 3",
+    "body": "Post body 3",
+    "user_id": 2,
+    "created_at": null,
+    "updated_at": null,
+    "user": {
+      "id": 2,
+      "username": "Tom Cruz",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Post title 4",
+    "body": "Post body 4",
+    "user_id": 3,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "id": 3,
+      "username": "Adam Smith",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Post title 5",
+    "body": "Post body 5",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "id": 1,
+      "username": "John Doe",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Post title 6",
+    "body": "Post body 6",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "id": 1,
+      "username": "John Doe",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Post title 7",
+    "body": "Post body 7",
+    "user_id": 2,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "id": 2,
+      "username": "Tom Cruz",
+      "created_at": "2023-08-07T06:23:03.000000Z",
+      "updated_at": "2023-08-07T06:23:03.000000Z"
+    }
+  }
+]
+```
+
+* In the second case, when specifying the exact required columns from the database, we find that the response is as follows.
+```json
+[
+  {
+    "id": 1,
+    "title": "Post title 1",
+    "body": "Post body 1",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "username": "John Doe",
+      "id": 1,
+      "profile": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "user_id": 1
+      }
+    }
+  },
+  {
+    "id": 2,
+    "title": "Post title 2",
+    "body": "Post body 2",
+    "user_id": 2,
+    "created_at": null,
+    "updated_at": null,
+    "user": {
+      "username": "Tom Cruz",
+      "id": 2,
+      "profile": {
+        "firstname": "Tom",
+        "lastname": "Cruz",
+        "user_id": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "title": "Post title 3",
+    "body": "Post body 3",
+    "user_id": 2,
+    "created_at": null,
+    "updated_at": null,
+    "user": {
+      "username": "Tom Cruz",
+      "id": 2,
+      "profile": {
+        "firstname": "Tom",
+        "lastname": "Cruz",
+        "user_id": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "title": "Post title 4",
+    "body": "Post body 4",
+    "user_id": 3,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "username": "Adam Smith",
+      "id": 3,
+      "profile": {
+        "firstname": "Adam",
+        "lastname": "Smith",
+        "user_id": 3
+      }
+    }
+  },
+  {
+    "id": 5,
+    "title": "Post title 5",
+    "body": "Post body 5",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "username": "John Doe",
+      "id": 1,
+      "profile": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "user_id": 1
+      }
+    }
+  },
+  {
+    "id": 6,
+    "title": "Post title 6",
+    "body": "Post body 6",
+    "user_id": 1,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "username": "John Doe",
+      "id": 1,
+      "profile": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "user_id": 1
+      }
+    }
+  },
+  {
+    "id": 7,
+    "title": "Post title 7",
+    "body": "Post body 7",
+    "user_id": 2,
+    "created_at": "2023-08-07T06:23:41.000000Z",
+    "updated_at": "2023-08-07T06:23:41.000000Z",
+    "user": {
+      "username": "Tom Cruz",
+      "id": 2,
+      "profile": {
+        "firstname": "Tom",
+        "lastname": "Cruz",
+        "user_id": 2
+      }
+    }
+  }
+]
+```
+
+> When choosing specific columns in the relationships, you must choose ***id*** and you must choose the ***user*** relationship, because without you choosing it, the user will not return with the post.
+
+2. We go to the following path ***`resources/views/users`*** and modify this file ***`list.blade.php`*** to display the users and their profiles. Also, what interests us here is displaying the posts Private for each user.
+
 ```PHP
 <table>
     <thead>
@@ -317,25 +966,346 @@ Route::get('/profiles', function () {
             <th style="text-align: center">Username</th>
             <th style="text-align: center">Firstname</th>
             <th style="text-align: center">Lastname</th>
+            <th style="text-align: center">Posts</th>
         </tr>
     </thead>
     <tbody>
-        @foreach ($profiles as $profile)
+        @foreach ($users as $user)
             <tr>
-                <td>{{ $profile->user->username }}</td>
-                <td>{{ $profile->firstname }}</td>
-                <td>{{ $profile->lastname }}</td>
+                <td>{{ $user->username }}</td>
+                <td>{{ $user->profile->firstname }}</td>
+                <td>{{ $user->profile->lastname }}</td>
+                <td>
+                    <ul>
+                        @foreach ($user->posts as $post)
+                            <li>{{ $post->title }}</li>
+                        @endforeach
+                    </ul>
+                </td>
             </tr>
         @endforeach
     </tbody>
 </table>
 ```
 
-* We now go to the browser and go to the following link ***`http://127.0.0.1:8000/profiles`*** to see what results will appear.
-> You will find that the results that will appear are similar to the previous results.
+3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
+{{< figure
+src="/img/laravel10-one-to-many-relationship/users-view-with-posts.png"
+alt="Users view with posts"
+caption="Users view with posts"
+>}}
 
-### Conclusion
-This article is the start of a whole series on ***Laravel Eloquent Relationships*** - Relationships within ***Laravel***. In it, we have dealt with the ***One to One*** relationship in a simple way, and we did not spare you any information. God willing, in the next article, we will learn about the ***One To Many*** relationship.
 
-- You will find the repo for this series on github here [
+
+#### By using ***`API Resources`***.
+
+1. You go to the following path ***`App/Http/Resources`*** and we start editing the file ***`PostResource.php`***:
+```PHP
+<?php
+
+namespace App\Http\Resources;
+
+use Illuminate\Http\Request;
+use Illuminate\Http\Resources\Json\JsonResource;
+
+class PostResource extends JsonResource
+{
+    public function toArray(Request $request): array
+    {
+        return [
+            'id' => $this->id,
+            'title' => $this->title,
+            'body' => $this->body,
+            'user' => UserResource::make($this->whenLoaded('user')),
+        ];
+    }
+}
+```
+
+2. We first go to the ***`routes/web.php`*** file to add a new route.
+```PHP
+use App\Models\Post;
+use App\Http\Resources\PostResource;
+---
+Route::get('/posts', function () {
+    $posts = Post::with(['user'])->get();
+    $postsResource = PostResource::collection($posts);
+    return response()->json($postsResource);
+});
+```
+
+3. Open the browser and go to the following link ***`http://127.0.0.1:8000/api/posts`*** to see what results will appear.
+```json
+[
+  {
+    "id": 3,
+    "title": "Post title 3",
+    "body": "Post body 3",
+    "user": {
+      "id": 2,
+      "username": "Tom Cruz"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Post title 4",
+    "body": "Post body 4",
+    "user": {
+      "id": 3,
+      "username": "Adam Smith"
+    }
+  },
+  {
+    "id": 5,
+    "title": "Post title 5",
+    "body": "Post body 5",
+    "user": {
+      "id": 1,
+      "username": "John Doe Updated"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Post title 6",
+    "body": "Post body 6",
+    "user": {
+      "id": 1,
+      "username": "John Doe Updated"
+    }
+  },
+  {
+    "id": 7,
+    "title": "Post title 7",
+    "body": "Post body 7",
+    "user": {
+      "id": 2,
+      "username": "Tom Cruz"
+    }
+  }
+]
+```
+
+>We also see here that we fetch only the required data.
+
+
+## How to update one to many relationship in Laravel?
+![How to update one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
+### Update data using the user form.
+
+1. Using ***`push method`***.
+* First go to ***`routes/web.php`*** file and modify this route:
+```PHP
+Route::get('/users/update', method () {
+    $user = User::with('posts')->find(1);
+    $post = $user->posts()->whereId(1)->first();
+    $post->title = 'Post title 1 updated';
+    $post->push();
+    return response()->json($user);
+});
+```
+
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/users/update`*** to find that the post has been updated successfully.
+```json
+{
+  "id": 1,
+  "username": "John Doe",
+  "created_at": "2023-09-06T17:24:02.000000Z",
+  "updated_at": "2023-09-06T17:25:58.000000Z",
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post title 1 updated",
+      "body": "Post body 1",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:28:58.000000Z",
+      "updated_at": "2023-09-06T18:37:30.000000Z"
+    },
+    {
+      "id": 5,
+      "title": "Post title 5",
+      "body": "Post body 5",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    },
+    {
+      "id": 6,
+      "title": "Post title 6",
+      "body": "Post body 6",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    }
+  ]
+}
+```
+
+2. Using ***`update method`***.
+* First go to the file ***`routes/web.php`*** and modify this route.
+```PHP
+Route::get('/users/update', method () {
+    $user = User::with('posts')->find(1);
+    $post = $user->posts()->whereId(1)->first();
+    $post->title = 'Post title 1';
+    $post->update();
+    return response()->json($user);
+]);
+```
+
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/users/update`*** to find that the post has been updated successfully.
+```json
+{
+  "id": 1,
+  "username": "John Doe",
+  "created_at": "2023-09-06T17:24:02.000000Z",
+  "updated_at": "2023-09-06T17:25:58.000000Z",
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post title 1",
+      "body": "Post body 1",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:28:58.000000Z",
+      "updated_at": "2023-09-06T18:41:35.000000Z"
+    },
+    {
+      "id": 5,
+      "title": "Post title 5",
+      "body": "Post body 5",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    },
+    {
+      "id": 6,
+      "title": "Post title 6",
+      "body": "Post body 6",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    }
+  ]
+}
+```
+
+### Update data using the post form.
+1. Using ***`push method`***.
+* First go to ***`routes/web.php`*** file and add this route:
+```PHP
+Route::get('/posts/update', method () {
+    $post = Post::with('user')->find(1);
+    $post->title = 'Post title 1 updated';
+    $post->user->username = 'John Doe Updated';
+    $post->push();
+    return response()->json($post);
+});
+```
+
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/update`*** to find that the post has been updated successfully.
+```json
+{
+  "id": 1,
+  "title": "Post title 1 updated",
+  "body": "Post body 1",
+  "user_id": 1,
+  "created_at": "2023-09-06T17:28:58.000000Z",
+  "updated_at": "2023-09-06T18:50:30.000000Z",
+  "user": {
+    "id": 1,
+    "username": "John Doe Updated",
+    "created_at": "2023-09-06T17:24:02.000000Z",
+    "updated_at": "2023-09-06T18:49:54.000000Z"
+  }
+}
+```
+
+2. Using ***`update method`***.
+* First go to the file ***`routes/web.php`*** and modify this route.
+```PHP
+Route::get('/posts/update', method () {
+    $post = Post::with('user')->find(1);
+    $post->user->username = 'John Doe';
+    $post->update([
+        'title' => 'Post title 1'
+    ]);
+    return response()->json($post);
+]);
+```
+
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/update`*** to find that the post has been updated successfully.
+```json
+{
+  "id": 1,
+  "title": "Post title 1",
+  "body": "Post body 1",
+  "user_id": 1,
+  "created_at": "2023-09-06T17:28:58.000000Z",
+  "updated_at": "2023-09-06T18:55:45.000000Z",
+  "user": {
+    "id": 1,
+    "username": "John Doe",
+    "created_at": "2023-09-06T17:24:02.000000Z",
+    "updated_at": "2023-09-06T18:49:54.000000Z"
+  }
+}
+```
+
+## How to delete data from one-to-many relationship in Laravel?
+![How to delete data from one-to-many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-many-relationship-in-laravel.png "How to delete data from one-to-many relationship in Laravel?")
+### Delete data using the user form.
+* First go to ***`routes/web.php`*** file and add this route:
+```PHP
+Route::get('/users/posts/delete', function () {
+    $user = User::with('posts')->find(1);
+    $user->posts()->whereIn('id', [1, 2])->delete();
+    return response()->json($user);
+});
+```
+
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/users/posts/delete`*** to find that the post has been deleted successfully.
+```json
+{
+  "id": 1,
+  "username": "John Doe Updated",
+  "created_at": "2023-09-06T17:24:02.000000Z",
+  "updated_at": "2023-09-06T18:49:54.000000Z",
+  "posts": [
+    {
+      "id": 5,
+      "title": "Post title 5",
+      "body": "Post body 5",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    },
+    {
+      "id": 6,
+      "title": "Post title 6",
+      "body": "Post body 6",
+      "user_id": 1,
+      "created_at": "2023-09-06T17:29:49.000000Z",
+      "updated_at": "2023-09-06T17:29:49.000000Z"
+    }
+  ]
+}
+```
+### Delete data using the publication form.
+* First go to ***`routes/web.php`*** file and add this path:
+```PHP
+Route::get('/posts/user/delete', function () {
+    $post = Post::with('user')->findOrFail(2);
+    $post->delete();
+});
+```
+* We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/user/delete`***. We see that the post has been successfully deleted.
+{{< figure
+src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png"
+alt="Rcord has deleted"
+caption="Rcord has deleted"
+>}}
+
+## Conclusion
+This article is a continuation of the entire series on __Laravel Eloquent Relationships__ Relationships within __Laravel__. We have covered __one-to-many relationship__ in a complete manner. We have not spared any information for you, and, God willing, we will learn in the following explanation about __the relationship of many to many__.
+
+- You can find the repo of this series on github here:
 {{< github repo="laravelspa/laravel-relations" >}}

@@ -18,28 +18,18 @@ __Laravel Eloquent__ is one of the main features in the __Laravel framework__. T
 
 It is important to note that you can start using Eloquent without any prior knowledge of relationships.
 
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png"
-alt="laravel one to one relationship"
-caption="laravel one to one relationship"
->}}
+![laravel one to one relationship](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png "laravel one to one relationship")
 
 As a professional programmer, it is necessary to understand the types of relationships. However, before that, you must ask yourself an important question: what are relationships in the first place?
 
 ## What are relationships in databases?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database.png"
-alt="What are relationships in databases?"
-caption="What are relationships in databases?"
->}}
+![What are relationships in databases?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database.png "What are relationships in databases?")
+
 When working with tables in a database that have relationships between them, we can describe these relationships as links between those tables. This helps you organize and structure data effortlessly, allowing for faster data reading and processing.
 
 ## What types of relationships are there in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel.png"
-alt="What types of relationships are there in Laravel?"
-caption="What types of relationships are there in Laravel?"
->}}
+![What types of relationships are there in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel.png "What types of relationships are there in Laravel?")
+
 There are three main types of relationships in databases that are commonly used in practice:
 
 * __one-to-one__:  A one-to-one relationship means that one record in one table can only be related to one record in another table. For example, a customer table might have a one-to-one relationship with an address table. This means that each customer can only have one address, and each address can only be associated with one customer.
@@ -70,11 +60,8 @@ Once you have a basic understanding of Eloquent, you should be able to follow th
 In the examples below, I have tried to explain everything as clearly as possible, without using too many tricky Eloquent methods and complex techniques. This means that prior knowledge is not strictly necessary. However, it is always best to learn the basics first and then pursue more complex topics such as relationships.
 
 ## How to create a One-To-One relationship in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png"
-alt="How to create a One-To-One relationship in Laravel?"
-caption="How to create a One-To-One relationship in Laravel?"
->}}
+![How to create a One-To-One relationship in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png "How to create a One-To-One relationship in Laravel?")
+
 __One-to-One relationships__ are the simplest type of relationship offered by Laravel. They join two tables such that one row in the first table is associated with only one row in the other table, or the same table.
 
 To see this in action, we'll start by creating a content management system.
@@ -182,18 +169,11 @@ public method admin() {
 > The ***`foreignKey`*** property is used to specify the name of the column in the child model that is used to reference the parent model.
 
 > If you do not add the ***`foreignKey`*** property to the relationship method when changing the relationship name, you will see the following error:
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png"
-alt="Attempt to read property X on null"
-caption="Attempt to read property X on null"
->}}
+![Attempt to read property X on null](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png "Attempt to read property X on null")
 
 ## How to insert data in one to one relationship in database?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png"
-alt="How to insert data in one to one relationship in database?"
-caption="How to insert data in one to one relationship in database?"
->}}
+![How to insert data in one to one relationship in database?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png "How to insert data in one to one relationship in database?")
+
 After we created a ***one-to-one relationship*** between the ***users*** table and the ***profiles*** table, and added the ***`hasOne()`*** method to the ***User*** model, and the ***belongsTo()*** method to the ***Profile*** model, it's time to find out how the data is saved in the database when we use this relationship. And what are the methods used for that?
 
 These methods are divided into three main ways:
@@ -294,11 +274,8 @@ Route::get('/one-to-one', method () {
 ```
 
 ## How can you retrieve data from a one-to-one relationship in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-larave.png"
-alt="How can you retrieve data from a one-to-one relationship in Laravel?"
-caption="How can you retrieve data from a one-to-one relationship in Laravel?"
->}}
+![How can you retrieve data from a one-to-one relationship in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-larave.png "How can you retrieve data from a one-to-one relationship in Laravel?")
+
 We have seen how data is saved in several different ways in the database using the one-to-one relationship in Laravel. But how do we retrieve the data from the database? There are several ways to retrieve data from the database.
 
 These methods can be divided into two main categories:
@@ -448,11 +425,8 @@ Route::get('/users', method () {
 ```
 
 3. Open your browser and go to the following URL ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png"
-alt="Laravel One To One Relationship - Users Table"
-caption="Users Table"
->}}
+![Laravel One To One Relationship - Users Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png "Users Table")
+
 
 #### Second: Depends on ***`Api Routes`***.
 
@@ -705,11 +679,8 @@ Route::get('/profiles', method () {
 ```
 
 3. Open your browser and go to the following URL ***`http://127.0.0.1:8000/profiles`*** to see what results will appear.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png"
-alt="Laravel One To One Relationship - Profiles Table"
-caption="Profiles Table"
->}}
+![Laravel One To One Relationship - Profiles Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png "Profiles Table")
+
 
 #### Second: Depends on ***`Api Routes`***.
 
@@ -782,11 +753,8 @@ Route::get('/profiles', method () {
 ```
 
 ## How to improve Eloquent queries in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png"
-alt="How to improve Eloquent queries in Laravel?"
-caption="How to improve Eloquent queries in Laravel?"
->}}
+![How to improve Eloquent queries in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png "How to improve Eloquent queries in Laravel?")
+
 
 When dealing with a large database with a lot of data, it is important to consider performance. This means not only how long it takes to get the data, but also how many queries are executed per page.
 
@@ -808,11 +776,7 @@ $users = User::with('profile')->get();
 * We open the browser and go to the following URL: ***`http://127.0.0.1:8000/users`*** to see what results will appear in the library bar.
 
 1. __(Lazy Loading)__ - Retrieve data without using ***`with`***.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png"
-alt="laravel debugbar lazy loading"
-caption="laravel debugbar lazy loading"
->}}
+![laravel debugbar lazy loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png "laravel debugbar lazy loading")
 
 At the bottom of the page, we will now find a bar for the __Laravel Debugbar library__. When you click on it, we will find that it works with a lot of data. The thing that interests us here is the number of SQL queries on this page, and as shown, they are __4__ queries.
 
@@ -827,22 +791,14 @@ To solve the N+1 problem, you can eager load the relationships. This means that 
 Eager loading can improve the performance of your application by reducing the number of queries. It is a good practice to eager load relationships whenever possible.
 
 2. __(Eager Loading)__ - Retrieve data using ***`with`***.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png"
-alt="laravel debugbar eager loading"
-caption="laravel debugbar eager loading"
->}}
+![laravel debugbar eager loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png "laravel debugbar eager loading")
 
 As you can see, by adding the with() method with the name of the relationship, each user's data will be fetched with their own profile without the N+1 problem.
 
 So the number of queries was reduced from 4 to 2 only. This will clearly have an effect if this database is of medium size or large. This is what is called eager loading.
 
 ## How to update a one-to-one relationship in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel.png"
-alt="How to update one to one relationship in laravel?"
-caption="How to update one to one relationship in laravel?"
->}}
+![How to update one to one relationship in laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-update-one-to-one-relationship-in-laravel.png "How to update one to one relationship in laravel?")
 ### Update data using User Model.
 
 1. Using ***`push method`***.
@@ -977,11 +933,7 @@ Route::get('/profiles/update', method () {
 ```
 
 ## How to delete data from one to one relationship in Laravel?
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-one-relationship-in-laravel.png"
-alt="How to delete data from one to one relationship in Laravel?"
-caption="How to delete data from one to one relationship in Laravel?"
->}}
+![How to delete data from one to one relationship in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-one-relationship-in-laravel.png "How to delete data from one to one relationship in Laravel?")
 ### Delete data using User Model.
 * We first go to the ***`routes/web.php`*** file and add this route:
 ```PHP
@@ -1014,11 +966,7 @@ Route::get('/profiles/user/delete', method () {
 });
 ```
 * We open the browser and navigate to the new URL ***`http://127.0.0.1:8000/profiles/user/delete`***. We see that both the user and the profile have been deleted successfully.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png"
-alt="Rcord has deleted"
-caption="Rcord has deleted"
->}}
+![Rcord has deleted](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png "Rcord has deleted")
 
 ## Conclusion
 This article is the start of a whole series on __Laravel Eloquent Relationships__ - Relationships within __Laravel__. We have covered the __One TO One relationship__ in a complete way. We did not spare you any information, and God willing, in the following explanation, we will learn about the __One To Many relationship__.
