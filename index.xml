@@ -1459,7 +1459,7 @@ style="text-decoration-line: none !important;" href="#delete-data-using-the-publ
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>We open the browser and go to the new URL &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/posts/user/delete&lt;/code>&lt;/strong>&lt;/em>. We see that the post has been successfully deleted.
-&lt;figure >
+&lt;figure>
 &lt;img
 class="my-0 rounded-md"
 srcset="
