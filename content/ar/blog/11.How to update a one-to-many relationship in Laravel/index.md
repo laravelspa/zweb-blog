@@ -1,20 +1,20 @@
 ---
-title: "How to update a one-to-one relationship in Laravel?"
-date: 2023-08-14
+title: "كيفية تحديث علاقة one to many فى Laravel؟"
+date: 2023-08-19
 draft: false
-slug: "how-to-update-a-one-to-one-relationship-in-laravel"
+slug: "how-to-update-a-one-to-many-relationship-in-laravel-in-arabic"
 cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
 tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
-series_order: 5
+series_order: 10
 ---
-![How to update one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
-### Update data using the user form.
+![كيفية تحديث علاقة one-to-many في Laravel؟](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel.png "كيفية تحديث علاقة one-to-many في Laravel؟")
+### تحديث البيانات باستخدام نموذج المستخدم.
 
-1. Using ***`push method`***.
-* First go to ***`routes/web.php`*** file and modify this route:
+1. باستخدام ***`push method`***.
+* نذهب أولاً إلى ملف ***`routes/web.php`*** ونقوم بتعديل هذا الرابط:
 ```PHP
 Route::get('/users/update', method () {
     $user = User::with('posts')->find(1);
@@ -25,7 +25,7 @@ Route::get('/users/update', method () {
 });
 ```
 
-* We open the browser and go to the new URL ***`http://127.0.0.1:8000/users/update`*** to find that the post has been updated successfully.
+* نفتح المتصفح وننتقل إلى عنوان URL الجديد ***`http://127.0.0.1:8000/users/update`*** لنجد أنه تم تحديث المنشور بنجاح.
 ```json
 {
   "id": 1,
@@ -61,8 +61,8 @@ Route::get('/users/update', method () {
 }
 ```
 
-2. Using ***`update method`***.
-* First go to the file ***`routes/web.php`*** and modify this route.
+2. بإستخدام ***`update method`***.
+* نذهب أولاً إلى الملف ***`routes/web.php`*** ونقوم بتعديل هذا الرابط.
 ```PHP
 Route::get('/users/update', method () {
     $user = User::with('posts')->find(1);
@@ -73,7 +73,7 @@ Route::get('/users/update', method () {
 ]);
 ```
 
-* We open the browser and go to the new URL ***`http://127.0.0.1:8000/users/update`*** to find that the post has been updated successfully.
+* نفتح المتصفح وننتقل إلى عنوان URL الجديد ***`http://127.0.0.1:8000/users/update`*** لنجد أنه تم تحديث المنشور بنجاح.
 ```json
 {
   "id": 1,
@@ -109,9 +109,9 @@ Route::get('/users/update', method () {
 }
 ```
 
-### Update data using the post form.
-1. Using ***`push method`***.
-* First go to ***`routes/web.php`*** file and add this route:
+### تحديث البيانات باستخدام نموذج المنشور.
+1. باستخدام ***`push method`***.
+* نذهب أولاً إلى ملف ***`routes/web.php`*** وأضف هذا الرابط:
 ```PHP
 Route::get('/posts/update', method () {
     $post = Post::with('user')->find(1);
@@ -122,7 +122,7 @@ Route::get('/posts/update', method () {
 });
 ```
 
-* We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/update`*** to find that the post has been updated successfully.
+* نفتح المتصفح وننتقل إلى عنوان URL الجديد ***`http://127.0.0.1:8000/posts/update`*** لنجد أنه تم تحديث المنشور بنجاح.
 ```json
 {
   "id": 1,
@@ -140,8 +140,8 @@ Route::get('/posts/update', method () {
 }
 ```
 
-2. Using ***`update method`***.
-* First go to the file ***`routes/web.php`*** and modify this route.
+2. بإستخدام ***`update method`***.
+* نذهب أولاً إلى الملف ***`routes/web.php`*** ونقوم بتعديل هذا الرابط.
 ```PHP
 Route::get('/posts/update', method () {
     $post = Post::with('user')->find(1);
@@ -153,7 +153,7 @@ Route::get('/posts/update', method () {
 ]);
 ```
 
-* We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/update`*** to find that the post has been updated successfully.
+* نفتح المتصفح وننتقل إلى عنوان URL الجديد ***`http://127.0.0.1:8000/posts/update`*** لنجد أنه تم تحديث المنشور بنجاح.
 ```json
 {
   "id": 1,
@@ -171,5 +171,5 @@ Route::get('/posts/update', method () {
 }
 ```
 
-- You can find the repo of this series on github here:
+- يمكنك العثور على repo لهذه السلسلة على github هنا:
 {{< github repo="laravelspa/laravel-relations" >}}

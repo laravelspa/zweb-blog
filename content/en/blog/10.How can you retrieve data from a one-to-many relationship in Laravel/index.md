@@ -10,7 +10,7 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 9
 ---
-## How do you retrieve data from one to many relationship in Laravel?
+
 ![How do you retrieve data from one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png "How do you retrieve data from one to many relationship in Laravel?")
 We saw how data is saved in multiple different ways within the database using the One-To-Many relationship in Laravel.
 But how to fetch data from the database?

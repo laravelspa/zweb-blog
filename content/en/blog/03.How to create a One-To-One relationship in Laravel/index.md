@@ -14,6 +14,8 @@ series_order: 2
 
 __One-to-One relationships__ are the simplest type of relationship offered by Laravel. They join two tables such that one row in the first table is associated with only one row in the other table, or the same table.
 
+![laravel one to one relationship](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png "laravel one to one relationship")
+
 To see this in action, we'll start by creating a content management system.
 
 To see this in action, let's start by creating a content management system. Let's say each user has their own single profile. In some cases, you can store all profile information in the **Users** table. However, this is not ideal.

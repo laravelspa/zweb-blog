@@ -10,6 +10,7 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationship']
 series_order: 7
 ---
+
 After we learned about the types of relationships within __Laravel__ in the previous part.
 We discussed the first type of these relationships, which is the One-To-One relationship.
 
