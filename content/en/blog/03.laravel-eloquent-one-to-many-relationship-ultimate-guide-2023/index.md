@@ -584,7 +584,7 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-![Users view with posts](/img/laravel10-one-to-many-relationship/users-view-with-posts.png "Users view with posts")
+![Users view with posts](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
 
 
 
@@ -986,7 +986,7 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-![Users view with posts](/img/laravel10-one-to-many-relationship/users-view-with-posts.png "Users view with posts")
+![Users view with posts](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
 
 #### By using ***`API Resources`***.
 
