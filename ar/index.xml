@@ -563,7 +563,7 @@ style="text-decoration-line: none !important;" href="#%d8%a8%d8%af%d9%88%d9%86-%
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>أما فى الحالة الثانية عند تحديد الأعمدة المطلوبة بالظبط من قاعدة البيانات نجد أن الإستجابة كالتالى.&lt;/li>
+&lt;li>أما فى الحالة الثانية عند تحديد الأعمدة المطلوبة بالضبط من قاعدة البيانات نجد أن الإستجابة كالتالى.&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
@@ -929,7 +929,7 @@ style="text-decoration-line: none !important;" href="#%d8%a8%d8%af%d9%88%d9%86-%
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">]&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>أما فى الحالة الثانية عند تحديد الأعمدة المطلوبة بالظبط من قاعدة البيانات نجد أن الإستجابة كالتالى.&lt;/li>
+&lt;li>أما فى الحالة الثانية عند تحديد الأعمدة المطلوبة بالضبط من قاعدة البيانات نجد أن الإستجابة كالتالى.&lt;/li>
 &lt;/ul>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">[&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
