@@ -360,14 +360,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid><description>&lt;div id="how-do-you-retrieve-data-from-one-to-many-relationship-in-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">How do you retrieve data from one to many relationship in Laravel?
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#how-do-you-retrieve-data-from-one-to-many-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -1791,14 +1784,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid><description>&lt;div id="how-to-update-one-to-many-relationship-in-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">How to update one to many relationship in Laravel?
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#how-to-update-one-to-many-relationship-in-laravel" aria-label="Anchor">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -2866,6 +2852,21 @@ alt="How to create a One-To-One relationship in Laravel?"
 &lt;/figure>
 &lt;/p>
 &lt;p>&lt;strong>One-to-One relationships&lt;/strong> are the simplest type of relationship offered by Laravel. They join two tables such that one row in the first table is associated with only one row in the other table, or the same table.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_9233971e878ca934cf1173ecced9ee72.png 330w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png 660w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_2e6579d44a8c099f3f5708391ec03f18.png 1024w,
+/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_3897a8c0a0434a29fce61c65f9966bc3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png"
+alt="laravel one to one relationship"
+/>
+&lt;figcaption>laravel one to one relationship&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;p>To see this in action, we&amp;rsquo;ll start by creating a content management system.&lt;/p>
 &lt;p>To see this in action, let&amp;rsquo;s start by creating a content management system. Let&amp;rsquo;s say each user has their own single profile. In some cases, you can store all profile information in the &lt;strong>Users&lt;/strong> table. However, this is not ideal.&lt;/p>
 &lt;p>In our example, we want to create a separate table for personal profiles. This will allow us to transfer a profile from one user to another easily if we need to.&lt;/p>
