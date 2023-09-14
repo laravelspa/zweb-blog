@@ -674,7 +674,16 @@ When selecting specific columns in relationships, you must choose &lt;em>&lt;str
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel10-one-to-many-relationship/users-view-with-posts.png" alt="Users view with posts" />
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png"
+alt="Users view with posts"
+/>
 &lt;figcaption>Users view with posts&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -1088,7 +1097,16 @@ style="text-decoration-line: none !important;" href="#without-using-api-resource
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel10-one-to-many-relationship/users-view-with-posts.png" alt="Users view with posts" />
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_330x0_resize_box_3.png 330w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png 660w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1024x0_resize_box_3.png 1024w,
+/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1320x0_resize_box_3.png 2x"
+src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png"
+alt="Users view with posts"
+/>
 &lt;figcaption>Users view with posts&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
