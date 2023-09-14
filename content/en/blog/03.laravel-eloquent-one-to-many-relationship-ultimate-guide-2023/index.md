@@ -584,11 +584,8 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-{{< figure
-src="/img/laravel10-one-to-many-relationship/users-view-with-posts.png"
-alt="Users view with posts"
-caption="Users view with posts"
->}}
+![Users view with posts](/img/laravel10-one-to-many-relationship/users-view-with-posts.png "Users view with posts")
+
 
 
 #### By using ***`API Resources`***.
@@ -989,13 +986,7 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-{{< figure
-src="/img/laravel10-one-to-many-relationship/users-view-with-posts.png"
-alt="Users view with posts"
-caption="Users view with posts"
->}}
-
-
+![Users view with posts](/img/laravel10-one-to-many-relationship/users-view-with-posts.png "Users view with posts")
 
 #### By using ***`API Resources`***.
 
@@ -1298,11 +1289,7 @@ Route::get('/posts/user/delete', function () {
 });
 ```
 * We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/user/delete`***. We see that the post has been successfully deleted.
-{{< figure
-src="/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png"
-alt="Rcord has deleted"
-caption="Rcord has deleted"
->}}
+![Rcord has deleted](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png "Rcord has deleted")
 
 ## Conclusion
 This article is a continuation of the entire series on __Laravel Eloquent Relationships__ Relationships within __Laravel__. We have covered __one-to-many relationship__ in a complete manner. We have not spared any information for you, and, God willing, we will learn in the following explanation about __the relationship of many to many__.
