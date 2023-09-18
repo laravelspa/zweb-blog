@@ -22,6 +22,7 @@ As a professional programmer, it is necessary to understand the types of relatio
 ## What are relationships in databases?
 ![What are relationships in databases?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database.png "What are relationships in databases?")
 
+{{< youtube id="MFhbyjZlwH0" title="What are relationships in databases?" >}}
 When working with tables in a database that have relationships between them, we can describe these relationships as links between those tables. This helps you organize and structure data effortlessly, allowing for faster data reading and processing.
 
 ## What types of relationships are there in Laravel?
