@@ -3041,7 +3041,11 @@ alt="What are relationships in databases?"
 &lt;figcaption>What are relationships in databases?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;p>When working with tables in a database that have relationships between them, we can describe these relationships as links between those tables. This helps you organize and structure data effortlessly, allowing for faster data reading and processing.&lt;/p>
+&lt;p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe src="https://www.youtube.com/embed/MFhbyjZlwH0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="What are relationships in databases?">&lt;/iframe>
+&lt;/div>
+When working with tables in a database that have relationships between them, we can describe these relationships as links between those tables. This helps you organize and structure data effortlessly, allowing for faster data reading and processing.&lt;/p>
 &lt;div id="what-types-of-relationships-are-there-in-laravel" class="anchor">&lt;/div>
 &lt;h2 class="relative group">What types of relationships are there in Laravel?
 &lt;span
