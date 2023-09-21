@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>كيف تحذف البيانات من علاقة واحد إلى كثير في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>كيفية حذف البيانات فى علاقة واحد إلى كثير في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -360,7 +360,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to many في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -1525,7 +1525,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف تنشئ علاقة One-To-Many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>بعد أن تعرفنا على أنواع العلاقات داخل &lt;strong>Laravel&lt;/strong> فى الحزء السابق.
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيفية إنشاء علاقة One-To-Many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>بعد أن تعرفنا على أنواع العلاقات داخل &lt;strong>Laravel&lt;/strong> فى الحزء السابق.
 وقمنا بتناول أول نوع من هذه العلاقات وهى علاقة One-To-One.&lt;/p>
 &lt;p>اليوم نستكمل السلسلة التى بدأناها فى تعلم &lt;strong>Laravel Eloquent Relationships&lt;/strong>.&lt;/p>
 &lt;p>و نتكلم عن النوع الثانى والذى يطلق عليه &lt;strong>One-To-Many&lt;/strong> او &lt;strong>hasMany&lt;/strong>.&lt;/p>
@@ -1660,7 +1660,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -1982,7 +1982,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
@@ -2808,14 +2808,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف تُنشئ علاقة One-To-One في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;div id="كيف-تنشئ-علاقة-one-to-one-في-laravel" class="anchor">&lt;/div>
-&lt;h2 class="relative group">كيف تُنشئ علاقة One-To-One في Laravel؟
-&lt;span
-class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%d9%86%d8%b4%d8%a6-%d8%b9%d9%84%d8%a7%d9%82%d8%a9-one-to-one-%d9%81%d9%8a-laravel" aria-label="رابط">#&lt;/a>&lt;/span>
-&lt;/h2>
-&lt;p>
+&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف إنشاء علاقة One-To-One في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img
 class="my-0 rounded-md"
