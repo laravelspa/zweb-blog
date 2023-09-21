@@ -1,5 +1,5 @@
 ---
-title: "كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟"
+title: "كيفية استرداد البيانات فى علاقة one to many في Laravel؟"
 date: 2023-08-18
 draft: false
 slug: "how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic"

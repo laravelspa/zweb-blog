@@ -1,5 +1,5 @@
 ---
-title: "كيف تُنشئ علاقة One-To-One في Laravel؟"
+title: "كيف إنشاء علاقة One-To-One في Laravel؟"
 date: 2023-08-11
 draft: false
 slug: "how-to-create-a-One-To-One-relationship-in-laravel-in-arabic"
@@ -10,7 +10,6 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 2
 ---
-## كيف تُنشئ علاقة One-To-One في Laravel؟
 ![كيف تُنشئ علاقة One-To-One في Laravel؟](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png "كيف تُنشئ علاقة One-To-One في Laravel؟")
 
 __علاقات واحد لواحد__ هي أبسط أنواع العلاقات التي يقدمها Laravel. يتم من خلالها ربط جدولين بحيث يرتبط صف واحد في الجدول الأول بصف واحد فقط في الجدول الآخر ، أو نفس الجدول.

@@ -1,5 +1,5 @@
 ---
-title: "كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟"
+title: "كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟"
 date: 2023-08-15
 draft: false
 slug: "how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic"

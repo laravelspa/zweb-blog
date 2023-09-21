@@ -1,5 +1,5 @@
 ---
-title: "كيف تنشئ علاقة One-To-Many فى Laravel؟"
+title: "كيفية إنشاء علاقة One-To-Many فى Laravel؟"
 date: 2023-08-16
 draft: false
 slug: "how-to-create-a-One-To-Many-relationship-in-laravel-in-arabic"
