@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolio on Laravel SPA</title>
+    <link>https://laravelspa.site/portfolio/</link>
+    <description>Recent content in Portfolio on Laravel SPA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Excel To PDF - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/10.excel-to-pdf/</link>
+      <pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/10.excel-to-pdf/</guid>
+      <description>A small tool created to convert excel data to pdf.
+Excel To PDFExcel To PDFExcel To PDFLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Javascript Library # Dom To Image JS Barcode JS PDF Read Excel File Demolaravelspa/Excel-To-PDFJavaScript 00</description>
+    </item>
+    
+    <item>
+      <title>Nuxt Wind Theme - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/09.nuxt-wind-theme/</link>
+      <pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/09.nuxt-wind-theme/</guid>
+      <description>A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.
+Nuxt Wind Dark ThemeNuxt Wind Dark ThemeNuxt Wind Light ThemeLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # TailwindCSS Javascript Library # Vue Nuxt Demolaravelspa/nuxt-wind-themeTypeScript 00</description>
+    </item>
+    
+    <item>
+      <title>Spiru Lin Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/08.spiru-lin-landing-page/</link>
+      <pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/08.spiru-lin-landing-page/</guid>
+      <description>An 12-section landing page created for the purpose of selling the Natural product.
+Spiru Lin Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Demolaravelspa/Spiru-Lin-Landing-PageCSS 00</description>
+    </item>
+    
+    <item>
+      <title>Goji Cream 2 Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/</link>
+      <pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/</guid>
+      <description>An 4-section landing page created for the purpose of selling the Natural product.
+Goji Cream Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Demolaravelspa/Goji-Cream-2-Landing-PageCSS 00</description>
+    </item>
+    
+    <item>
+      <title>Wellness Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/06.wellness-landing-page/</link>
+      <pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/06.wellness-landing-page/</guid>
+      <description>An 8-section landing page created for the purpose of the exercise
+Wellness Landing PageRequirements # Node v16.20.0 Languages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Tailwindcss Javascript Library # Vue Nuxt Demolaravelspa/Wellness-Landing-PageVue 00</description>
+    </item>
+    
+    <item>
+      <title>Golden Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/05.golden-landing-page/</link>
+      <pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/05.golden-landing-page/</guid>
+      <description>An 7-section landing page created for the purpose of the exercise
+Golden Landing PageRequirements # Node v16.20.0 Languages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Tailwindcss Javascript Library # Vue Nuxt Demolaravelspa/golden-landing-pageVue 00</description>
+    </item>
+    
+    <item>
+      <title>Golden Wapp Design Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</guid>
+      <description>An 7-section landing page created for the purpose of the exercise
+Golden Wapp Design Landing PageRequirements # Node v16.20.0 Languages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Tailwindcss Javascript Library # Vue Nuxt Demolaravelspa/Golden-Wapp-Design-Landing-PageVue 00</description>
+    </item>
+    
+    <item>
+      <title>CaviarMask Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/03.caviarmask-landing-page/</link>
+      <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/03.caviarmask-landing-page/</guid>
+      <description>An 8-section landing page created for the purpose of selling the Natural product.
+CaviarMask Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Icon Library # Font]Awesome Demolaravelspa/CaviarMask-Landing-PageCSS 00</description>
+    </item>
+    
+    <item>
+      <title>Unicode Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/02.unicode-landing-page/</link>
+      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/02.unicode-landing-page/</guid>
+      <description>An 8-section landing page created for the purpose of the exercise
+unicode Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Demolaravelspa/Unicode-Landing-PageTest WebsiteCSS 00</description>
+    </item>
+    
+    <item>
+      <title>Personal Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/01.personal-landing-page-copy/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/01.personal-landing-page-copy/</guid>
+      <description>An 8-section landing page created for the purpose of the exercise
+Personal Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Demolaravelspa/Personal-Landing-Pagelegal justice groupHTML 00</description>
+    </item>
+    
+    <item>
+      <title>Personal Landing Page - Frontend Project</title>
+      <link>https://laravelspa.site/portfolio/01.personal-landing-page/</link>
+      <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/portfolio/01.personal-landing-page/</guid>
+      <description>An 8-section landing page created for the purpose of the exercise
+Personal Landing PageLanguages # HTML (Markup Language) CSS (Style Sheet Language) Javascript (Scripting Language) Frontend Framework # Bootstrap Javascript Library # JQuery Demolaravelspa/Personal-Landing-Pagelegal justice groupHTML 00</description>
+    </item>
+    
+  </channel>
+</rss>

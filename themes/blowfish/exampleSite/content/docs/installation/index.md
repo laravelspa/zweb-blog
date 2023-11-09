@@ -91,7 +91,6 @@ For this method you'll use Hugo to manage your themes. Hugo uses **Go** to initi
 
 1. Download the latest release of the theme source code.
 
-   ---
 {{< button href="https://github.com/nunocoracao/blowfish/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
 
 2. Extract the archive, rename the folder to `blowfish` and move it to the `themes/` directory inside your Hugo project's root folder.
@@ -174,7 +173,6 @@ Note that any local customisations you have made to the theme files will be lost
 
 1. Download the latest release of the theme source code.
 
-   ---
 {{< button href="https://github.com/nunocoracao/blowfish/releases/latest" target="_blank" >}}Download from Github{{< /button >}}
 
 2. Extract the archive, rename the folder to `blowfish` and move it to the `themes/` directory inside your Hugo project's root folder. You will need to overwrite the existing directory to replace all the theme files.

@@ -6,7 +6,107 @@
     <description>Recent content in laravel10 on Laravel SPA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ar</language>
-    <lastBuildDate>Mon, 08 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/tags/laravel10/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/tags/laravel10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>كيفية حذف البيانات فى علاقة واحد إلى كثير في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</guid>
+      <description>كيف تحذف البيانات من علاقة واحد إلى كثير في Laravel؟حذف البيانات باستخدام نموذج المستخدم. # نذهب أولاً إلى ملف routes/web.php وأضف هذا الرابط: Route::get(&amp;#39;/users/posts/delete&amp;#39;, function () { $user = User::with(&amp;#39;posts&amp;#39;)-&amp;gt;find(1); $user-&amp;gt;posts()-&amp;gt;whereIn(&amp;#39;id&amp;#39;, [1, 2])-&amp;gt;delete(); return response()-&amp;gt;json($user); }); نفتح المتصفح وننتقل إلى عنوان URL الجديد http://127.</description>
+    </item>
+    
+    <item>
+      <title>كيفية تحديث علاقة one to many فى Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</guid>
+      <description>كيفية تحديث علاقة one-to-many في Laravel؟تحديث البيانات باستخدام نموذج المستخدم. # باستخدام push method. نذهب أولاً إلى ملف routes/web.php ونقوم بتعديل هذا الرابط: Route::get(&amp;#39;/users/update&amp;#39;, method () { $user = User::with(&amp;#39;posts&amp;#39;)-&amp;gt;find(1); $post = $user-&amp;gt;posts()-&amp;gt;whereId(1)-&amp;gt;first(); $post-&amp;gt;title = &amp;#39;Post title 1 updated&amp;#39;; $post-&amp;gt;push(); return response()-&amp;gt;json($user); }); نفتح المتصفح وننتقل إلى عنوان URL الجديد http://127.</description>
+    </item>
+    
+    <item>
+      <title>كيفية استرداد البيانات فى علاقة one to many في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid>
+      <description>كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-Many فى Laravel. ولكن كيف يتم جلب البيانات من قاعدة البيانات؟ هناك عدة طرق يمكن من خلالها جلب البيانات من قاعدة البيانات.</description>
+    </item>
+    
+    <item>
+      <title>كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</link>
+      <pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</guid>
+      <description>كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟ # كيفية إدراج البيانات في علاقة واحد لكثير في قاعدة البيانات؟بعد أن قمنا بإنشاء علاقة One-To-Many بين كلا من جدول المستخدمين وجدول المنشورات وأضفنا hasMany داخل User Model, وأيضا قمنا بإضافة العلاقة العكسية داخل Post Model بإضافة belongsTo إليه.</description>
+    </item>
+    
+    <item>
+      <title>كيفية إنشاء علاقة One-To-Many فى Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid>
+      <description>بعد أن تعرفنا على أنواع العلاقات داخل Laravel فى الحزء السابق. وقمنا بتناول أول نوع من هذه العلاقات وهى علاقة One-To-One.
+اليوم نستكمل السلسلة التى بدأناها فى تعلم Laravel Eloquent Relationships.</description>
+    </item>
+    
+    <item>
+      <title>كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid>
+      <description>كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟حذف البيانات باستخدام نموذج المستخدم. # نذهب أولاً إلى ملف routes/web.php وأضف هذا المسار: Route::get(&amp;#39;/users/profile/delete&amp;#39;, method () { $user = User::with(&amp;#39;profile&amp;#39;)-&amp;gt;find(1); $user-&amp;gt;profile()-&amp;gt;delete(); return response()-&amp;gt;json($user); }); نفتح المتصفح وننتقل إلى عنوان URL الجديد http://127.</description>
+    </item>
+    
+    <item>
+      <title>كيفية تحديث علاقة one-to-one في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</guid>
+      <description>كيفية تحديث علاقة one-to-one في Laravel؟تحديث البيانات باستخدام نموذج المستخدم. # باستخدام push method. نذهب أولاً إلى ملف routes/web.php وأضف هذا المسار: Route::get(&amp;#39;/users/update&amp;#39;, method () { $user = User::with(&amp;#39;profile&amp;#39;)-&amp;gt;find(1); $user-&amp;gt;username = &amp;#39;John Doe Updated&amp;#39;; $user-&amp;gt;profile-&amp;gt;lastname = &amp;#39;Doe Updated&amp;#39;; $user-&amp;gt;push(); return response()-&amp;gt;json($user); }); نفتح المتصفح وننتقل إلى عنوان URL الجديد http://127.</description>
+    </item>
+    
+    <item>
+      <title>كيفية استرداد البيانات فى علاقة one to one في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid>
+      <description>كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟لقد رأينا كيف يتم حفظ البيانات بعدة طرق مختلفة في قاعدة البيانات باستخدام علاقة one to one في Laravel.</description>
+    </item>
+    
+    <item>
+      <title>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</guid>
+      <description>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟بعد أن أنشأنا علاقة واحد لواحد بين جدول المستخدمين وجدول ملفات تعريف ، وأضفنا hasOne() method إلى نموذج User ، و method belongsTo() إلى نموذج Profile ، حان الوقت لمعرفة كيفية حفظ البيانات في قاعدة البيانات عندما نستخدم هذه العلاقة.</description>
+    </item>
+    
+    <item>
+      <title>كيف إنشاء علاقة One-To-One في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link>
+      <pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid>
+      <description>كيف تُنشئ علاقة One-To-One في Laravel؟علاقات واحد لواحد هي أبسط أنواع العلاقات التي يقدمها Laravel. يتم من خلالها ربط جدولين بحيث يرتبط صف واحد في الجدول الأول بصف واحد فقط في الجدول الآخر ، أو نفس الجدول.</description>
+    </item>
+    
+    <item>
+      <title>ما هي أنواع العلاقات الموجودة في Laravel؟</title>
+      <link>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</link>
+      <pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</guid>
+      <description>في كثير من الأحيان ، يحتاج المطورون إلى التفاعل مع قواعد البيانات. إذا كنت تستخدم إطار عمل Laravel ، فيجب أن تعرف عن إحدى ميزاته الأكثر أهمية: Eloquent ، مخطط ربط الكائنات (ORM) الذي يجعل هذه العملية بسيطة وسهلة.</description>
+    </item>
+    
     <item>
       <title>كيفية تحميل Vue 3 داخل مشروع Laravel 10 بإستخدام Vite</title>
       <link>https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/</link>
