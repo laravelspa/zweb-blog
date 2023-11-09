@@ -80,22 +80,26 @@ style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%a7%d
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-1-1699539573704256579" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-1-1699539573704256579-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699539573704256579-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -104,7 +108,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699539573704256579-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -112,11 +116,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699539573704256579-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-1-1699539573704256579-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699539573704256579-description').innerHTML = data.description;
+document.getElementById('github-1-1699539573704256579-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699539573704256579-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one to many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel.png" alt="كيفية تحديث علاقة one-to-many في Laravel؟" />
@@ -298,22 +317,26 @@ style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573687779804" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573687779804-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573687779804-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -322,7 +345,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573687779804-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -330,11 +353,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573687779804-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573687779804-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573687779804-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573687779804-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573687779804-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to many في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png" alt="كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟" />
@@ -1115,22 +1153,26 @@ style="text-decoration-line: none !important;" href="#%d8%b9%d9%86-%d8%b7%d8%b1%
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-2-1699539573685833496" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-2-1699539573685833496-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-2-1699539573685833496-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -1139,7 +1181,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-2-1699539573685833496-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1147,11 +1189,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-2-1699539573685833496-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-2-1699539573685833496-full_name').innerHTML = data.full_name;
+document.getElementById('github-2-1699539573685833496-description').innerHTML = data.description;
+document.getElementById('github-2-1699539573685833496-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-2-1699539573685833496-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</link><pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</guid><description>&lt;div id="كيفية-إدراج-البيانات-في-علاقة-واحد-الى-كثير-في-قاعدة-البيانات" class="anchor">&lt;/div>
 &lt;h2 class="relative group">كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟
 &lt;span
@@ -1447,22 +1504,26 @@ style="text-decoration-line: none !important;" href="#3-%d8%b9%d9%86-%d8%b7%d8%b
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-1-1699539573667870714" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-1-1699539573667870714-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699539573667870714-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -1471,7 +1532,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699539573667870714-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1479,11 +1540,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699539573667870714-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-1-1699539573667870714-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699539573667870714-description').innerHTML = data.description;
+document.getElementById('github-1-1699539573667870714-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699539573667870714-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيفية إنشاء علاقة One-To-Many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>بعد أن تعرفنا على أنواع العلاقات داخل &lt;strong>Laravel&lt;/strong> فى الحزء السابق.
 وقمنا بتناول أول نوع من هذه العلاقات وهى علاقة One-To-One.&lt;/p>
 &lt;p>اليوم نستكمل السلسلة التى بدأناها فى تعلم &lt;strong>Laravel Eloquent Relationships&lt;/strong>.&lt;/p>
@@ -1565,22 +1641,26 @@ style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573658039969" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573658039969-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573658039969-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -1589,7 +1669,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573658039969-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1597,11 +1677,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573658039969-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573658039969-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573658039969-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573658039969-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573658039969-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-delete-data-from-one-to-one-relationship-in-laravel.png" alt="كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟" />
@@ -1671,22 +1766,26 @@ style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%a7%d
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573649272629" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573649272629-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573649272629-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -1695,7 +1794,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573649272629-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1703,11 +1802,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573649272629-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573649272629-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573649272629-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573649272629-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573649272629-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one-to-one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel.png" alt="كيفية تحديث علاقة one-to-one في Laravel؟" />
@@ -1862,22 +1976,26 @@ style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573627404030" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573627404030-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573627404030-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -1886,7 +2004,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573627404030-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1894,11 +2012,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573627404030-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573627404030-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573627404030-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573627404030-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573627404030-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png" alt="كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟" />
@@ -2470,22 +2603,26 @@ Laravel Debugbar&lt;/a>. سيعرض لك شريط التصحيح جميع الا
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573636322870" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573636322870-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573636322870-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -2494,7 +2631,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573636322870-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2502,11 +2639,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573636322870-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573636322870-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573636322870-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573636322870-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573636322870-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-one-relationship-in-database.png" alt="كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟" />
@@ -2627,22 +2779,26 @@ style="text-decoration-line: none !important;" href="#3-%d8%a8%d8%a7%d8%b3%d8%aa
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573594537480" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573594537480-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573594537480-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -2651,7 +2807,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573594537480-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2659,11 +2815,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573594537480-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573594537480-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573594537480-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573594537480-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573594537480-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف إنشاء علاقة One-To-One في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png" alt="كيف تُنشئ علاقة One-To-One في Laravel؟" />
@@ -2780,22 +2951,26 @@ PHP
 &lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-0-1699539573593724877" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-0-1699539573593724877-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699539573593724877-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -2804,7 +2979,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573593724877-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2812,11 +2987,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699539573593724877-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel-relations", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699539573593724877-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699539573593724877-description').innerHTML = data.description;
+document.getElementById('github-0-1699539573593724877-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699539573593724877-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>ما هي أنواع العلاقات الموجودة في Laravel؟</title><link>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</guid><description>&lt;p>في كثير من الأحيان ، يحتاج المطورون إلى التفاعل مع قواعد البيانات. إذا كنت تستخدم إطار عمل Laravel ، فيجب أن تعرف عن إحدى ميزاته الأكثر أهمية: Eloquent ، مخطط ربط الكائنات (ORM) الذي يجعل هذه العملية بسيطة وسهلة.&lt;/p>
 &lt;p>&lt;strong>Laravel Eloquent&lt;/strong> هي واحدة من السمات الرئيسية في إطار عمل &lt;strong>Laravel&lt;/strong>. ويرجع ذلك إلى دعمه الكبير لتعريف العلاقات بين الجداول المختلفة وإنشاؤها وإدارتها. في هذه السلسلة من المقالات ، سأوضح لك كيفية إنشاء واستخدام &lt;strong>Laravel Eloquent&lt;/strong>.&lt;/p>
 &lt;p>من المهم ملاحظة أنه يمكنك البدء في استخدام Eloquent دون أي معرفة مسبقة بالعلاقات.&lt;/p>
@@ -3116,22 +3306,26 @@ class="dark:text-neutral-300"
 &lt;li>ستجد repo الخاصة بهذا المشروع على github هنا&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
-&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;a id="github-6-1699539573571611676" target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
 &lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+&lt;div
+id="github-6-1699539573571611676-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel10-vue3
 &lt;/div>
 &lt;/div>
-&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-6-1699539573571611676-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
-&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #4F5D95">&lt;/span>
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #4F5D95">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 PHP
 &lt;/div>
@@ -3140,7 +3334,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-6-1699539573571611676-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 3
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -3148,11 +3342,26 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-6-1699539573571611676-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 1
 &lt;/div>
 &lt;/div>
 &lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/laravel10-vue3", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-6-1699539573571611676-full_name').innerHTML = data.full_name;
+document.getElementById('github-6-1699539573571611676-description').innerHTML = data.description;
+document.getElementById('github-6-1699539573571611676-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-6-1699539573571611676-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/featured.png"/></item><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description>&lt;p>شكرا لك على قراءة مدونتي!&lt;/p>
 &lt;p>قم بالتسجيل في &lt;a href="https://tinyletter.com/LaravelSPA" target="_blank">
 نشرتنا عبر البريد الإلكتروني&lt;/a> أو يمكنك إستخدام &lt;a href="https://laravelspa.site/index.xml" >
