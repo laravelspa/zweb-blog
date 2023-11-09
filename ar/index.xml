@@ -3156,8 +3156,7 @@ PHP
 &lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/featured.png"/></item><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description>&lt;p>شكرا لك على قراءة مدونتي!&lt;/p>
 &lt;p>قم بالتسجيل في &lt;a href="https://tinyletter.com/LaravelSPA" target="_blank">
 نشرتنا عبر البريد الإلكتروني&lt;/a> أو يمكنك إستخدام &lt;a href="https://laravelspa.site/index.xml" >
-RSS feed&lt;/a> لتلقي تنبيهات حول منشورات المدونة الجديدة.&lt;/p></description></item><item><title>تواصل معنا</title><link>https://laravelspa.site/ar/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/contact-us/</guid><description>&lt;hr>
-&lt;a
+RSS feed&lt;/a> لتلقي تنبيهات حول منشورات المدونة الجديدة.&lt;/p></description></item><item><title>تواصل معنا</title><link>https://laravelspa.site/ar/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/contact-us/</guid><description>&lt;a
 class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
 href="https://forms.gle/UjbPLAqrhvb7vVPd8"
 target="_blank"
