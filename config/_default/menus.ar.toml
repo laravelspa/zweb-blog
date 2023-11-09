@@ -16,19 +16,25 @@
   weight = 10
 
 [[main]]
+  name = "أعمالى"
+  pageRef = "portfolio"
+  weight = 20
+
+
+[[main]]
   name = "الأقسام"
   pageRef = "categories"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "الوسوم"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "دورات"
   pageRef = "series"
-  weight = 40
+  weight = 50
 
 
 # -- Footer Menu --
