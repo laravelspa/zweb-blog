@@ -10,7 +10,7 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 3
 ---
-![How to insert data in one to one relationship in database?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png "How to insert data in one to one relationship in database?")
+![How to insert data in one to one relationship in database?](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png "How to insert data in one to one relationship in database?")
 
 After we created a ***one-to-one relationship*** between the ***users*** table and the ***profiles*** table, and added the ***`hasOne()`*** method to the ***User*** model, and the ***belongsTo()*** method to the ***Profile*** model, it's time to find out how the data is saved in the database when we use this relationship. And what are the methods used for that?
 
@@ -112,4 +112,5 @@ Route::get('/one-to-one', method () {
 ```
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

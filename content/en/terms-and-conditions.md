@@ -1,6 +1,7 @@
 ---
 title: "Terms and Conditions"
 layout: "simple"
+sharingLinks: false
 ---
 
 Welcome to Laravel SPA!

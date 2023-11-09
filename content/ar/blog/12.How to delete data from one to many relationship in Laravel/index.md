@@ -68,4 +68,5 @@ caption="Rcord has deleted"
 هذه المقالة هي تكمبة لسلسلة كاملة عن __Laravel Eloquent Relationships__ علاقات ضمن __Laravel__. لقد غطينا __علاقة واحد إلى كثير__ بطريقة كاملة. لم ندخر لكم أي معلومة ، وإن شاء الله ، سنتعرف في الشرح التالي على __علاقة كثير إلى كثير__.
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

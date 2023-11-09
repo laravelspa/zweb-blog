@@ -10,7 +10,7 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 4
 ---
-![How can you retrieve data from a one-to-one relationship in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel.png "How can you retrieve data from a one-to-one relationship in Laravel?")
+![How can you retrieve data from a one-to-one relationship in Laravel?](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel.png "How can you retrieve data from a one-to-one relationship in Laravel?")
 
 We have seen how data is saved in several different ways in the database using the one-to-one relationship in Laravel. But how do we retrieve the data from the database? There are several ways to retrieve data from the database.
 
@@ -161,7 +161,7 @@ Route::get('/users', method () {
 ```
 
 3. Open your browser and go to the following URL ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-![Laravel One To One Relationship - Users Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png "Users Table")
+![Laravel One To One Relationship - Users Table](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png "Users Table")
 
 
 #### Second: Depends on ***`Api Routes`***.
@@ -415,7 +415,7 @@ Route::get('/profiles', method () {
 ```
 
 3. Open your browser and go to the following URL ***`http://127.0.0.1:8000/profiles`*** to see what results will appear.
-![Laravel One To One Relationship - Profiles Table](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png "Profiles Table")
+![Laravel One To One Relationship - Profiles Table](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png "Profiles Table")
 
 
 #### Second: Depends on ***`Api Routes`***.
@@ -489,7 +489,7 @@ Route::get('/profiles', method () {
 ```
 
 ## How to improve Eloquent queries in Laravel?
-![How to improve Eloquent queries in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png "How to improve Eloquent queries in Laravel?")
+![How to improve Eloquent queries in Laravel?](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png "How to improve Eloquent queries in Laravel?")
 
 
 When dealing with a large database with a lot of data, it is important to consider performance. This means not only how long it takes to get the data, but also how many queries are executed per page.
@@ -512,7 +512,7 @@ $users = User::with('profile')->get();
 * We open the browser and go to the following URL: ***`http://127.0.0.1:8000/users`*** to see what results will appear in the library bar.
 
 1. __(Lazy Loading)__ - Retrieve data without using ***`with`***.
-![laravel debugbar lazy loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png "laravel debugbar lazy loading")
+![laravel debugbar lazy loading](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png "laravel debugbar lazy loading")
 
 At the bottom of the page, we will now find a bar for the __Laravel Debugbar library__. When you click on it, we will find that it works with a lot of data. The thing that interests us here is the number of SQL queries on this page, and as shown, they are __4__ queries.
 
@@ -527,11 +527,12 @@ To solve the N+1 problem, you can eager load the relationships. This means that 
 Eager loading can improve the performance of your application by reducing the number of queries. It is a good practice to eager load relationships whenever possible.
 
 2. __(Eager Loading)__ - Retrieve data using ***`with`***.
-![laravel debugbar eager loading](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png "laravel debugbar eager loading")
+![laravel debugbar eager loading](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png "laravel debugbar eager loading")
 
 As you can see, by adding the with() method with the name of the relationship, each user's data will be fetched with their own profile without the N+1 problem.
 
 So the number of queries was reduced from 4 to 2 only. This will clearly have an effect if this database is of medium size or large. This is what is called eager loading.
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

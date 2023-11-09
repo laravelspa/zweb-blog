@@ -11,7 +11,7 @@ series: ['Laravel Eloquent Relationships']
 series_order: 9
 ---
 
-![How do you retrieve data from one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png "How do you retrieve data from one to many relationship in Laravel?")
+![How do you retrieve data from one to many relationship in Laravel?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png "How do you retrieve data from one to many relationship in Laravel?")
 We saw how data is saved in multiple different ways within the database using the One-To-Many relationship in Laravel.
 But how to fetch data from the database?
 There are several ways in which data can be fetched from a database.
@@ -265,7 +265,7 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-![Users view with posts](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
+![Users view with posts](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
 
 
 
@@ -667,7 +667,7 @@ In order to know the difference between selecting or not selecting columns from 
 ```
 
 3. Open the browser and go to the following link ***`http://127.0.0.1:8000/users`*** to see what results will appear.
-![Users view with posts](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
+![Users view with posts](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png "Users view with posts")
 
 #### By using ***`API Resources`***.
 
@@ -760,4 +760,5 @@ Route::get('/posts', function () {
 > We also see here that we fetch only the required data.
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

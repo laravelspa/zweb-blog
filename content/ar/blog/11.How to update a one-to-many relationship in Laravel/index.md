@@ -172,4 +172,5 @@ Route::get('/posts/update', method () {
 ```
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

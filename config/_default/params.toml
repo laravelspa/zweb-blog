@@ -86,8 +86,8 @@ mainSections = ["blog"]
   showCards = true
   groupByYear = false
   cardView = false
-  cardViewScreenWidth = false
-  constrainItemsWidth = false
+  cardViewScreenWidth = true
+  constrainItemsWidth = true
 
 [sitemap]
   excludedKinds = []
@@ -100,7 +100,7 @@ mainSections = ["blog"]
   showViews = true
   showLikes = true
   #showTableOfContents = true
-  cardView = false
+  cardView = true
 
 [term]
   #showHero = true
@@ -111,7 +111,7 @@ mainSections = ["blog"]
   #showTableOfContents = true
   #groupByYear = false
   #cardViewScreenWidth = false
-  cardView = false
+  cardView = true
 
 [firebase]
    apiKey = "AIzaSyAbobgb8uyAa603RBYEpBJ_LkDn_3l5Ack"

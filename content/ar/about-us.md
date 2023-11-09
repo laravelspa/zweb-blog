@@ -1,6 +1,7 @@
 ---
 title: "من نحن"
 layout: "simple"
+sharingLinks: false
 ---
 مرحبا انا محمود عادل.
 

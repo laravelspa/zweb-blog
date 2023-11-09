@@ -48,4 +48,5 @@ Route::get('/profiles/user/delete', method () {
 هذه المقالة هي بداية سلسلة كاملة عن __Laravel Eloquent Relationships__ علاقات ضمن __Laravel__. لقد غطينا __علاقة واحد إلى واحد__ بطريقة كاملة. لم ندخر لكم أي معلومة ، وإن شاء الله ، سنتعرف في الشرح التالي على __علاقة واحد إلى كثير__.
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

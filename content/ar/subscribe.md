@@ -1,6 +1,7 @@
 ---
 title: "تابعنا"
 layout: "simple"
+sharingLinks: false
 ---
 
 شكرا لك على قراءة مدونتي!

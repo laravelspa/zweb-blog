@@ -10,7 +10,7 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 5
 ---
-![How to update one to many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
+![How to update one to many relationship in Laravel?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png "How to update one to many relationship in Laravel?")
 ### Update data using the user form.
 
 1. Using ***`push method`***.
@@ -172,4 +172,5 @@ Route::get('/posts/update', method () {
 ```
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

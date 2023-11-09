@@ -114,6 +114,7 @@ Call to action
 {{</* /button */>}}
 ```
 
+---
 {{< button href="#button" target="_self" >}}
 Call to action
 {{< /button >}}
@@ -306,6 +307,7 @@ In order to add images to the gallery, use `img` tags for each image and add `cl
 {{</* github repo="nunocoracao/blowfish" */>}}
 ```
 
+---
 {{< github repo="nunocoracao/blowfish" >}}
 
 <br/><br/><br/>

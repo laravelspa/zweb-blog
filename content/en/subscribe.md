@@ -1,6 +1,7 @@
 ---
 title: "Subscribe Me"
 layout: "simple"
+sharingLinks: false
 ---
 
 Thank you for reading my blog!

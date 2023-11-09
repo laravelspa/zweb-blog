@@ -123,4 +123,5 @@ public method admin() {
 ![Attempt to read property X on null](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png "Attempt to read property X on null")
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

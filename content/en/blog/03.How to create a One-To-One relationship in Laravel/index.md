@@ -10,11 +10,11 @@ tags: ['laravel10', 'eloquent', 'relationships']
 series: ['Laravel Eloquent Relationships']
 series_order: 2
 ---
-![How to create a One-To-One relationship in Laravel?](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png "How to create a One-To-One relationship in Laravel?")
+![How to create a One-To-One relationship in Laravel?](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png "How to create a One-To-One relationship in Laravel?")
 
 __One-to-One relationships__ are the simplest type of relationship offered by Laravel. They join two tables such that one row in the first table is associated with only one row in the other table, or the same table.
 
-![laravel one to one relationship](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png "laravel one to one relationship")
+![laravel one to one relationship](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png "laravel one to one relationship")
 
 To see this in action, we'll start by creating a content management system.
 
@@ -121,7 +121,8 @@ public method admin() {
 > The ***`foreignKey`*** property is used to specify the name of the column in the child model that is used to reference the parent model.
 
 > If you do not add the ***`foreignKey`*** property to the relationship method when changing the relationship name, you will see the following error:
-![Attempt to read property X on null](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png "Attempt to read property X on null")
+![Attempt to read property X on null](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png "Attempt to read property X on null")
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

@@ -145,4 +145,5 @@ caption="Laravel 10 Vue 3"
 
 
 - ستجد repo الخاصة بهذا المشروع على github هنا
+---
 {{< github repo="laravelspa/laravel10-vue3" >}}

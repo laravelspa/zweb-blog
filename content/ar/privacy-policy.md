@@ -1,6 +1,7 @@
 ---
 title: "سياسة الخصوصية"
 layout: "simple"
+sharingLinks: false
 ---
 ## سياسة خصوصية المدونة
 

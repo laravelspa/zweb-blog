@@ -7,7 +7,7 @@ cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
 tags: ['laravel10', 'eloquent', 'relationships']
-series: ['Laravel Eloquent Relationship']
+series: ['Laravel Eloquent Relationships']
 series_order: 7
 ---
 
@@ -89,4 +89,5 @@ public function user() {
 > ولقد قمنا بشرح ***`belongsTo`*** فى هذا الجزء من المقال السابق ونحن نقوم بشرح علاقة __One-To-One__.
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

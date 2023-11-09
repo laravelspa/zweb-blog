@@ -12,7 +12,7 @@ tags: ['laravel10', 'vue3', 'full stack', 'spa']
 
 ## Preview
 {{< figure
-src="/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png"
+src="/img/blog/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png"
 alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
@@ -139,10 +139,11 @@ Go to the following link ***`http://127.0.0.1:8000/`*** and you will find the fo
 {{< /alert >}}
 
 {{< figure
-src="/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png"
+src="/img/blog/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png"
 alt="Laravel 10 Vue 3"
 caption="Laravel 10 Vue 3"
 >}}
 
 - You will find the repo for this project on github here [
+---
 {{< github repo="laravelspa/laravel10-vue3" >}}

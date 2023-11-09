@@ -7,7 +7,7 @@ cascade:
   showReadingTime: true
 categories: ['Laravel', 'Laravel Relationships']
 tags: ['laravel10', 'eloquent', 'relationships']
-series: ['Laravel Eloquent Relationship']
+series: ['Laravel Eloquent Relationships']
 series_order: 7
 ---
 
@@ -18,11 +18,11 @@ Today we continue the series we started learning about __Laravel Eloquent Relati
 
 We are talking about the second type, which is called __One-To-Many__ or __hasMany__.
 
-![laravel one to many relationship](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023.png "laravel one to many relationship")
+![laravel one to many relationship](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023.png "laravel one to many relationship")
 
 
 ## How to create a One-To-Many relationship in Laravel?
-![How to create a One-To-Many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel.png "How to create a One-To-Many relationship in Laravel?")
+![How to create a One-To-Many relationship in Laravel?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel.png "How to create a One-To-Many relationship in Laravel?")
 
  The One-To-Many relationship is one of the most important types of relationships inside __Laravel Eloquent__.
   We also learned in the previous lesson that it is the connection of a row from the first table to more than one row from the second table.
@@ -89,4 +89,5 @@ public function user() {
 > We have explained ***`belongsTo`*** in this part of the previous article and we are explaining the __One-To-One__ relationship.
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

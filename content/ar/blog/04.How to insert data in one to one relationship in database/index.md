@@ -112,4 +112,5 @@ Route::get('/one-to-one', method () {
 ```
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

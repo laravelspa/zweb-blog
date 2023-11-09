@@ -255,4 +255,5 @@ Route::get('/one-to-many', function () {
 ```
 
 - يمكنك العثور على repo لهذه السلسلة على github هنا:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

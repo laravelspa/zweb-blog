@@ -11,7 +11,7 @@ series: ['Laravel Eloquent Relationships']
 series_order: 11
 ---
 
-![How to delete data from one-to-many relationship in Laravel?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-many-relationship-in-laravel.png "How to delete data from one-to-many relationship in Laravel?")
+![How to delete data from one-to-many relationship in Laravel?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-many-relationship-in-laravel.png "How to delete data from one-to-many relationship in Laravel?")
 ### Delete data using the user form.
 * First go to ***`routes/web.php`*** file and add this route:
 ```PHP
@@ -58,10 +58,11 @@ Route::get('/posts/user/delete', function () {
 });
 ```
 * We open the browser and go to the new URL ***`http://127.0.0.1:8000/posts/user/delete`***. We see that the post has been successfully deleted.
-![Rcord has deleted](/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png "Rcord has deleted")
+![Rcord has deleted](/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png "Rcord has deleted")
 
 ## Conclusion
 This article is a continuation of the entire series on __Laravel Eloquent Relationships__ Relationships within __Laravel__. We have covered __one-to-many relationship__ in a complete manner. We have not spared any information for you, and, God willing, we will learn in the following explanation about __the relationship of many to many__.
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

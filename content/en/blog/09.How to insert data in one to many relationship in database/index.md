@@ -11,7 +11,7 @@ series: ['Laravel Eloquent Relationships']
 series_order: 8
 ---
 
-![How to insert data in a one-to-many relationship in the database?](/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-many-relationship-in-database.png "How to insert data in a one-to-many relationship in the database?")
+![How to insert data in a one-to-many relationship in the database?](/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-many-relationship-in-database.png "How to insert data in a one-to-many relationship in the database?")
 
 After we created a One-To-Many relationship between both Users table and Posts table and added ***`hasMany`*** inside ***`User Model`***, also we added the inverse relationship inside ***`Post Model`*** by adding ***`belongsTo`*** to it.
 
@@ -251,4 +251,5 @@ Route::get('/one-to-many', function () {
 ```
 
 - You can find the repo of this series on github here:
+---
 {{< github repo="laravelspa/laravel-relations" >}}

@@ -1,6 +1,7 @@
 ---
 title: "شروط الإستخدام"
 layout: "simple"
+sharingLinks: false
 ---
 
 شروط الاستخدام
