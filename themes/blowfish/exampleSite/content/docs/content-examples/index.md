@@ -219,8 +219,7 @@ hugo new -k external posts/my-post.md
 |                   |                                |
 | ----------------- | ------------------------------ |
 | **Layout:**       | `layouts/_default/simple.html` |
-| **Front Matter:** | `layout: "simple"
-sharingLinks: false`             |
+| **Front Matter:** | `layout: "simple"`             |
 
 Blowfish also includes a special layout for simple pages. The simple layout is a full-width template that just places Markdown content into the page without any special theme features.
 
@@ -233,7 +232,6 @@ To enable the simple layout on a particular page, add the `layout` front matter 
 title: "My landing page"
 date: 2022-03-08
 layout: "simple"
-sharingLinks: false
 ---
 This page content is now full-width.
 ```

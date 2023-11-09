@@ -49,6 +49,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | globe                | {{< icon globe >}}                |
 | goodreads            | {{< icon goodreads >}}            |
 | google               | {{< icon google >}}               |
+| graduation-cap       | {{< icon graduation-cap >}}       |
 | hackernews           | {{< icon hackernews >}}           |
 | hashnode             | {{< icon hashnode >}}             |
 | heart-empty          | {{< icon heart-empty >}}          |
@@ -83,6 +84,7 @@ The full list of built-in icons and their corresponding names can referenced bel
 | researchgate         | {{< icon researchgate >}}         |
 | rss                  | {{< icon rss >}}                  |
 | rss-square           | {{< icon rss-square >}}           |
+| scale-balanced       | {{< icon scale-balanced >}}       |
 | search               | {{< icon search >}}               |
 | shield               | {{< icon shield >}}               |
 | skull-crossbones     | {{< icon skull-crossbones >}}     |
@@ -104,5 +106,6 @@ The full list of built-in icons and their corresponding names can referenced bel
 | twitter              | {{< icon twitter >}}              |
 | wand-magic-sparkles  | {{< icon wand-magic-sparkles >}}  |
 | whatsapp             | {{< icon whatsapp >}}             |
+| x-twitter            | {{< icon x-twitter >}}            |
 | xmark                | {{< icon xmark >}}                |
 | youtube              | {{< icon youtube >}}              |
