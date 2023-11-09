@@ -1,15 +1,1008 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>How to delete data from one to many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 06 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>Excel To PDF - Frontend Project</title><link>https://laravelspa.site/portfolio/10.excel-to-pdf/</link><pubDate>Mon, 06 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/10.excel-to-pdf/</guid><description>&lt;p>A small tool created to convert excel data to pdf.&lt;/p>
+&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu83baa4aa3f9bb21e729821d4f84a59a4_106809_98c56506ab52e4210bd26d44c55d0dde.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu83baa4aa3f9bb21e729821d4f84a59a4_106809_1d583684e9a27c19a45b9d3371de7694.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu83baa4aa3f9bb21e729821d4f84a59a4_106809_ed2d994a5f046f57561d437f3f2730ab.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu83baa4aa3f9bb21e729821d4f84a59a4_106809_cd6bd8497b4c0a31f08eb6d464112788.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu83baa4aa3f9bb21e729821d4f84a59a4_106809_1d583684e9a27c19a45b9d3371de7694.png"
-alt="How to delete data from one-to-many relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/excel-to-pdf/main.jpeg" alt="Excel To PDF" />
+&lt;figcaption>Excel To PDF&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/excel-to-pdf/form.jpeg" alt="Excel To PDF" />
+&lt;figcaption>Excel To PDF&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/excel-to-pdf/export-to-pdf-or-image.jpeg" alt="Excel To PDF" />
+&lt;figcaption>Excel To PDF&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Dom To Image&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>JS Barcode&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>JS PDF&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Read Excel File&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Excel-To-PDF/"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Excel-To-PDF" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Excel-To-PDF
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #f1e05a">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+JavaScript
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/10.excel-to-pdf/featured.jpeg"/></item><item><title>Nuxt Wind Theme - Frontend Project</title><link>https://laravelspa.site/portfolio/09.nuxt-wind-theme/</link><pubDate>Sun, 05 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/09.nuxt-wind-theme/</guid><description>&lt;p>A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/nuxt-wind-theme/full-page.jpeg" alt="Nuxt Wind Theme" />
+&lt;figcaption>Nuxt Wind Dark Theme&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/nuxt-wind-theme/about-us-dark.jpeg" alt="Nuxt Wind Theme" />
+&lt;figcaption>Nuxt Wind Dark Theme&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/nuxt-wind-theme/home-light.jpeg" alt="Nuxt Wind Theme" />
+&lt;figcaption>Nuxt Wind Light Theme&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>TailwindCSS&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Nuxt&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/nuxt-wind-theme"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/nuxt-wind-theme" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/nuxt-wind-theme
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #2b7489">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+TypeScript
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/09.nuxt-wind-theme/featured.jpeg"/></item><item><title>Spiru Lin Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/08.spiru-lin-landing-page/</link><pubDate>Sat, 04 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/08.spiru-lin-landing-page/</guid><description>&lt;p>An 12-section landing page created for the purpose of selling the Natural product.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/spiru-lin-landing-page/full-page.jpeg" alt="Spiru Lin Landing Page" />
+&lt;figcaption>Spiru Lin Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Spiru-Lin-Landing-Page"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Spiru-Lin-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Spiru-Lin-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #563d7c">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+CSS
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/08.spiru-lin-landing-page/featured.jpeg"/></item><item><title>Goji Cream 2 Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/</link><pubDate>Fri, 03 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/</guid><description>&lt;p>An 4-section landing page created for the purpose of selling the Natural product.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/goji-cream-2-landing-page/full-page.jpeg" alt="Goji Cream Landing Page" />
+&lt;figcaption>Goji Cream Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Goji-Cream-2-Landing-Page"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Goji-Cream-2-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Goji-Cream-2-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #563d7c">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+CSS
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/featured.jpeg"/></item><item><title>Wellness Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/06.wellness-landing-page/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/06.wellness-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/wellness-landing-page/full-page.jpeg" alt="Wellness Landing Page" />
+&lt;figcaption>Wellness Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="requirements" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Requirements
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#requirements" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>Node v16.20.0&lt;/li>
+&lt;/ul>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Tailwindcss&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Nuxt&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Wellness-Landing-Page/"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Wellness-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Wellness-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #41b883">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+Vue
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/06.wellness-landing-page/featured.jpeg"/></item><item><title>Golden Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/05.golden-landing-page/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/05.golden-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/golden-landing-page/full-page.jpeg" alt="Golden Landing Page" />
+&lt;figcaption>Golden Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="requirements" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Requirements
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#requirements" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>Node v16.20.0&lt;/li>
+&lt;/ul>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Tailwindcss&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Nuxt&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/golden-landing-page"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/golden-landing-page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/golden-landing-page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #41b883">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+Vue
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/05.golden-landing-page/featured.jpeg"/></item><item><title>Golden Wapp Design Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/golden-wapp-design-landing-page/full-page.jpeg" alt="Golden Wapp Design Landing Page" />
+&lt;figcaption>Golden Wapp Design Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="requirements" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Requirements
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#requirements" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>Node v16.20.0&lt;/li>
+&lt;/ul>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Tailwindcss&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Vue&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Nuxt&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Golden-Wapp-Design-Landing-Page"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Golden-Wapp-Design-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Golden-Wapp-Design-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #41b883">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+Vue
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/featured.jpeg"/></item><item><title>CaviarMask Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/03.caviarmask-landing-page/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/03.caviarmask-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of selling the Natural product.&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/caviarmask-landing-page/full-page.jpeg" alt="CaviarMask Landing Page" />
+&lt;figcaption>CaviarMask Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="icon-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Icon Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#icon-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Font]Awesome&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/CaviarMask-Landing-Page/index.html"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/CaviarMask-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/CaviarMask-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #563d7c">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+CSS
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/03.caviarmask-landing-page/featured.jpeg"/></item><item><title>Unicode Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/02.unicode-landing-page/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/02.unicode-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/unicode-landing-page/full-page.jpeg" alt="Unicode Landing Page" />
+&lt;figcaption>unicode Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Unicode-Landing-Page/index.html"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Unicode-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Unicode-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+Test Website
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #563d7c">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+CSS
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/02.unicode-landing-page/featured.png"/></item><item><title>Personal Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/01.personal-landing-page-copy/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/01.personal-landing-page-copy/</guid><description>&lt;p>An 8-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/personal-landing-page/full-page.jpeg" alt="Personal Landing Page" />
+&lt;figcaption>Personal Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Personal-Landing-Page/index.html"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Personal-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Personal-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+legal justice group
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #e34c26">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+HTML
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/01.personal-landing-page-copy/featured.png"/></item><item><title>Personal Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/01.personal-landing-page/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/01.personal-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of the exercise&lt;/p>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/personal-landing-page/full-page.jpeg" alt="Personal Landing Page" />
+&lt;figcaption>Personal Landing Page&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="frontend-framework" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Frontend Framework
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#frontend-framework" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>Bootstrap&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>JQuery&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a
+class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
+href="https://laravelspa.github.io/Personal-Landing-Page/index.html"
+target="_blank"
+role="button"
+>
+Demo
+&lt;/a>
+&lt;hr>
+&lt;a target="_blank" href="https://github.com/laravelspa/Personal-Landing-Page" class="cursor-pointer">
+&lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/Personal-Landing-Page
+&lt;/div>
+&lt;/div>
+&lt;p class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+legal justice group
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full" style="background-color: #e34c26">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+HTML
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/01.personal-landing-page/featured.png"/></item><item><title>How to delete data from one to many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-many-relationship-in-laravel.png" alt="How to delete data from one-to-many relationship in Laravel?" />
 &lt;figcaption>How to delete data from one-to-many relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -72,16 +1065,7 @@ style="text-decoration-line: none !important;" href="#delete-data-using-the-publ
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>We open the browser and go to the new URL &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/posts/user/delete&lt;/code>&lt;/strong>&lt;/em>. We see that the post has been successfully deleted.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png"
-alt="Rcord has deleted"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png" alt="Rcord has deleted" />
 &lt;figcaption>Rcord has deleted&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -95,7 +1079,9 @@ style="text-decoration-line: none !important;" href="#conclusion" aria-label="An
 &lt;/h2>
 &lt;p>This article is a continuation of the entire series on &lt;strong>Laravel Eloquent Relationships&lt;/strong> Relationships within &lt;strong>Laravel&lt;/strong>. We have covered &lt;strong>one-to-many relationship&lt;/strong> in a complete manner. We have not spared any information for you, and, God willing, we will learn in the following explanation about &lt;strong>the relationship of many to many&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -133,19 +1119,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_660x0_resize_box_3.png"
-alt="How to update one to many relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png" alt="How to update one to many relationship in Laravel?" />
 &lt;figcaption>How to update one to many relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -321,7 +1297,9 @@ style="text-decoration-line: none !important;" href="#update-data-using-the-post
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -359,19 +1337,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_96109_5072e4d61d98b89766063dcd17fd954b.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_96109_b21f41bb02c9813985027263d29025f8.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_96109_3ac346716615c41b761f8b8e4ea01e59.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_96109_5280c7c41a7a70be86518680cbedd5f6.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_96109_b21f41bb02c9813985027263d29025f8.png"
-alt="How do you retrieve data from one to many relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png" alt="How do you retrieve data from one to many relationship in Laravel?" />
 &lt;figcaption>How do you retrieve data from one to many relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 We saw how data is saved in multiple different ways within the database using the One-To-Many relationship in Laravel.
@@ -633,16 +1601,7 @@ When selecting specific columns in relationships, you must choose &lt;em>&lt;str
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png"
-alt="Users view with posts"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png" alt="Users view with posts" />
 &lt;figcaption>Users view with posts&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -1056,16 +2015,7 @@ style="text-decoration-line: none !important;" href="#without-using-api-resource
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open the browser and go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts_hu588a1f815960c1a921c7a0b53d88b09d_36456_660x0_resize_box_3.png"
-alt="Users view with posts"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/users-view-with-posts.png" alt="Users view with posts" />
 &lt;figcaption>Users view with posts&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -1164,7 +2114,9 @@ style="text-decoration-line: none !important;" href="#by-using-api-resources-1" 
 &lt;p>We also see here that we fetch only the required data.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1202,19 +2154,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to insert data in one to many relationship in database?</title><link>https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link><pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to insert data in one to many relationship in database?</title><link>https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</link><pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu51fb5ac47c41e024dbc7d0b5231020ba_97593_9940fa619290a525ac95129e5c0a932d.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu51fb5ac47c41e024dbc7d0b5231020ba_97593_f43c9de503c6c5575815d677e4075341.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu51fb5ac47c41e024dbc7d0b5231020ba_97593_1142818d5b537b109ab3a2d8c7d7c102.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu51fb5ac47c41e024dbc7d0b5231020ba_97593_5496f3ea7f16e330515aa4985abc7a21.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/_hu51fb5ac47c41e024dbc7d0b5231020ba_97593_f43c9de503c6c5575815d677e4075341.png"
-alt="How to insert data in a one-to-many relationship in the database?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-many-relationship-in-database.png" alt="How to insert data in a one-to-many relationship in the database?" />
 &lt;figcaption>How to insert data in a one-to-many relationship in the database?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1487,7 +2429,9 @@ style="text-decoration-line: none !important;" href="#3-by-using-the-inverse-rel
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Post body 7&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1525,23 +2469,13 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png"/></item><item><title>How to create a One-To-Many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>After we learned about the types of relationships within &lt;strong>Laravel&lt;/strong> in the previous part.
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-insert-data-in-one-to-many-relationship-in-database/featured.png"/></item><item><title>How to create a One-To-Many relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/</guid><description>&lt;p>After we learned about the types of relationships within &lt;strong>Laravel&lt;/strong> in the previous part.
 We discussed the first type of these relationships, which is the One-To-One relationship.&lt;/p>
 &lt;p>Today we continue the series we started learning about &lt;strong>Laravel Eloquent Relationships&lt;/strong>.&lt;/p>
 &lt;p>We are talking about the second type, which is called &lt;strong>One-To-Many&lt;/strong> or &lt;strong>hasMany&lt;/strong>.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_1f6768ea452393f9d434f2162284b874.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_3a8dccbc686614d8070d3d3e932f477c.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_9977b0eab6989a2fb8d52445a60d8082.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_869e36086a1aa65389cb8cb0286fbba9.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_3a8dccbc686614d8070d3d3e932f477c.png"
-alt="laravel one to many relationship"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023.png" alt="laravel one to many relationship" />
 &lt;figcaption>laravel one to many relationship&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1554,16 +2488,7 @@ style="text-decoration-line: none !important;" href="#how-to-create-a-one-to-man
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel_hu6fc54d8400d4b0c667588eb372cddbf9_83205_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel_hu6fc54d8400d4b0c667588eb372cddbf9_83205_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel_hu6fc54d8400d4b0c667588eb372cddbf9_83205_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel_hu6fc54d8400d4b0c667588eb372cddbf9_83205_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel_hu6fc54d8400d4b0c667588eb372cddbf9_83205_660x0_resize_box_3.png"
-alt="How to create a One-To-Many relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-Many-relationship-in-laravel.png" alt="How to create a One-To-Many relationship in Laravel?" />
 &lt;figcaption>How to create a One-To-Many relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1622,7 +2547,9 @@ Each user can own one or more publications.&lt;/p>
 &lt;p>We have explained &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> in this part of the previous article and we are explaining the &lt;strong>One-To-One&lt;/strong> relationship.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1660,19 +2587,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to delete data from one to one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-create-a-one-to-many-relationship-in-laravel/featured.png"/></item><item><title>How to delete data from one to one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_393a8a42993bb9e6b3407445b0d62a08.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_9dd6ea0943fe0c459eced37cf91560d3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_6bc3b30530678b0feba3803826a7fca2.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_5c01c6f2579a327bfb966addb6ef0619.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu2a783205c6e7c788bf5e7a3a4d446d2e_103525_9dd6ea0943fe0c459eced37cf91560d3.png"
-alt="How to delete data from one to one relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-delete-data-from-one-to-one-relationship-in-laravel.png" alt="How to delete data from one to one relationship in Laravel?" />
 &lt;figcaption>How to delete data from one to one relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1722,16 +2639,7 @@ style="text-decoration-line: none !important;" href="#delete-data-using-profile-
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>We open the browser and navigate to the new URL &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles/user/delete&lt;/code>&lt;/strong>&lt;/em>. We see that both the user and the profile have been deleted successfully.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png"
-alt="Rcord has deleted"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png" alt="Rcord has deleted" />
 &lt;figcaption>Rcord has deleted&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -1745,7 +2653,9 @@ style="text-decoration-line: none !important;" href="#conclusion" aria-label="An
 &lt;/h2>
 &lt;p>This article is the start of a whole series on &lt;strong>Laravel Eloquent Relationships&lt;/strong> - Relationships within &lt;strong>Laravel&lt;/strong>. We have covered the &lt;strong>One TO One relationship&lt;/strong> in a complete way. We did not spare you any information, and God willing, in the following explanation, we will learn about the &lt;strong>One To Many relationship&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1783,19 +2693,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to update a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel_hu83baa4aa3f9bb21e729821d4f84a59a4_84741_660x0_resize_box_3.png"
-alt="How to update one to many relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/en/how-to-update-one-to-many-relationship-in-laravel.png" alt="How to update one to many relationship in Laravel?" />
 &lt;figcaption>How to update one to many relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1971,7 +2871,9 @@ style="text-decoration-line: none !important;" href="#update-data-using-the-post
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2009,19 +2911,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-update-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How can you retrieve data from a one-to-one relationship in Laravel?</title><link>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_fc36ea1da4ed3bafa641b8eb753a38da.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_e344d439f1f8f139628110a63eb3fb31.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_7f350b1f39dae2de08b61990991679e3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_931eeb1f35118d43fc84efaa3ecf0f4e.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_huad4b550953b24d7ca2771db93f2ba34f_90531_e344d439f1f8f139628110a63eb3fb31.png"
-alt="How can you retrieve data from a one-to-one relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel.png" alt="How can you retrieve data from a one-to-one relationship in Laravel?" />
 &lt;figcaption>How can you retrieve data from a one-to-one relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2185,16 +3077,7 @@ style="text-decoration-line: none !important;" href="#first-depends-on-web-route
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open your browser and go to the following URL &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png"
-alt="Laravel One To One Relationship - Users Table"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png" alt="Laravel One To One Relationship - Users Table" />
 &lt;figcaption>Users Table&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2463,16 +3346,7 @@ style="text-decoration-line: none !important;" href="#first-depends-on-web-route
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>Open your browser and go to the following URL &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles&lt;/code>&lt;/strong>&lt;/em> to see what results will appear.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png"
-alt="Laravel One To One Relationship - Profiles Table"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png" alt="Laravel One To One Relationship - Profiles Table" />
 &lt;figcaption>Profiles Table&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2558,16 +3432,7 @@ style="text-decoration-line: none !important;" href="#how-to-improve-eloquent-qu
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel_hu9170f5142bc17154eb3d9c26e2c4d1f7_88577_660x0_resize_box_3.png"
-alt="How to improve Eloquent queries in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-improve-Eloquent-queries-in-laravel.png" alt="How to improve Eloquent queries in Laravel?" />
 &lt;figcaption>How to improve Eloquent queries in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2592,16 +3457,7 @@ Laravel Debugbar&lt;/a>. Debugbar will show you all the queries that are execute
 &lt;ol>
 &lt;li>&lt;strong>(Lazy Loading)&lt;/strong> - Retrieve data without using &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png"
-alt="laravel debugbar lazy loading"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png" alt="laravel debugbar lazy loading" />
 &lt;figcaption>laravel debugbar lazy loading&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2615,16 +3471,7 @@ alt="laravel debugbar lazy loading"
 &lt;ol start="2">
 &lt;li>&lt;strong>(Eager Loading)&lt;/strong> - Retrieve data using &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png"
-alt="laravel debugbar eager loading"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png" alt="laravel debugbar eager loading" />
 &lt;figcaption>laravel debugbar eager loading&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2632,7 +3479,9 @@ alt="laravel debugbar eager loading"
 &lt;p>As you can see, by adding the with() method with the name of the relationship, each user&amp;rsquo;s data will be fetched with their own profile without the N+1 problem.&lt;/p>
 &lt;p>So the number of queries was reduced from 4 to 2 only. This will clearly have an effect if this database is of medium size or large. This is what is called eager loading.&lt;/p>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2670,19 +3519,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to insert data in one to one relationship in database?</title><link>https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>How to insert data in one to one relationship in database?</title><link>https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_0d0a4ba3fca906b84369e18f9541925d.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_02d6187808c85899b095f7d94b22edb9.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_f4792042e1b8c0174a0901273cfec52d.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_8733e93d6e1ec1a3d1984f3960856736.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/_hu6a884eba99a4d4138ebfd00624cfcdbf_93967_02d6187808c85899b095f7d94b22edb9.png"
-alt="How to insert data in one to one relationship in database?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-insert-data-in-one-to-one-relationship-in-database.png" alt="How to insert data in one to one relationship in database?" />
 &lt;figcaption>How to insert data in one to one relationship in database?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2797,7 +3636,9 @@ style="text-decoration-line: none !important;" href="#3-by-using-the-inverse-met
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2835,35 +3676,16 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png"/></item><item><title>How to create a One-To-One relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-insert-data-in-one-to-one-relationship-in-database/featured.png"/></item><item><title>How to create a One-To-One relationship in Laravel?</title><link>https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel_hu2a783205c6e7c788bf5e7a3a4d446d2e_81366_660x0_resize_box_3.png"
-alt="How to create a One-To-One relationship in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/how-to-create-a-One-To-One-relationship-in-laravel.png" alt="How to create a One-To-One relationship in Laravel?" />
 &lt;figcaption>How to create a One-To-One relationship in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;p>&lt;strong>One-to-One relationships&lt;/strong> are the simplest type of relationship offered by Laravel. They join two tables such that one row in the first table is associated with only one row in the other table, or the same table.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_9233971e878ca934cf1173ecced9ee72.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_2e6579d44a8c099f3f5708391ec03f18.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_3897a8c0a0434a29fce61c65f9966bc3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png"
-alt="laravel one to one relationship"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png" alt="laravel one to one relationship" />
 &lt;figcaption>laravel one to one relationship&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2961,22 +3783,15 @@ This method is used to save the &lt;em>&lt;strong>id&lt;/strong>&lt;/em> of the 
 &lt;blockquote>
 &lt;p>If you do not add the &lt;em>&lt;strong>&lt;code>foreignKey&lt;/code>&lt;/strong>&lt;/em> property to the relationship method when changing the relationship name, you will see the following error:
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png"
-alt="Attempt to read property X on null"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png" alt="Attempt to read property X on null" />
 &lt;figcaption>Attempt to read property X on null&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>You can find the repo of this series on github here:
+&lt;li>You can find the repo of this series on github here:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -3014,8 +3829,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>What types of relationships are there in Laravel?</title><link>https://laravelspa.site/blog/what-types-of-relationships-are-there-in-laravel/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/what-types-of-relationships-are-there-in-laravel/</guid><description>&lt;p>Often, developers need to interact with databases. If you are using the Laravel framework, you should know about one of its most important features: Eloquent, an object-relational mapper (ORM) that makes this process simple and easy.&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-create-a-one-to-one-relationship-in-laravel/featured.png"/></item><item><title>What types of relationships are there in Laravel?</title><link>https://laravelspa.site/blog/what-types-of-relationships-are-there-in-laravel/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/blog/what-types-of-relationships-are-there-in-laravel/</guid><description>&lt;p>Often, developers need to interact with databases. If you are using the Laravel framework, you should know about one of its most important features: Eloquent, an object-relational mapper (ORM) that makes this process simple and easy.&lt;/p>
 &lt;p>&lt;strong>Laravel Eloquent&lt;/strong> is one of the main features in the &lt;strong>Laravel framework&lt;/strong>. This is due to its great support for defining, creating, and managing relationships between different tables. In this series of articles, I will show you how to create and use &lt;strong>Eloquent relationships&lt;/strong>.&lt;/p>
 &lt;p>It is important to note that you can start using Eloquent without any prior knowledge of relationships.&lt;/p>
 &lt;p>As a professional programmer, it is necessary to understand the types of relationships. However, before that, you must ask yourself an important question: what are relationships in the first place?&lt;/p>
@@ -3028,16 +3842,7 @@ style="text-decoration-line: none !important;" href="#what-are-relationships-in-
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database_hu884eddf9597939de20b2b6ede8cbb682_97574_660x0_resize_box_3.png"
-alt="What are relationships in databases?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-are-relationships-in-database.png" alt="What are relationships in databases?" />
 &lt;figcaption>What are relationships in databases?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -3055,16 +3860,7 @@ style="text-decoration-line: none !important;" href="#what-types-of-relationship
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel_hu3aa1c20160f643425265df99777aac92_78950_660x0_resize_box_3.png"
-alt="What types of relationships are there in Laravel?"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/en/what-types-of-relationships-are-there-in-laravel.png" alt="What types of relationships are there in Laravel?" />
 &lt;figcaption>What types of relationships are there in Laravel?&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -3107,17 +3903,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#preview" aria-label="Anchor">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png" alt="Laravel 10 Vue 3" />
 &lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
 &lt;/figure>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -3331,21 +4118,14 @@ class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
 class="dark:text-neutral-300"
 >Go to the following link &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/&lt;/code>&lt;/strong>&lt;/em> and you will find the following&lt;/span>
 &lt;/div>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/blog/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png" alt="Laravel 10 Vue 3" />
 &lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
 &lt;/figure>
 &lt;ul>
-&lt;li>You will find the repo for this project on github here [
+&lt;li>You will find the repo for this project on github here [&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -3371,7 +4151,7 @@ PHP
 &lt;/span>
 &lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-2
+3
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
 &lt;span class="relative block icon">
@@ -3379,17 +4159,17 @@ PHP
 &lt;/span>
 &lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-0
+1
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png"/></item><item><title>About Us</title><link>https://laravelspa.site/about-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/about-us/</guid><description>&lt;p>Hi, this is Mahmoud Adel.&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/blog/how-to-install-vue3-in-laravel10-with-vite/featured.png"/></item><item><title>About Us</title><link>https://laravelspa.site/about-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/about-us/</guid><description>&lt;p>Hi, I&amp;rsquo;m Mahmoud Adel.&lt;/p>
 &lt;p>Welcome to Laravel SPA: home of tutorials, videos and tips about Laravel framework. Started back in 2023 as a small personal blog, it grew into a hub of useful information for all levels.&lt;/p>
 &lt;p>I also run a YouTube channel with the same name of Laravel SPA.&lt;/p>
 &lt;p>You can follow the latest Laravel tutorials on Twitter or by subscribing to our weekly newsletter.&lt;/p>
 &lt;p>If you want to get in touch, email &lt;a href="mailto:dev.mahmoud.adel@gmail.com" >
-dev.mahmoud.adel@gmail.com&lt;/a>&lt;/p></description></item><item><title>Contact Us</title><link>https://laravelspa.site/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/contact-us/</guid><description>&lt;a
+dev.mahmoud.adel@gmail.com&lt;/a>&lt;/p></description></item><item><title>Contact Us</title><link>https://laravelspa.site/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/contact-us/</guid><description>&lt;hr>
+&lt;a
 class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
 href="https://forms.gle/UjbPLAqrhvb7vVPd8"
 target="_blank"

@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/ar/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>ar</language><lastBuildDate>Sun, 20 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/ar/index.xml" rel="self" type="application/rss+xml"/><item><title>كيفية حذف البيانات فى علاقة واحد إلى كثير في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 20 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hue573213c392cf81377c17deb2059fb11_88561_98c56506ab52e4210bd26d44c55d0dde.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hue573213c392cf81377c17deb2059fb11_88561_1d583684e9a27c19a45b9d3371de7694.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hue573213c392cf81377c17deb2059fb11_88561_ed2d994a5f046f57561d437f3f2730ab.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hue573213c392cf81377c17deb2059fb11_88561_cd6bd8497b4c0a31f08eb6d464112788.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hue573213c392cf81377c17deb2059fb11_88561_1d583684e9a27c19a45b9d3371de7694.png"
-alt="كيف تحذف البيانات من علاقة واحد إلى كثير في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-delete-data-from-one-to-many-relationship-in-laravel.png" alt="كيف تحذف البيانات من علاقة واحد إلى كثير في Laravel؟" />
 &lt;figcaption>كيف تحذف البيانات من علاقة واحد إلى كثير في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -71,17 +62,8 @@ style="text-decoration-line: none !important;" href="#%d8%ad%d8%b0%d9%81-%d8%a7%
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">});&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>نفتح المتصفح وننتقل إلى عنوان URL الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/posts/user/delete&lt;/code>&lt;/strong>&lt;/em>. نرى أنه تم حذف المنشور بنجاح.
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png"
-alt="Rcord has deleted"
-/>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png" alt="Rcord has deleted" />
 &lt;figcaption>Rcord has deleted&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -95,7 +77,9 @@ style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%a7%d
 &lt;/h2>
 &lt;p>هذه المقالة هي تكمبة لسلسلة كاملة عن &lt;strong>Laravel Eloquent Relationships&lt;/strong> علاقات ضمن &lt;strong>Laravel&lt;/strong>. لقد غطينا &lt;strong>علاقة واحد إلى كثير&lt;/strong> بطريقة كاملة. لم ندخر لكم أي معلومة ، وإن شاء الله ، سنتعرف في الشرح التالي على &lt;strong>علاقة كثير إلى كثير&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -133,19 +117,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one to many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one to many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Sat, 19 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel_hu059befcffd6f26c9ab8dbb8dc83eb6b9_72710_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel_hu059befcffd6f26c9ab8dbb8dc83eb6b9_72710_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel_hu059befcffd6f26c9ab8dbb8dc83eb6b9_72710_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel_hu059befcffd6f26c9ab8dbb8dc83eb6b9_72710_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel_hu059befcffd6f26c9ab8dbb8dc83eb6b9_72710_660x0_resize_box_3.png"
-alt="كيفية تحديث علاقة one-to-many في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-update-one-to-many-relationship-in-laravel.png" alt="كيفية تحديث علاقة one-to-many في Laravel؟" />
 &lt;figcaption>كيفية تحديث علاقة one-to-many في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -321,7 +295,9 @@ style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -359,19 +335,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to many في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to many في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu55d3cfcd09645bd85107fffed9462f2d_79792_5072e4d61d98b89766063dcd17fd954b.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu55d3cfcd09645bd85107fffed9462f2d_79792_b21f41bb02c9813985027263d29025f8.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu55d3cfcd09645bd85107fffed9462f2d_79792_3ac346716615c41b761f8b8e4ea01e59.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu55d3cfcd09645bd85107fffed9462f2d_79792_5280c7c41a7a70be86518680cbedd5f6.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu55d3cfcd09645bd85107fffed9462f2d_79792_b21f41bb02c9813985027263d29025f8.png"
-alt="كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-Many-To-One-relationship-in-laravel.png" alt="كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟" />
 &lt;figcaption>كيف يمكنك استرداد البيانات من علاقة one to many في Laravel؟&lt;/figcaption>
 &lt;/figure>
 رأينا كيف يتم حفظ البيانات بطرق مختلفة ومتعددة داخل قاعدة البيانات بإستخدام علاقة One-To-Many فى Laravel.
@@ -1146,7 +1112,9 @@ style="text-decoration-line: none !important;" href="#%d8%b9%d9%86-%d8%b7%d8%b1%
 &lt;p>ونرى هنا أيضا أننا نجلب البيانات المطلوبة فقط.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1184,8 +1152,7 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</link><pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</guid><description>&lt;div id="كيفية-إدراج-البيانات-في-علاقة-واحد-الى-كثير-في-قاعدة-البيانات" class="anchor">&lt;/div>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</link><pubDate>Thu, 17 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/</guid><description>&lt;div id="كيفية-إدراج-البيانات-في-علاقة-واحد-الى-كثير-في-قاعدة-البيانات" class="anchor">&lt;/div>
 &lt;h2 class="relative group">كيفية إدراج البيانات في علاقة واحد الى كثير في قاعدة البيانات؟
 &lt;span
 class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
@@ -1194,16 +1161,7 @@ style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu4e0be144f3c0447d001201552840c465_82601_9940fa619290a525ac95129e5c0a932d.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu4e0be144f3c0447d001201552840c465_82601_f43c9de503c6c5575815d677e4075341.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu4e0be144f3c0447d001201552840c465_82601_1142818d5b537b109ab3a2d8c7d7c102.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu4e0be144f3c0447d001201552840c465_82601_5496f3ea7f16e330515aa4985abc7a21.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/_hu4e0be144f3c0447d001201552840c465_82601_f43c9de503c6c5575815d677e4075341.png"
-alt="كيفية إدراج البيانات في علاقة واحد لكثير في قاعدة البيانات؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-many-relationship-in-database.png" alt="كيفية إدراج البيانات في علاقة واحد لكثير في قاعدة البيانات؟" />
 &lt;figcaption>كيفية إدراج البيانات في علاقة واحد لكثير في قاعدة البيانات؟&lt;/figcaption>
 &lt;/figure>
 بعد أن قمنا بإنشاء علاقة One-To-Many بين كلا من جدول المستخدمين وجدول المنشورات وأضفنا &lt;em>&lt;strong>&lt;code>hasMany&lt;/code>&lt;/strong>&lt;/em> داخل &lt;em>&lt;strong>&lt;code>User Model&lt;/code>&lt;/strong>&lt;/em>, وأيضا قمنا بإضافة العلاقة العكسية داخل &lt;em>&lt;strong>&lt;code>Post Model&lt;/code>&lt;/strong>&lt;/em> بإضافة &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> إليه.&lt;/p>
@@ -1486,7 +1444,9 @@ style="text-decoration-line: none !important;" href="#3-%d8%b9%d9%86-%d8%b7%d8%b
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;body&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Post body 7&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1524,23 +1484,13 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيفية إنشاء علاقة One-To-Many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>بعد أن تعرفنا على أنواع العلاقات داخل &lt;strong>Laravel&lt;/strong> فى الحزء السابق.
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-many-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيفية إنشاء علاقة One-To-Many فى Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</link><pubDate>Wed, 16 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/</guid><description>&lt;p>بعد أن تعرفنا على أنواع العلاقات داخل &lt;strong>Laravel&lt;/strong> فى الحزء السابق.
 وقمنا بتناول أول نوع من هذه العلاقات وهى علاقة One-To-One.&lt;/p>
 &lt;p>اليوم نستكمل السلسلة التى بدأناها فى تعلم &lt;strong>Laravel Eloquent Relationships&lt;/strong>.&lt;/p>
 &lt;p>و نتكلم عن النوع الثانى والذى يطلق عليه &lt;strong>One-To-Many&lt;/strong> او &lt;strong>hasMany&lt;/strong>.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_1f6768ea452393f9d434f2162284b874.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_3a8dccbc686614d8070d3d3e932f477c.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_9977b0eab6989a2fb8d52445a60d8082.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_869e36086a1aa65389cb8cb0286fbba9.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/_huffac83b5a40262746e8f067a84516aaa_58682_3a8dccbc686614d8070d3d3e932f477c.png"
-alt="laravel one to many relationship"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023.png" alt="laravel one to many relationship" />
 &lt;figcaption>laravel one to many relationship&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1553,16 +1503,7 @@ style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81-%d8%aa%
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel_hua0596529bd552363f07acaeb5a969075_68177_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel_hua0596529bd552363f07acaeb5a969075_68177_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel_hua0596529bd552363f07acaeb5a969075_68177_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel_hua0596529bd552363f07acaeb5a969075_68177_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel_hua0596529bd552363f07acaeb5a969075_68177_660x0_resize_box_3.png"
-alt="كيف تُنشئ علاقة One-To-Many في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-many-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-Many-relationship-in-laravel.png" alt="كيف تُنشئ علاقة One-To-Many في Laravel؟" />
 &lt;figcaption>كيف تُنشئ علاقة One-To-Many في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1621,7 +1562,9 @@ alt="كيف تُنشئ علاقة One-To-Many في Laravel؟"
 &lt;p>ولقد قمنا بشرح &lt;em>&lt;strong>&lt;code>belongsTo&lt;/code>&lt;/strong>&lt;/em> فى هذا الجزء من المقال السابق ونحن نقوم بشرح علاقة &lt;strong>One-To-One&lt;/strong>.&lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1659,19 +1602,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-many-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية حذف البيانات فى علاقة واحد إلى واحد في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hu7ad19605ba60e94843f8dec7a39f6785_81657_393a8a42993bb9e6b3407445b0d62a08.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hu7ad19605ba60e94843f8dec7a39f6785_81657_9dd6ea0943fe0c459eced37cf91560d3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hu7ad19605ba60e94843f8dec7a39f6785_81657_6bc3b30530678b0feba3803826a7fca2.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hu7ad19605ba60e94843f8dec7a39f6785_81657_5c01c6f2579a327bfb966addb6ef0619.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hu7ad19605ba60e94843f8dec7a39f6785_81657_9dd6ea0943fe0c459eced37cf91560d3.png"
-alt="كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-delete-data-from-one-to-one-relationship-in-laravel.png" alt="كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟" />
 &lt;figcaption>كيف تحذف البيانات من علاقة واحد إلى واحد في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1721,16 +1654,7 @@ style="text-decoration-line: none !important;" href="#%d8%ad%d8%b0%d9%81-%d8%a7%
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>نفتح المتصفح وننتقل إلى عنوان URL الجديد &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles/user/delete&lt;/code>&lt;/strong>&lt;/em>. نرى أنه تم حذف المستخدم والملف الشخصي بنجاح.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404_huad8a4f887b44a197eb4a715ab4619031_10764_660x0_resize_box_3.png"
-alt="Rcord has deleted"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/404.png" alt="Rcord has deleted" />
 &lt;figcaption>Rcord has deleted&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -1744,7 +1668,9 @@ style="text-decoration-line: none !important;" href="#%d8%a7%d9%84%d8%ae%d8%a7%d
 &lt;/h2>
 &lt;p>هذه المقالة هي بداية سلسلة كاملة عن &lt;strong>Laravel Eloquent Relationships&lt;/strong> علاقات ضمن &lt;strong>Laravel&lt;/strong>. لقد غطينا &lt;strong>علاقة واحد إلى واحد&lt;/strong> بطريقة كاملة. لم ندخر لكم أي معلومة ، وإن شاء الله ، سنتعرف في الشرح التالي على &lt;strong>علاقة واحد إلى كثير&lt;/strong>.&lt;/p>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1782,19 +1708,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one-to-one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-delete-data-from-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية تحديث علاقة one-to-one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel_hu47b8cc214c2b0a6bc2f52986a5b1950c_62200_660x0_resize_box_3.png"
-alt="كيفية تحديث علاقة one-to-one في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-update-one-to-one-relationship-in-laravel.png" alt="كيفية تحديث علاقة one-to-one في Laravel؟" />
 &lt;figcaption>كيفية تحديث علاقة one-to-one في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -1943,7 +1859,9 @@ style="text-decoration-line: none !important;" href="#%d8%aa%d8%ad%d8%af%d9%8a%d
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1981,19 +1899,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-update-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية استرداد البيانات فى علاقة one to one في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Sun, 13 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_e9b9fedb1bae16efed9d50c688551625.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_aa9c81af685f30227ef477a21fe9ac08.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_4cec212d2e227be283aedded933d7fe4.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_c981c0341db52ab0441e0c1cc584397c.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_hue2fc060a4d8f50361eea040e38fd8ddd_75523_aa9c81af685f30227ef477a21fe9ac08.png"
-alt="كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-do-you-get-data-into-a-One-To-One-relationship-in-laravel.png" alt="كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟" />
 &lt;figcaption>كيف يمكنك استرداد البيانات من علاقة one to one في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2157,16 +2065,7 @@ style="text-decoration-line: none !important;" href="#%d8%a3%d9%88%d9%84%d8%a7-%
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>افتح المتصفح وانتقل إلى عنوان URL التالي &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/users&lt;/code>&lt;/strong>&lt;/em> لترى النتائج التي ستظهر.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table_hu9ce81dd81b46c37c489b4bb2bd573dda_22009_660x0_resize_box_3.png"
-alt="Laravel One To One Relationship - Users Table"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/users-table.png" alt="Laravel One To One Relationship - Users Table" />
 &lt;figcaption>Users Table&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2435,16 +2334,7 @@ style="text-decoration-line: none !important;" href="#%d8%a3%d9%88%d9%84%d8%a7-%
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
 &lt;li>افتح المتصفح وانتقل إلى عنوان URL التالي &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/profiles&lt;/code>&lt;/strong>&lt;/em> لترى النتائج التي ستظهر.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table_hucbabc09224a2b1ae00554948836a1d08_23156_660x0_resize_box_3.png"
-alt="Laravel One To One Relationship - Profiles Table"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/profiles-table.png" alt="Laravel One To One Relationship - Profiles Table" />
 &lt;figcaption>Profiles Table&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2530,16 +2420,7 @@ style="text-decoration-line: none !important;" href="#%d9%83%d9%8a%d9%81%d9%8a%d
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel_hu25a752a6465832c12c0c0e92defca442_80723_660x0_resize_box_3.png"
-alt="كيفية تحسين استعلامات Eloquent في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-improve-Eloquent-queries-in-laravel.png" alt="كيفية تحسين استعلامات Eloquent في Laravel؟" />
 &lt;figcaption>كيفية تحسين استعلامات Eloquent في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2564,16 +2445,7 @@ Laravel Debugbar&lt;/a>. سيعرض لك شريط التصحيح جميع الا
 &lt;ol>
 &lt;li>&lt;strong>(Lazy Loading)&lt;/strong> - استرداد البيانات بدون استخدام &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading_hud19ddddff8db171bb55ab6c2faa95448_146361_660x0_resize_box_3.png"
-alt="laravel debugbar lazy loading"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-lazy-loading.png" alt="laravel debugbar lazy loading" />
 &lt;figcaption>laravel debugbar lazy loading&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2587,16 +2459,7 @@ alt="laravel debugbar lazy loading"
 &lt;ol start="2">
 &lt;li>&lt;strong>(Eager Loading)&lt;/strong> - استرداد البيانات بإستخدام &lt;em>&lt;strong>&lt;code>with&lt;/code>&lt;/strong>&lt;/em>.
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading_hu56ac9024600e059492edcf9efe8b8f5f_74994_660x0_resize_box_3.png"
-alt="laravel debugbar eager loading"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-debugbar-eager-loading.png" alt="laravel debugbar eager loading" />
 &lt;figcaption>laravel debugbar eager loading&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
@@ -2604,7 +2467,9 @@ alt="laravel debugbar eager loading"
 &lt;p>كما ترى ، بإضافة طريقة with () مع اسم العلاقة ، سيتم جلب بيانات كل مستخدم بملف التعريف الخاص به بدون مشكلة N + 1.&lt;/p>
 &lt;p>لذلك تم تقليل عدد الاستعلامات من 4 إلى 2 فقط. من الواضح أن هذا سيكون له تأثير إذا كانت قاعدة البيانات هذه متوسطة الحجم أو كبيرة. هذا ما يسمى eager loading.&lt;/p>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2642,19 +2507,9 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-can-you-retrieve-data-from-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟</title><link>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</link><pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_0d0a4ba3fca906b84369e18f9541925d.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_02d6187808c85899b095f7d94b22edb9.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_f4792042e1b8c0174a0901273cfec52d.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_8733e93d6e1ec1a3d1984f3960856736.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/_huf4d3b92e1c5f6918736522b87fbd6365_76129_02d6187808c85899b095f7d94b22edb9.png"
-alt="كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-insert-data-in-one-to-one-relationship-in-database.png" alt="كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟" />
 &lt;figcaption>كيفية إدراج البيانات في علاقة واحد لواحد في قاعدة البيانات؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2769,7 +2624,9 @@ style="text-decoration-line: none !important;" href="#3-%d8%a8%d8%a7%d8%b3%d8%aa
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;lastname&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;Smith&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2807,35 +2664,16 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف إنشاء علاقة One-To-One في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-insert-data-in-one-to-one-relationship-in-database-in-arabic/featured.png"/></item><item><title>كيف إنشاء علاقة One-To-One في Laravel؟</title><link>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</link><pubDate>Fri, 11 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/</guid><description>&lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel_huf23dddb7042e2a4deae12d301e8ab539_62818_660x0_resize_box_3.png"
-alt="كيف تُنشئ علاقة One-To-One في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/how-to-create-a-One-To-One-relationship-in-laravel.png" alt="كيف تُنشئ علاقة One-To-One في Laravel؟" />
 &lt;figcaption>كيف تُنشئ علاقة One-To-One في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;p>&lt;strong>علاقات واحد لواحد&lt;/strong> هي أبسط أنواع العلاقات التي يقدمها Laravel. يتم من خلالها ربط جدولين بحيث يرتبط صف واحد في الجدول الأول بصف واحد فقط في الجدول الآخر ، أو نفس الجدول.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_9233971e878ca934cf1173ecced9ee72.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_2e6579d44a8c099f3f5708391ec03f18.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_3897a8c0a0434a29fce61c65f9966bc3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png"
-alt="laravel one to one relationship"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png" alt="laravel one to one relationship" />
 &lt;figcaption>laravel one to one relationship&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -2933,22 +2771,15 @@ alt="laravel one to one relationship"
 &lt;blockquote>
 &lt;p>إذا لم تقم بإضافة &lt;em>&lt;strong>&lt;code>foreignKey&lt;/code>&lt;/strong>&lt;/em> property إلى العلاقة عند تغيير اسم العلاقة ، فسترى الخطأ التالي:
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null_hu1b2f65f3826ab39858e4e9ad0dc6cf9e_33112_660x0_resize_box_3.png"
-alt="Attempt to read property X on null"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/Attempt-to-read-property-X-on-null.png" alt="Attempt to read property X on null" />
 &lt;figcaption>Attempt to read property X on null&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
 &lt;/blockquote>
 &lt;ul>
-&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:
+&lt;li>يمكنك العثور على repo لهذه السلسلة على github هنا:&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2986,22 +2817,12 @@ PHP
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>ما هي أنواع العلاقات الموجودة في Laravel؟</title><link>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</guid><description>&lt;p>في كثير من الأحيان ، يحتاج المطورون إلى التفاعل مع قواعد البيانات. إذا كنت تستخدم إطار عمل Laravel ، فيجب أن تعرف عن إحدى ميزاته الأكثر أهمية: Eloquent ، مخطط ربط الكائنات (ORM) الذي يجعل هذه العملية بسيطة وسهلة.&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-create-a-one-to-one-relationship-in-laravel-in-arabic/featured.png"/></item><item><title>ما هي أنواع العلاقات الموجودة في Laravel؟</title><link>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</link><pubDate>Thu, 10 Aug 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/blog/what-types-of-relationships-are-there-in-laravel-in-arabic/</guid><description>&lt;p>في كثير من الأحيان ، يحتاج المطورون إلى التفاعل مع قواعد البيانات. إذا كنت تستخدم إطار عمل Laravel ، فيجب أن تعرف عن إحدى ميزاته الأكثر أهمية: Eloquent ، مخطط ربط الكائنات (ORM) الذي يجعل هذه العملية بسيطة وسهلة.&lt;/p>
 &lt;p>&lt;strong>Laravel Eloquent&lt;/strong> هي واحدة من السمات الرئيسية في إطار عمل &lt;strong>Laravel&lt;/strong>. ويرجع ذلك إلى دعمه الكبير لتعريف العلاقات بين الجداول المختلفة وإنشاؤها وإدارتها. في هذه السلسلة من المقالات ، سأوضح لك كيفية إنشاء واستخدام &lt;strong>Laravel Eloquent&lt;/strong>.&lt;/p>
 &lt;p>من المهم ملاحظة أنه يمكنك البدء في استخدام Eloquent دون أي معرفة مسبقة بالعلاقات.&lt;/p>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_9233971e878ca934cf1173ecced9ee72.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_2e6579d44a8c099f3f5708391ec03f18.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_3897a8c0a0434a29fce61c65f9966bc3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/_hu9fca4d3c8fa655e99b1f3ad6de49c1e8_59205_1b58c2ffbfcc05093d8c6f010895913c.png"
-alt="laravel one to one relationship"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023.png" alt="laravel one to one relationship" />
 &lt;figcaption>laravel one to one relationship&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -3015,16 +2836,7 @@ style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database_huf688e7851fd0e3b30b67ac128239966d_90893_660x0_resize_box_3.png"
-alt="ما هي العلاقات في قواعد البيانات؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-are-relationships-in-database.png" alt="ما هي العلاقات في قواعد البيانات؟" />
 &lt;figcaption>ما هي العلاقات في قواعد البيانات؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -3038,16 +2850,7 @@ style="text-decoration-line: none !important;" href="#%d9%85%d8%a7-%d9%87%d9%8a-
 &lt;/h2>
 &lt;p>
 &lt;figure>
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_330x0_resize_box_3.png 330w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_660x0_resize_box_3.png 660w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_1024x0_resize_box_3.png 1024w,
-/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel_hue5193e15db8be82d170c5d06d8c28189_60082_660x0_resize_box_3.png"
-alt="ما هي أنواع العلاقات الموجودة في Laravel؟"
-/>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/laravel-eloquent-one-to-one-relationship-ultimate-guide-2023/ar/what-types-of-relationships-are-there-in-laravel.png" alt="ما هي أنواع العلاقات الموجودة في Laravel؟" />
 &lt;figcaption>ما هي أنواع العلاقات الموجودة في Laravel؟&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
@@ -3090,17 +2893,8 @@ class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 
 &lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
 style="text-decoration-line: none !important;" href="#%d8%b9%d8%b1%d8%b6-%d8%a7%d9%84%d9%85%d8%b4%d8%b1%d9%88%d8%b9" aria-label="رابط">#&lt;/a>&lt;/span>
 &lt;/h2>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png" alt="Laravel 10 Vue 3" />
 &lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
 &lt;/figure>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -3314,21 +3108,14 @@ class="text-primary-400 ltr:pr-3 rtl:pl-3 flex items-center"
 class="dark:text-neutral-300"
 >قم بالذهاب الى &lt;em>&lt;strong>&lt;code>http://127.0.0.1:8000/&lt;/code>&lt;/strong>&lt;/em> ستجد ما يلى&lt;/span>
 &lt;/div>
-&lt;figure >
-&lt;img
-class="my-0 rounded-md"
-srcset="
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_330x0_resize_box_3.png 330w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png 660w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1024x0_resize_box_3.png 1024w,
-/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_1320x0_resize_box_3.png 2x"
-src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3_hu3c2980b12e127a5a470d33eada056db7_34274_660x0_resize_box_3.png"
-alt="Laravel 10 Vue 3"
-/>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/how-to-install-vue3-in-laravel10-with-vite/laravel10_vue3.png" alt="Laravel 10 Vue 3" />
 &lt;figcaption>Laravel 10 Vue 3&lt;/figcaption>
 &lt;/figure>
 &lt;ul>
-&lt;li>ستجد repo الخاصة بهذا المشروع على github هنا
+&lt;li>ستجد repo الخاصة بهذا المشروع على github هنا&lt;/li>
+&lt;/ul>
+&lt;hr>
 &lt;a target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
 &lt;div class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -3354,7 +3141,7 @@ PHP
 &lt;/span>
 &lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-2
+3
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
 &lt;span class="relative block icon">
@@ -3362,15 +3149,15 @@ PHP
 &lt;/span>
 &lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-0
+1
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;/a>&lt;/li>
-&lt;/ul></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/featured.png"/></item><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description>&lt;p>شكرا لك على قراءة مدونتي!&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/ar/blog/how-to-install-vue3-in-laravel10-with-vite-in-arabic/featured.png"/></item><item><title>تابعنا</title><link>https://laravelspa.site/ar/subscribe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/subscribe/</guid><description>&lt;p>شكرا لك على قراءة مدونتي!&lt;/p>
 &lt;p>قم بالتسجيل في &lt;a href="https://tinyletter.com/LaravelSPA" target="_blank">
 نشرتنا عبر البريد الإلكتروني&lt;/a> أو يمكنك إستخدام &lt;a href="https://laravelspa.site/index.xml" >
-RSS feed&lt;/a> لتلقي تنبيهات حول منشورات المدونة الجديدة.&lt;/p></description></item><item><title>تواصل معنا</title><link>https://laravelspa.site/ar/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/contact-us/</guid><description>&lt;a
+RSS feed&lt;/a> لتلقي تنبيهات حول منشورات المدونة الجديدة.&lt;/p></description></item><item><title>تواصل معنا</title><link>https://laravelspa.site/ar/contact-us/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laravelspa.site/ar/contact-us/</guid><description>&lt;hr>
+&lt;a
 class="!rounded-md bg-primary-600 px-4 py-2 !text-neutral !no-underline hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
 href="https://forms.gle/UjbPLAqrhvb7vVPd8"
 target="_blank"
