@@ -16,6 +16,10 @@ Of course, the program has many problems, but it served the purpose for the comp
 ![CRM PHP](/img/portfolio/crm-php/canceld_leads.jpeg "CRM PHP")
 ![CRM PHP](/img/portfolio/crm-php/pending_leads.jpeg "CRM PHP")
 
+## Requirements
+- PHP 7.4
+
+
 ## Tools
 - [AdminLTE Dashboard](https://adminlte.io/)
 
