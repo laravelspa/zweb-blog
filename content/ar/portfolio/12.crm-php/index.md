@@ -19,6 +19,7 @@ Of course, the program has many problems, but it served the purpose for the comp
 ## Requirements
 - PHP 7.4
 
+
 ## Tools
 - [AdminLTE Dashboard](https://adminlte.io/)
 
@@ -28,8 +29,13 @@ Of course, the program has many problems, but it served the purpose for the comp
 - **CSS** (Style Sheet Language)
 - **Javascript** (Scripting Language)
 
+## Frontend Framework
+- **Bootstrap**
+
 ## Javascript Library
 - **DataTables**
+- **Chart JS**
+- **Select2 JS**
 - **SweetAlert**
 - **FullCalendar**
 - **Dom To Image**
