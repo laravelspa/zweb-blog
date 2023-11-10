@@ -1,4 +1,145 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 07 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>Excel To PDF - Frontend Project</title><link>https://laravelspa.site/portfolio/11.excel-to-pdf/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/11.excel-to-pdf/</guid><description>&lt;p>A small tool created to convert excel data to pdf.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Laravel SPA</title><link>https://laravelspa.site/</link><description>Recent content on Laravel SPA</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 08 Nov 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://laravelspa.site/index.xml" rel="self" type="application/rss+xml"/><item><title>CRM PHP - Fullstack Project</title><link>https://laravelspa.site/portfolio/12.crm-php/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/12.crm-php/</guid><description>&lt;p>The first crm program that I designed and developed using PHP without using any framework.
+Of course, the program has many problems, but it served the purpose for the company that requested it and was designed based on its requirements.&lt;/p>
+&lt;div id="tools" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Tools
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#tools" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a href="https://adminlte.io/" target="_blank">
+AdminLTE Dashboard&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/login.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/admins.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/dashboard.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/campaigns.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/campaigns.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/products.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/new_product.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/approved_leads.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/canceld_leads.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/crm-php/pending_leads.jpeg" alt="CRM PHP" />
+&lt;figcaption>CRM PHP&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;div id="languages" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Languages
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#languages" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>PHP&lt;/strong> (Programming Language)&lt;/li>
+&lt;li>&lt;strong>HTML&lt;/strong> (Markup Language)&lt;/li>
+&lt;li>&lt;strong>CSS&lt;/strong> (Style Sheet Language)&lt;/li>
+&lt;li>&lt;strong>Javascript&lt;/strong> (Scripting Language)&lt;/li>
+&lt;/ul>
+&lt;div id="javascript-library" class="anchor">&lt;/div>
+&lt;h2 class="relative group">Javascript Library
+&lt;span
+class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+&lt;a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+style="text-decoration-line: none !important;" href="#javascript-library" aria-label="Anchor">#&lt;/a>&lt;/span>
+&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>DataTables&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>SweetAlert&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>FullCalendar&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Dom To Image&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>JS Barcode&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>JS PDF&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>Read Excel File&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;a id="github-0-1699618301129330572" target="_blank" href="https://github.com/laravelspa/crm-php" class="cursor-pointer">
+&lt;div
+class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
+&lt;div class="flex items-center">
+&lt;span class="text-2xl text-neutral-800 dark:text-neutral" style="margin-right:10px;">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div
+id="github-0-1699618301129330572-full_name"
+class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
+laravelspa/crm-php
+&lt;/div>
+&lt;/div>
+&lt;p id="github-0-1699618301129330572-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;/p>
+&lt;div class="m-0 mt-2 flex items-center">
+&lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
+style="background-color: #f1e05a">&lt;/span>
+&lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+JavaScript
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div id="github-0-1699618301129330572-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
+&lt;span class="relative block icon">
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
+&lt;/span>
+&lt;/span>
+&lt;div id="github-0-1699618301129330572-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+0
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;script>
+fetch("https://api.github.com/repos/laravelspa/crm-php", {
+headers: new Headers({
+'User-agent': 'Mozilla/4.0 Custom User Agent'
+})
+})
+.then(response => response.json())
+.then(data => {
+document.getElementById('github-0-1699618301129330572-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618301129330572-description').innerHTML = data.description;
+document.getElementById('github-0-1699618301129330572-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618301129330572-forks').innerHTML = data.forks;
+})
+.catch(error => console.error(error))
+&lt;/script>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/12.crm-php/featured.jpeg"/></item><item><title>Excel To PDF - Frontend Project</title><link>https://laravelspa.site/portfolio/11.excel-to-pdf/</link><pubDate>Tue, 07 Nov 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/11.excel-to-pdf/</guid><description>&lt;p>A small tool created to convert excel data to pdf.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/excel-to-pdf/main.jpeg" alt="Excel To PDF" />
@@ -48,7 +189,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591367339119687" target="_blank" href="https://github.com/laravelspa/Excel-To-PDF" class="cursor-pointer">
+&lt;a id="github-1-1699618301122605916" target="_blank" href="https://github.com/laravelspa/Excel-To-PDF" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -58,12 +199,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591367339119687-full_name"
+id="github-1-1699618301122605916-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Excel-To-PDF
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591367339119687-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618301122605916-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -76,7 +217,7 @@ JavaScript
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367339119687-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301122605916-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -84,7 +225,7 @@ JavaScript
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367339119687-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301122605916-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -97,10 +238,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591367339119687-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591367339119687-description').innerHTML = data.description;
-document.getElementById('github-1-1699591367339119687-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591367339119687-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618301122605916-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618301122605916-description').innerHTML = data.description;
+document.getElementById('github-1-1699618301122605916-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618301122605916-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -162,7 +303,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591367175237550" target="_blank" href="https://github.com/laravelspa/nuxt-wind-theme" class="cursor-pointer">
+&lt;a id="github-1-1699618301111857861" target="_blank" href="https://github.com/laravelspa/nuxt-wind-theme" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -172,12 +313,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591367175237550-full_name"
+id="github-1-1699618301111857861-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/nuxt-wind-theme
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591367175237550-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618301111857861-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -190,7 +331,7 @@ TypeScript
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367175237550-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301111857861-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -198,7 +339,7 @@ TypeScript
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367175237550-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301111857861-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -211,10 +352,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591367175237550-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591367175237550-description').innerHTML = data.description;
-document.getElementById('github-1-1699591367175237550-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591367175237550-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618301111857861-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618301111857861-description').innerHTML = data.description;
+document.getElementById('github-1-1699618301111857861-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618301111857861-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -277,7 +418,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591367155652063" target="_blank" href="https://github.com/laravelspa/Simple-Shop" class="cursor-pointer">
+&lt;a id="github-1-1699618301099186157" target="_blank" href="https://github.com/laravelspa/Simple-Shop" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -287,12 +428,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591367155652063-full_name"
+id="github-1-1699618301099186157-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Simple-Shop
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591367155652063-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618301099186157-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 New Website jQuery
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
@@ -306,7 +447,7 @@ HTML
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367155652063-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301099186157-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -314,7 +455,7 @@ HTML
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367155652063-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301099186157-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -327,10 +468,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591367155652063-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591367155652063-description').innerHTML = data.description;
-document.getElementById('github-1-1699591367155652063-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591367155652063-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618301099186157-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618301099186157-description').innerHTML = data.description;
+document.getElementById('github-1-1699618301099186157-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618301099186157-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -383,7 +524,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591367004487286" target="_blank" href="https://github.com/laravelspa/Spiru-Lin-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618301004457741" target="_blank" href="https://github.com/laravelspa/Spiru-Lin-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -393,12 +534,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591367004487286-full_name"
+id="github-1-1699618301004457741-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Spiru-Lin-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591367004487286-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618301004457741-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -411,7 +552,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367004487286-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301004457741-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -419,7 +560,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591367004487286-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301004457741-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -432,10 +573,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591367004487286-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591367004487286-description').innerHTML = data.description;
-document.getElementById('github-1-1699591367004487286-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591367004487286-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618301004457741-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618301004457741-description').innerHTML = data.description;
+document.getElementById('github-1-1699618301004457741-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618301004457741-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -488,7 +629,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366966684887" target="_blank" href="https://github.com/laravelspa/Goji-Cream-2-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618301003002066" target="_blank" href="https://github.com/laravelspa/Goji-Cream-2-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -498,12 +639,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366966684887-full_name"
+id="github-1-1699618301003002066-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Goji-Cream-2-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366966684887-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618301003002066-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -516,7 +657,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366966684887-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301003002066-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -524,7 +665,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366966684887-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618301003002066-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -537,14 +678,14 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366966684887-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366966684887-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366966684887-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366966684887-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618301003002066-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618301003002066-description').innerHTML = data.description;
+document.getElementById('github-1-1699618301003002066-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618301003002066-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
-&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/featured.jpeg"/></item><item><title>Wellness Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/06.wellness-landing-page/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/06.wellness-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of the exercise&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/07.goji-cream-2-landing-page/featured.jpeg"/></item><item><title>Wellness Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/06.wellness-landing-page/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/06.wellness-landing-page/</guid><description>&lt;p>An 8-section landing page created for the purpose of selling the Natural products.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/wellness-landing-page/full-page.jpeg" alt="Wellness Landing Page" />
@@ -604,7 +745,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366827048296" target="_blank" href="https://github.com/laravelspa/Wellness-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618300966936611" target="_blank" href="https://github.com/laravelspa/Wellness-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -614,12 +755,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366827048296-full_name"
+id="github-1-1699618300966936611-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Wellness-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366827048296-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300966936611-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -632,7 +773,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366827048296-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300966936611-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -640,7 +781,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366827048296-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300966936611-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -653,14 +794,14 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366827048296-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366827048296-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366827048296-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366827048296-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300966936611-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300966936611-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300966936611-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300966936611-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
-&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/06.wellness-landing-page/featured.jpeg"/></item><item><title>Golden Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/05.golden-landing-page/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/05.golden-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of the exercise&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/06.wellness-landing-page/featured.jpeg"/></item><item><title>Golden Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/05.golden-landing-page/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/05.golden-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of selling the Natural product.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/golden-landing-page/full-page.jpeg" alt="Golden Landing Page" />
@@ -720,7 +861,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366813998602" target="_blank" href="https://github.com/laravelspa/golden-landing-page" class="cursor-pointer">
+&lt;a id="github-1-1699618300963543899" target="_blank" href="https://github.com/laravelspa/golden-landing-page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -730,12 +871,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366813998602-full_name"
+id="github-1-1699618300963543899-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/golden-landing-page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366813998602-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300963543899-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -748,7 +889,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366813998602-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300963543899-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -756,7 +897,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366813998602-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300963543899-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -769,14 +910,14 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366813998602-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366813998602-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366813998602-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366813998602-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300963543899-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300963543899-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300963543899-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300963543899-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
-&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/05.golden-landing-page/featured.jpeg"/></item><item><title>Golden Wapp Design Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of the exercise&lt;/p>
+&lt;/a></description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://laravelspa.site/portfolio/05.golden-landing-page/featured.jpeg"/></item><item><title>Golden Wapp Design Landing Page - Frontend Project</title><link>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</link><pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate><guid>https://laravelspa.site/portfolio/04.golden-wapp-design-landing-page/</guid><description>&lt;p>An 7-section landing page created for the purpose of selling the Natural product.&lt;/p>
 &lt;p>
 &lt;figure>
 &lt;img class="my-0 rounded-md" src="https://laravelspa.site/img/portfolio/golden-wapp-design-landing-page/full-page.jpeg" alt="Golden Wapp Design Landing Page" />
@@ -836,7 +977,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366670021647" target="_blank" href="https://github.com/laravelspa/Golden-Wapp-Design-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618300848396801" target="_blank" href="https://github.com/laravelspa/Golden-Wapp-Design-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -846,12 +987,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366670021647-full_name"
+id="github-1-1699618300848396801-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Golden-Wapp-Design-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366670021647-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300848396801-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -864,7 +1005,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366670021647-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300848396801-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -872,7 +1013,7 @@ Vue
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366670021647-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300848396801-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -885,10 +1026,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366670021647-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366670021647-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366670021647-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366670021647-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300848396801-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300848396801-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300848396801-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300848396801-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -951,7 +1092,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366666017603" target="_blank" href="https://github.com/laravelspa/CaviarMask-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618300840955288" target="_blank" href="https://github.com/laravelspa/CaviarMask-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -961,12 +1102,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366666017603-full_name"
+id="github-1-1699618300840955288-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/CaviarMask-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366666017603-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300840955288-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -979,7 +1120,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366666017603-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300840955288-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -987,7 +1128,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366666017603-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300840955288-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -1000,10 +1141,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366666017603-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366666017603-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366666017603-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366666017603-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300840955288-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300840955288-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300840955288-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300840955288-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -1056,7 +1197,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366480905146" target="_blank" href="https://github.com/laravelspa/Unicode-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618300840356857" target="_blank" href="https://github.com/laravelspa/Unicode-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1066,26 +1207,26 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366480905146-full_name"
+id="github-1-1699618300840356857-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Unicode-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366480905146-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300840356857-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 Test Website
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
-style="background-color: #563d7c">&lt;/span>
+style="background-color: #f1e05a">&lt;/span>
 &lt;div class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
-CSS
+JavaScript
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
 &lt;span class="relative block icon">
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366480905146-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300840356857-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1093,7 +1234,7 @@ CSS
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366480905146-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300840356857-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -1106,10 +1247,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366480905146-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366480905146-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366480905146-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366480905146-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300840356857-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300840356857-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300840356857-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300840356857-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -1162,7 +1303,7 @@ role="button"
 Demo
 &lt;/a>
 &lt;hr>
-&lt;a id="github-1-1699591366471572079" target="_blank" href="https://github.com/laravelspa/Personal-Landing-Page" class="cursor-pointer">
+&lt;a id="github-1-1699618300836534097" target="_blank" href="https://github.com/laravelspa/Personal-Landing-Page" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1172,12 +1313,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-1-1699591366471572079-full_name"
+id="github-1-1699618300836534097-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/Personal-Landing-Page
 &lt;/div>
 &lt;/div>
-&lt;p id="github-1-1699591366471572079-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-1-1699618300836534097-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 legal justice group
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
@@ -1191,7 +1332,7 @@ HTML
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366471572079-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300836534097-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1199,7 +1340,7 @@ HTML
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-1-1699591366471572079-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-1-1699618300836534097-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -1212,10 +1353,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-1-1699591366471572079-full_name').innerHTML = data.full_name;
-document.getElementById('github-1-1699591366471572079-description').innerHTML = data.description;
-document.getElementById('github-1-1699591366471572079-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-1-1699591366471572079-forks').innerHTML = data.forks;
+document.getElementById('github-1-1699618300836534097-full_name').innerHTML = data.full_name;
+document.getElementById('github-1-1699618300836534097-description').innerHTML = data.description;
+document.getElementById('github-1-1699618300836534097-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-1-1699618300836534097-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -1301,7 +1442,7 @@ style="text-decoration-line: none !important;" href="#conclusion" aria-label="An
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366462548730" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300814885160" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1311,12 +1452,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366462548730-full_name"
+id="github-0-1699618300814885160-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366462548730-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300814885160-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -1329,7 +1470,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366462548730-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300814885160-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1337,7 +1478,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366462548730-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300814885160-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -1350,10 +1491,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366462548730-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366462548730-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366462548730-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366462548730-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300814885160-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300814885160-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300814885160-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300814885160-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -1538,7 +1679,7 @@ style="text-decoration-line: none !important;" href="#update-data-using-the-post
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366442401005" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300806143882" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -1548,12 +1689,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366442401005-full_name"
+id="github-0-1699618300806143882-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366442401005-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300806143882-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -1566,7 +1707,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366442401005-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300806143882-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -1574,7 +1715,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366442401005-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300806143882-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -1587,10 +1728,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366442401005-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366442401005-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366442401005-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366442401005-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300806143882-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300806143882-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300806143882-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300806143882-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -2374,7 +2515,7 @@ style="text-decoration-line: none !important;" href="#by-using-api-resources-1" 
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366439947856" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300820948830" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2384,12 +2525,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366439947856-full_name"
+id="github-0-1699618300820948830-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366439947856-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300820948830-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -2402,7 +2543,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366439947856-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300820948830-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2410,7 +2551,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366439947856-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300820948830-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -2423,10 +2564,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366439947856-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366439947856-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366439947856-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366439947856-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300820948830-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300820948830-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300820948830-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300820948830-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -2708,7 +2849,7 @@ style="text-decoration-line: none !important;" href="#3-by-using-the-inverse-rel
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366404780017" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300804946611" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2718,12 +2859,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366404780017-full_name"
+id="github-0-1699618300804946611-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366404780017-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300804946611-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -2736,7 +2877,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366404780017-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300804946611-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2744,7 +2885,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366404780017-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300804946611-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -2757,10 +2898,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366404780017-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366404780017-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366404780017-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366404780017-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300804946611-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300804946611-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300804946611-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300804946611-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -2845,7 +2986,7 @@ Each user can own one or more publications.&lt;/p>
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366382442959" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300771898074" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2855,12 +2996,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366382442959-full_name"
+id="github-0-1699618300771898074-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366382442959-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300771898074-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -2873,7 +3014,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366382442959-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300771898074-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -2881,7 +3022,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366382442959-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300771898074-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -2894,10 +3035,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366382442959-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366382442959-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366382442959-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366382442959-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300771898074-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300771898074-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300771898074-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300771898074-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -2970,7 +3111,7 @@ style="text-decoration-line: none !important;" href="#conclusion" aria-label="An
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366368527013" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300770893652" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -2980,12 +3121,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366368527013-full_name"
+id="github-0-1699618300770893652-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366368527013-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300770893652-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -2998,7 +3139,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366368527013-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300770893652-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -3006,7 +3147,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366368527013-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300770893652-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -3019,10 +3160,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366368527013-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366368527013-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366368527013-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366368527013-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300770893652-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300770893652-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300770893652-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300770893652-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -3207,7 +3348,7 @@ style="text-decoration-line: none !important;" href="#update-data-using-the-post
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366345452209" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300775127940" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -3217,12 +3358,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366345452209-full_name"
+id="github-0-1699618300775127940-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366345452209-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300775127940-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -3235,7 +3376,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366345452209-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300775127940-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -3243,7 +3384,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366345452209-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300775127940-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -3256,10 +3397,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366345452209-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366345452209-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366345452209-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366345452209-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300775127940-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300775127940-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300775127940-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300775127940-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -3834,7 +3975,7 @@ Laravel Debugbar&lt;/a>. Debugbar will show you all the queries that are execute
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366353461996" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300786934847" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -3844,12 +3985,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366353461996-full_name"
+id="github-0-1699618300786934847-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366353461996-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300786934847-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -3862,7 +4003,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366353461996-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300786934847-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -3870,7 +4011,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366353461996-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300786934847-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -3883,10 +4024,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366353461996-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366353461996-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366353461996-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366353461996-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300786934847-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300786934847-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300786934847-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300786934847-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -4010,7 +4151,7 @@ style="text-decoration-line: none !important;" href="#3-by-using-the-inverse-met
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366189780143" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300522423737" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -4020,12 +4161,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366189780143-full_name"
+id="github-0-1699618300522423737-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366189780143-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300522423737-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -4038,7 +4179,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366189780143-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300522423737-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -4046,7 +4187,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366189780143-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300522423737-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -4059,10 +4200,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366189780143-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366189780143-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366189780143-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366189780143-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300522423737-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300522423737-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300522423737-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300522423737-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -4182,7 +4323,7 @@ This method is used to save the &lt;em>&lt;strong>id&lt;/strong>&lt;/em> of the 
 &lt;li>You can find the repo of this series on github here:&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-0-1699591366182547303" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
+&lt;a id="github-0-1699618300517691201" target="_blank" href="https://github.com/laravelspa/laravel-relations" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -4192,12 +4333,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-0-1699591366182547303-full_name"
+id="github-0-1699618300517691201-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel-relations
 &lt;/div>
 &lt;/div>
-&lt;p id="github-0-1699591366182547303-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-0-1699618300517691201-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -4210,7 +4351,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366182547303-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300517691201-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -4218,7 +4359,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-0-1699591366182547303-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-0-1699618300517691201-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 0
 &lt;/div>
 &lt;/div>
@@ -4231,10 +4372,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-0-1699591366182547303-full_name').innerHTML = data.full_name;
-document.getElementById('github-0-1699591366182547303-description').innerHTML = data.description;
-document.getElementById('github-0-1699591366182547303-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-0-1699591366182547303-forks').innerHTML = data.forks;
+document.getElementById('github-0-1699618300517691201-full_name').innerHTML = data.full_name;
+document.getElementById('github-0-1699618300517691201-description').innerHTML = data.description;
+document.getElementById('github-0-1699618300517691201-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-0-1699618300517691201-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
@@ -4535,7 +4676,7 @@ class="dark:text-neutral-300"
 &lt;li>You will find the repo for this project on github here [&lt;/li>
 &lt;/ul>
 &lt;hr>
-&lt;a id="github-6-1699591365936223624" target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
+&lt;a id="github-6-1699618300521713163" target="_blank" href="https://github.com/laravelspa/laravel10-vue3" class="cursor-pointer">
 &lt;div
 class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-700 border rounded-md backdrop-blur shadow-2xl">
 &lt;div class="flex items-center">
@@ -4545,12 +4686,12 @@ class="w-full md:w-auto pt-3 p-5 border border-neutral-200 dark:border-neutral-7
 &lt;/span>
 &lt;/span>
 &lt;div
-id="github-6-1699591365936223624-full_name"
+id="github-6-1699618300521713163-full_name"
 class="m-0 font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral">
 laravelspa/laravel10-vue3
 &lt;/div>
 &lt;/div>
-&lt;p id="github-6-1699591365936223624-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
+&lt;p id="github-6-1699618300521713163-description" class="m-0 mt-2 text-md text-neutral-800 dark:text-neutral">
 &lt;/p>
 &lt;div class="m-0 mt-2 flex items-center">
 &lt;span class="mr-1 inline-block h-3 w-3 rounded-full"
@@ -4563,7 +4704,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">&lt;path fill="currentColor" d="M287.9 0C297.1 0 305.5 5.25 309.5 13.52L378.1 154.8L531.4 177.5C540.4 178.8 547.8 185.1 550.7 193.7C553.5 202.4 551.2 211.9 544.8 218.2L433.6 328.4L459.9 483.9C461.4 492.9 457.7 502.1 450.2 507.4C442.8 512.7 432.1 513.4 424.9 509.1L287.9 435.9L150.1 509.1C142.9 513.4 133.1 512.7 125.6 507.4C118.2 502.1 114.5 492.9 115.1 483.9L142.2 328.4L31.11 218.2C24.65 211.9 22.36 202.4 25.2 193.7C28.03 185.1 35.5 178.8 44.49 177.5L197.7 154.8L266.3 13.52C270.4 5.249 278.7 0 287.9 0L287.9 0zM287.9 78.95L235.4 187.2C231.9 194.3 225.1 199.3 217.3 200.5L98.98 217.9L184.9 303C190.4 308.5 192.9 316.4 191.6 324.1L171.4 443.7L276.6 387.5C283.7 383.7 292.2 383.7 299.2 387.5L404.4 443.7L384.2 324.1C382.9 316.4 385.5 308.5 391 303L476.9 217.9L358.6 200.5C350.7 199.3 343.9 194.3 340.5 187.2L287.9 78.95z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-6-1699591365936223624-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-6-1699618300521713163-stargazers" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 3
 &lt;/div>
 &lt;span class="text-md mr-1 text-neutral-800 dark:text-neutral">
@@ -4571,7 +4712,7 @@ PHP
 &lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">&lt;path fill="currentColor" d="M80 104c13.3 0 24-10.7 24-24s-10.7-24-24-24S56 66.7 56 80s10.7 24 24 24zm80-24c0 32.8-19.7 61-48 73.3V192c0 17.7 14.3 32 32 32H304c17.7 0 32-14.3 32-32V153.3C307.7 141 288 112.8 288 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V192c0 53-43 96-96 96H256v70.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V288H144c-53 0-96-43-96-96V153.3C19.7 141 0 112.8 0 80C0 35.8 35.8 0 80 0s80 35.8 80 80zm208 24c13.3 0 24-10.7 24-24s-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24zM248 432c0-13.3-10.7-24-24-24s-24 10.7-24 24s10.7 24 24 24s24-10.7 24-24z"/>&lt;/svg>
 &lt;/span>
 &lt;/span>
-&lt;div id="github-6-1699591365936223624-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
+&lt;div id="github-6-1699618300521713163-forks" class="m-0 mr-5 text-md text-neutral-800 dark:text-neutral">
 1
 &lt;/div>
 &lt;/div>
@@ -4584,10 +4725,10 @@ headers: new Headers({
 })
 .then(response => response.json())
 .then(data => {
-document.getElementById('github-6-1699591365936223624-full_name').innerHTML = data.full_name;
-document.getElementById('github-6-1699591365936223624-description').innerHTML = data.description;
-document.getElementById('github-6-1699591365936223624-stargazers').innerHTML = data.stargazers_count;
-document.getElementById('github-6-1699591365936223624-forks').innerHTML = data.forks;
+document.getElementById('github-6-1699618300521713163-full_name').innerHTML = data.full_name;
+document.getElementById('github-6-1699618300521713163-description').innerHTML = data.description;
+document.getElementById('github-6-1699618300521713163-stargazers').innerHTML = data.stargazers_count;
+document.getElementById('github-6-1699618300521713163-forks').innerHTML = data.forks;
 })
 .catch(error => console.error(error))
 &lt;/script>
