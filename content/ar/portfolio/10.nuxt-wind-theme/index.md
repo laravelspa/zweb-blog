@@ -1,6 +1,6 @@
 ---
 title: "Nuxt Wind Theme - Frontend Project"
-date: 2023-11-05
+date: 2023-11-06
 ---
 A personal website theme powered by Nuxt Content, TailwindCSS, Iconify and Vue components.
 

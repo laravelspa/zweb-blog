@@ -18,7 +18,7 @@ An 8-section landing page created for the purpose of selling the Natural product
 - **JQuery**
 
 ## Icon Library
-- **Font]Awesome**
+- **Font Awesome**
 
 ---
 {{< button href="https://laravelspa.github.io/CaviarMask-Landing-Page/index.html" target="_blank" >}}
