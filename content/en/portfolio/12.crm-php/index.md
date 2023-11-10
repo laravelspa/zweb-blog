@@ -5,9 +5,6 @@ date: 2023-11-08
 The first crm program that I designed and developed using PHP without using any framework.
 Of course, the program has many problems, but it served the purpose for the company that requested it and was designed based on its requirements.
 
-## Tools
-- [AdminLTE Dashboard](https://adminlte.io/)
-
 ![CRM PHP](/img/portfolio/crm-php/login.jpeg "CRM PHP")
 ![CRM PHP](/img/portfolio/crm-php/admins.jpeg "CRM PHP")
 ![CRM PHP](/img/portfolio/crm-php/dashboard.jpeg "CRM PHP")
@@ -19,6 +16,8 @@ Of course, the program has many problems, but it served the purpose for the comp
 ![CRM PHP](/img/portfolio/crm-php/canceld_leads.jpeg "CRM PHP")
 ![CRM PHP](/img/portfolio/crm-php/pending_leads.jpeg "CRM PHP")
 
+## Tools
+- [AdminLTE Dashboard](https://adminlte.io/)
 
 ## Languages
 - **PHP** (Programming Language)
