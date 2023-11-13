@@ -3,7 +3,7 @@ title: "Students Management Laravel System - Fullstack Project"
 slug: "students-management-laravel-system-fullstack-project"
 date: 2023-11-09
 ---
-The courses system that I designed and developed with my friend [Mohamed Tersawy](https://github.com/Tersawy) using PHP Framework Laravel 8.
+The student management system that I designed and developed with my friend [Mohamed Tersawy](https://github.com/Tersawy) using PHP Framework Laravel 8.
 with clean code.
 
 ![Students Management Laravel System](/img/portfolio/courses/login.jpeg "Students Management Laravel System")
