@@ -1,8 +1,9 @@
 ---
 title: "Golden Landing Page - Frontend Project"
+slug: "golden-landing-page-frontend-project"
 date: 2023-10-29
 ---
-An 7-section landing page created for the purpose of the exercise
+An 7-section landing page created for the purpose of selling the Natural product.
 
 ![Golden Landing Page](/img/portfolio/golden-landing-page/full-page.jpeg "Golden Landing Page")
 

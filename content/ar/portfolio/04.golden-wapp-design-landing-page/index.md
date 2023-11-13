@@ -1,8 +1,9 @@
 ---
 title: "Golden Wapp Design Landing Page - Frontend Project"
+slug: "golden-wapp-design-landing-page-frontend-project"
 date: 2023-10-28
 ---
-An 7-section landing page created for the purpose of the exercise
+An 7-section landing page created for the purpose of selling the Natural product.
 
 ![Golden Wapp Design Landing Page](/img/portfolio/golden-wapp-design-landing-page/full-page.jpeg "Golden Wapp Design Landing Page")
 

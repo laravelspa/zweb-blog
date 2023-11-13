@@ -1,5 +1,6 @@
 ---
 title: "CaviarMask Landing Page - Frontend Project"
+slug: "caviarmask-landing-page-frontend-project"
 date: 2023-10-27
 ---
 An 8-section landing page created for the purpose of selling the Natural product.

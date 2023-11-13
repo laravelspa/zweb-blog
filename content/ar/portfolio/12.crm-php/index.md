@@ -1,5 +1,6 @@
 ---
 title: "CRM PHP - Fullstack Project"
+slug: "crm-php-fullstack-project"
 date: 2023-11-08
 ---
 The first crm program that I designed and developed using PHP without using any framework.

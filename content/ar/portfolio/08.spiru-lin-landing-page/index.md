@@ -1,5 +1,6 @@
 ---
 title: "Spiru Lin Landing Page - Frontend Project"
+slug: "spiru-lin-landing-page-frontend-project"
 date: 2023-11-04
 ---
 An 12-section landing page created for the purpose of selling the Natural product.
