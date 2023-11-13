@@ -1,5 +1,6 @@
 ---
 title: "Goji Cream 2 Landing Page - Frontend Project"
+slug: "goji-cream-2-landing-page-frontend-project"
 date: 2023-11-03
 ---
 An 4-section landing page created for the purpose of selling the Natural product.

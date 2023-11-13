@@ -1,5 +1,6 @@
 ---
 title: "Simple Shop - Frontend Project"
+slug: "simple-shop-frontend-project"
 date: 2023-11-05
 ---
 A Simple Shop Template.

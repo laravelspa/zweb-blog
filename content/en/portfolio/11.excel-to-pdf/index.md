@@ -1,5 +1,6 @@
 ---
 title: "Excel To PDF - Frontend Project"
+slug: "excel-to-pdf-frontend-project"
 date: 2023-11-07
 ---
 A small tool created to convert excel data to pdf.

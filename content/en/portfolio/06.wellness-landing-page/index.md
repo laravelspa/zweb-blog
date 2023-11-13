@@ -1,8 +1,10 @@
 ---
 title: "Wellness Landing Page - Frontend Project"
+slug: "wellness-landing-page-frontend-project"
 date: 2023-10-30
 ---
 An 8-section landing page created for the purpose of selling the Natural products.
+
 
 ![Wellness Landing Page](/img/portfolio/wellness-landing-page/full-page.jpeg "Wellness Landing Page")
 

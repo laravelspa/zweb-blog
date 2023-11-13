@@ -1,5 +1,6 @@
 ---
 title: "Personal Landing Page - Frontend Project"
+slug: "personal-landing-page-frontend-project"
 date: 2023-10-25
 ---
 An 8-section landing page created for the purpose of the exercise

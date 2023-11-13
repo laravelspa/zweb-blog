@@ -1,5 +1,6 @@
 ---
 title: "Unicode Landing Page - Frontend Project"
+slug: "unicode-landing-page-frontend-project"
 date: 2023-10-26
 ---
 An 8-section landing page created for the purpose of the exercise
